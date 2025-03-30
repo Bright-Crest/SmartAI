@@ -1,0 +1,17 @@
+// 创建风险系统与聪明钱系统的集成层
+export class RiskSmartMoneyIntegration {
+  // 从聪明钱系统获取数据用于风险评估
+  static async getSmartMoneyDataForRiskAssessment(address: string): Promise<RiskAssessmentData> {
+    const smartMoneyData = await SmartMoneyTracker.analyzeAddress(address, { useCache: false });
+    
+    // 转换为风险系统需要的格式
+    return {
+      address,
+      riskScore: calculateRiskScore(smartMoneyData),
+      isHighRisk: !smartMoneyData.isSmartMoney || smartMoneyData.score < 0.4,
+      riskFactors: extractRiskFactors(smartMoneyData)
+    };
+  }
+  
+  // 其他集成方法...
+} 

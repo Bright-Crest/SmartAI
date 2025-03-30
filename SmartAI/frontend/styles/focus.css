@@ -1,0 +1,113 @@
+/**
+ * 全局焦点样式
+ * 
+ * 这些样式确保所有可交互元素都有明显的视觉焦点指示器，
+ * 符合WCAG 2.1 AA标准的2.4.7：焦点可见
+ */
+
+/* 基础焦点样式 */
+:focus-visible {
+  outline: 2px solid #3b82f6; /* 蓝色轮廓 */
+  outline-offset: 2px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.3); /* 轻微发光效果 */
+  transition:
+    outline-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+}
+
+/* 禁止使用outline: none，除非提供替代的焦点指示器 */
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* 深色背景上的焦点样式 */
+.dark-mode :focus-visible,
+[data-theme='dark'] :focus-visible {
+  outline-color: #93c5fd;
+  box-shadow: 0 0 0 4px rgba(147, 197, 253, 0.4);
+}
+
+/* 高对比度模式的焦点样式 */
+@media (prefers-contrast: high) {
+  :focus-visible {
+    outline: 3px solid #000;
+    outline-offset: 2px;
+    box-shadow: none;
+  }
+
+  .dark-mode :focus-visible,
+  [data-theme='dark'] :focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: 2px;
+    box-shadow: none;
+  }
+}
+
+/* 无动画模式 */
+@media (prefers-reduced-motion: reduce), .reduce-motion, [data-reduce-motion='true'] {
+  :focus-visible {
+    transition: none;
+  }
+}
+
+/* 字体大小调整 */
+:root[data-font-size='large'] {
+  font-size: 110%;
+}
+
+:root[data-font-size='x-large'] {
+  font-size: 125%;
+}
+
+/* 高对比度模式 */
+:root.high-contrast,
+[data-high-contrast='true'] {
+  --color-text: #000;
+  --color-background: #fff;
+  --color-primary: #005cb2;
+  --color-focus: #000;
+
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+:root.high-contrast.dark-mode,
+:root.dark-mode[data-high-contrast='true'] {
+  --color-text: #fff;
+  --color-background: #000;
+  --color-primary: #6ab7ff;
+  --color-focus: #fff;
+
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+/* 确保链接有下划线 */
+a {
+  text-decoration: underline;
+}
+
+/* 确保按钮和表单控件有足够的间距和大小 */
+button,
+input,
+select,
+textarea,
+[role='button'] {
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0.5rem;
+}
+
+/* 减少动画 */
+:root.reduce-motion,
+[data-reduce-motion='true'] {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- 允许在iframe中嵌入 -->
+  <meta http-equiv="X-Frame-Options" content="ALLOW">
+  <!-- 完全移除CSP限制，确保脚本能正常执行 -->
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+  <!-- 添加允许嵌入的设置 -->
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  <meta http-equiv="Cross-Origin-Resource-Policy" content="cross-origin">
+  <meta http-equiv="Cross-Origin-Embedder-Policy" content="unsafe-none">
+  <title>区块链网络分析图</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9fafb;
+    }
+    
+    .container {
+      width: 100%;
+      min-height: 100vh;
+      padding: 16px;
+      box-sizing: border-box;
+    }
+    
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      color: #3b82f6;
+      text-decoration: none;
+      font-size: 14px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      background-color: #eff6ff;
+    }
+    
+    .back-link:hover {
+      background-color: #dbeafe;
+    }
+    
+    .back-icon {
+      margin-right: 4px;
+    }
+    
+    .title {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 16px;
+    }
+    
+    .iframe-indicator {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 12px;
+      padding: 2px 0;
+      background-color: #f0fff4;
+      color: #047857;
+      z-index: 100;
+      display: none;
+    }
+    
+    .is-iframe .iframe-indicator {
+      display: block;
+    }
+    
+    .is-iframe .navigation {
+      margin-top: 24px;
+    }
+    
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    
+    .card-title {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+    
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    
+    .stat-item {
+      background-color: #f9fafb;
+      padding: 8px;
+      border-radius: 4px;
+    }
+    
+    .stat-label {
+      font-size: 12px;
+      color: #6b7280;
+    }
+    
+    .stat-value {
+      font-weight: 500;
+    }
+    
+    .progress-bar {
+      height: 16px;
+      background-color: #e5e7eb;
+      border-radius: 9999px;
+      overflow: hidden;
+      display: flex;
+      margin-bottom: 8px;
+    }
+    
+    .progress-high {
+      height: 100%;
+      background-color: #ef4444;
+    }
+    
+    .progress-medium {
+      height: 100%;
+      background-color: #f97316;
+    }
+    
+    .progress-low {
+      height: 100%;
+      background-color: #22c55e;
+    }
+    
+    .progress-unknown {
+      height: 100%;
+      background-color: #9ca3af;
+    }
+    
+    .legend {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      font-size: 12px;
+    }
+    
+    .legend-item {
+      display: flex;
+      align-items: center;
+    }
+    
+    .legend-color {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin-right: 4px;
+    }
+    
+    .network-container {
+      position: relative;
+      height: 250px;
+      border: 1px solid #e5e7eb;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-top: 8px;
+    }
+    
+    .node {
+      position: absolute;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 12px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .center-node {
+      width: 60px;
+      height: 60px;
+      background-color: #2563eb;
+      left: 50%;
+      top: 50%;
+      margin-left: -30px;
+      margin-top: -30px;
+      z-index: 10;
+      font-weight: bold;
+    }
+    
+    .risk-node {
+      width: 50px;
+      height: 50px;
+      z-index: 5;
+    }
+    
+    .high-risk {
+      background-color: #ef4444;
+      left: 25%;
+      top: 25%;
+      margin-left: -25px;
+      margin-top: -25px;
+    }
+    
+    .medium-risk {
+      background-color: #f97316;
+      left: 75%;
+      top: 25%;
+      margin-left: -25px;
+      margin-top: -25px;
+    }
+    
+    .low-risk {
+      background-color: #22c55e;
+      left: 25%;
+      top: 75%;
+      margin-left: -25px;
+      margin-top: -25px;
+    }
+    
+    .unknown-risk {
+      background-color: #9ca3af;
+      left: 75%;
+      top: 75%;
+      margin-left: -25px;
+      margin-top: -25px;
+    }
+    
+    .link {
+      position: absolute;
+      height: 2px;
+      background-color: #d1d5db;
+      z-index: 1;
+    }
+    
+    .link-1 {
+      width: 141px; /* 计算斜边长度 */
+      left: 25%;
+      top: 25%;
+      transform-origin: 0 0;
+      transform: rotate(45deg);
+    }
+    
+    .link-2 {
+      width: 141px; /* 计算斜边长度 */
+      left: 75%;
+      top: 25%;
+      transform-origin: 0 0;
+      transform: rotate(135deg);
+    }
+    
+    .link-3 {
+      width: 141px; /* 计算斜边长度 */
+      left: 25%;
+      top: 75%;
+      transform-origin: 0 0;
+      transform: rotate(-45deg);
+    }
+    
+    .link-4 {
+      width: 141px; /* 计算斜边长度 */
+      left: 75%;
+      top: 75%;
+      transform-origin: 0 0;
+      transform: rotate(-135deg);
+    }
+    
+    table {
+      width: 100%;
+      font-size: 12px;
+      border-collapse: collapse;
+    }
+    
+    thead {
+      background-color: #f9fafb;
+    }
+    
+    th, td {
+      padding: 6px;
+      text-align: left;
+    }
+    
+    tr {
+      border-bottom: 1px solid #f3f4f6;
+    }
+    
+    .risk-badge {
+      display: inline-block;
+      padding: 2px 6px;
+      border-radius: 9999px;
+      font-size: 11px;
+      color: white;
+    }
+    
+    .badge-high {
+      background-color: #ef4444;
+    }
+    
+    .badge-medium {
+      background-color: #f97316;
+    }
+    
+    .badge-low {
+      background-color: #22c55e;
+    }
+    
+    .badge-unknown {
+      background-color: #9ca3af;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    
+    .node.animate {
+      animation: pulse 2s infinite;
+    }
+    
+    /* 添加悬停效果 */
+    .node:hover {
+      cursor: pointer;
+      filter: brightness(1.1);
+      box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-indicator">此网络图嵌入在iframe中</div>
+  <div class="container">
+    <div class="navigation">
+      <a href="/network-static" class="back-link">
+        <span class="back-icon">←</span> 返回应用
+      </a>
+      <span class="title">区块链网络分析图 (静态版)</span>
+      <span></span>
+    </div>
+    
+    <!-- 数据统计 -->
+    <div class="card">
+      <div class="card-title">数据统计</div>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-label">总节点数</div>
+          <div class="stat-value">30</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">总连接数</div>
+          <div class="stat-value">60</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 风险分布 -->
+    <div class="card">
+      <div class="card-title">风险分布</div>
+      <div class="progress-bar">
+        <div class="progress-high" style="width: 30%;"></div>
+        <div class="progress-medium" style="width: 40%;"></div>
+        <div class="progress-low" style="width: 20%;"></div>
+        <div class="progress-unknown" style="width: 10%;"></div>
+      </div>
+      <div class="legend">
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #ef4444;"></div>
+          <span>高风险: 9</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #f97316;"></div>
+          <span>中风险: 12</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #22c55e;"></div>
+          <span>低风险: 6</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: #9ca3af;"></div>
+          <span>未知: 3</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 网络示意图 -->
+    <div class="card" id="network-card">
+      <div class="card-title">网络节点示意图</div>
+      <div class="network-container" id="network-container">
+        <!-- 连线必须放在节点前面 -->
+        <div class="link link-1" id="link-1"></div>
+        <div class="link link-2" id="link-2"></div>
+        <div class="link link-3" id="link-3"></div>
+        <div class="link link-4" id="link-4"></div>
+        
+        <!-- 节点 -->
+        <div class="node center-node" id="center-node">中心节点</div>
+        <div class="node risk-node high-risk" id="high-risk-node">高风险</div>
+        <div class="node risk-node medium-risk" id="medium-risk-node">中风险</div>
+        <div class="node risk-node low-risk" id="low-risk-node">低风险</div>
+        <div class="node risk-node unknown-risk" id="unknown-risk-node">未知</div>
+      </div>
+    </div>
+    
+    <!-- 节点列表 -->
+    <div class="card">
+      <div class="card-title">热门节点 (前5个)</div>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>标签</th>
+            <th>风险</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>node_1</td>
+            <td>交易所钱包</td>
+            <td><span class="risk-badge badge-high">高</span></td>
+          </tr>
+          <tr>
+            <td>node_2</td>
+            <td>混币器</td>
+            <td><span class="risk-badge badge-high">高</span></td>
+          </tr>
+          <tr>
+            <td>node_3</td>
+            <td>商业平台</td>
+            <td><span class="risk-badge badge-medium">中</span></td>
+          </tr>
+          <tr>
+            <td>node_4</td>
+            <td>个人钱包</td>
+            <td><span class="risk-badge badge-low">低</span></td>
+          </tr>
+          <tr>
+            <td>node_5</td>
+            <td>未识别地址</td>
+            <td><span class="risk-badge badge-unknown">未知</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  <script>
+    // 检测是否在iframe中加载
+    function checkIfInIframe() {
+      try {
+        return window.self !== window.top;
+      } catch (e) {
+        return true;
+      }
+    }
+    
+    // 如果在iframe中，添加标识类
+    if (checkIfInIframe()) {
+      document.body.classList.add('is-iframe');
+      console.log('在iframe中运行');
+    } else {
+      console.log('独立页面运行');
+    }
+    
+    // 基础版渲染脚本 - 移除复杂的处理逻辑，简化为基本操作
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log('DOM已加载完成');
+      
+      // 显示各节点
+      const centerNode = document.getElementById('center-node');
+      const highRiskNode = document.getElementById('high-risk-node');
+      const mediumRiskNode = document.getElementById('medium-risk-node');
+      const lowRiskNode = document.getElementById('low-risk-node');
+      const unknownRiskNode = document.getElementById('unknown-risk-node');
+      
+      const link1 = document.getElementById('link-1');
+      const link2 = document.getElementById('link-2');
+      const link3 = document.getElementById('link-3');
+      const link4 = document.getElementById('link-4');
+      
+      // 确保所有元素可见
+      [centerNode, highRiskNode, mediumRiskNode, lowRiskNode, unknownRiskNode, 
+       link1, link2, link3, link4].forEach(el => {
+        if (el) {
+          el.style.display = 'flex';
+          el.style.visibility = 'visible';
+          el.style.opacity = '1';
+        }
+      });
+      
+      // 为所有节点添加点击事件
+      const allNodes = [centerNode, highRiskNode, mediumRiskNode, lowRiskNode, unknownRiskNode];
+      allNodes.forEach(function(node) {
+        if(node) {
+          node.addEventListener('click', function() {
+            console.log('点击了节点:', this.textContent);
+            alert('您点击了: ' + this.textContent);
+          });
+        }
+      });
+      
+      // 为所有节点依次添加动画效果
+      setTimeout(function() {
+        allNodes.forEach(function(node, index) {
+          if(node) {
+            setTimeout(function() {
+              node.classList.add('animate');
+            }, index * 200);
+          }
+        });
+      }, 500);
+      
+      // 通知父窗口内容已加载
+      if (checkIfInIframe()) {
+        try {
+          console.log('尝试向父窗口发送加载完成消息');
+          window.parent.postMessage('network-graph-loaded', '*');
+          
+          // 重复几次发送，确保消息能够被接收
+          setTimeout(function() {
+            window.parent.postMessage('network-graph-loaded', '*');
+          }, 500);
+          
+          setTimeout(function() {
+            window.parent.postMessage('network-graph-loaded', '*');
+          }, 1000);
+          
+          // 如果页面在iframe中，将链接改为在父窗口中打开
+          document.querySelectorAll('a').forEach(function(link) {
+            if(link.getAttribute('target') !== '_blank') {
+              link.setAttribute('target', '_parent');
+            }
+          });
+        } catch (e) {
+          console.warn('无法向父窗口发送消息', e);
+        }
+      }
+    });
+    
+    // 监听窗口大小变化
+    window.addEventListener('resize', function() {
+      console.log('窗口大小变化');
+    });
+    
+    // 额外添加window.onload处理，确保所有资源（包括图片）都加载完成
+    window.onload = function() {
+      console.log('所有资源加载完成');
+      if (checkIfInIframe()) {
+        try {
+          console.log('window.onload: 尝试向父窗口发送加载完成消息');
+          window.parent.postMessage('network-graph-loaded', '*');
+        } catch (e) {
+          console.warn('window.onload: 无法向父窗口发送消息', e);
+        }
+      }
+    };
+  </script>
+</body>
+</html> 

@@ -1,0 +1,32 @@
+# FastAPI和基础依赖
+fastapi>=0.98.0
+uvicorn>=0.22.0
+pydantic>=1.10.9
+python-multipart>=0.0.6
+
+# AI模型相关依赖
+torch>=2.0.0
+numpy>=1.24.3
+omegaconf>=2.3.0
+tqdm>=4.65.0
+hydra-core>=1.3.2
+scikit-learn>=1.2.2
+matplotlib>=3.7.1
+seaborn>=0.12.2
+networkx>=3.1
+
+# 可选的PyTorch Geometric相关依赖
+# 注意：以下依赖可能需要根据CUDA版本和操作系统单独安装
+# torch-geometric
+# torch-scatter
+# torch-sparse
+# torch-cluster
+# torch-spline-conv
+# torch-geometric-temporal
+
+# 用于预处理和可视化
+umap-learn>=0.5.3
+joblib>=1.2.0
+
+# 其他工具
+tensorboard>=2.13.0 

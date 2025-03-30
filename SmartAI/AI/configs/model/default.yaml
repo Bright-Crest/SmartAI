@@ -1,0 +1,60 @@
+# 模型通用配置
+name: "smartmoney_model"
+num_nodes: 100  # 添加最大节点数量
+node_dim: 64  # 添加节点特征维度
+edge_dim: 4   # 添加边特征维度
+embedding_dim: 32
+hidden_dim: 16
+output_dim: 32
+dropout: 0.2
+activation: "relu"  # 添加激活函数
+temporal_type: "transformer"  # 添加时序模型类型
+bidirectional: true  # 添加是否双向
+attention_heads: 1  # 添加注意力头数
+memory_size: 64  # 添加内存大小
+num_res_layers: 1  # 添加残差层数
+num_edge_gnn_layers: 1  # 添加边GNN层数
+num_tgn_layers: 1  # 添加TGN层数
+
+# ResGCN 配置
+resgcn:
+  num_layers: 1
+  use_bn: true
+  residual: true
+  activation: "relu"
+
+# Edge-aware GNN 配置
+edge_gnn:
+  type: "edge_gat"  # 可选: edge_gat, edge_conv, mpnn
+  heads: 1
+  edge_dim: 4  # 边特征维度
+  concat: true
+  negative_slope: 0.2
+
+# TGN 配置
+tgn:
+  memory_dim: 32
+  time_dim: 4
+  num_layers: 1
+  memory_updater_type: "gru"
+
+# Temporal Attention 配置
+temporal_attention:
+  type: "transformer"  # 可选: transformer, lstm
+  nhead: 1  # transformer 的 head 数
+  num_layers: 1
+  use_position_encoding: true
+  max_len: 24  # 最大序列长度
+
+# 自监督学习配置
+contrastive:
+  temperature: 0.5
+  neg_samples: 16
+  use_queue: true
+  queue_size: 128
+
+# 聚类配置
+clustering:
+  method: "kmeans"  # 可选: kmeans, dbscan, deepcluster
+  n_clusters: 10
+  metric: "euclidean" 

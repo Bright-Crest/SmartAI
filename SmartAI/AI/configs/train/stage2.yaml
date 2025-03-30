@@ -1,0 +1,51 @@
+# 阶段2训练配置 - 行为序列建模
+
+# 训练基本参数
+name: "stage2_temporal_attention"
+epochs: 50
+batch_size: 64
+early_stopping_patience: 5
+
+# 优化器
+optimizer:
+  name: "adam"
+  lr: 0.0005
+  weight_decay: 1e-5
+  amsgrad: false
+
+# 学习率调度器
+lr_scheduler:
+  name: "cosine"
+  min_lr: 1e-6
+
+# 损失函数权重
+loss:
+  contrastive_weight: 0.8
+  cluster_weight: 0.2    # 聚类引导损失的权重
+
+# 序列增强策略
+augmentation:
+  seq_mask_rate: 0.1
+  time_stretch_factor: 0.1
+  random_crop: true
+  crop_ratio: 0.8
+
+# 聚类参数
+clustering:
+  update_every: 5        # 每隔多少个epoch更新一次聚类
+  warmup_epochs: 10      # 在应用聚类损失前的预热epoch数
+  sinkhorn_iterations: 3  # Sinkhorn-Knopp算法迭代次数 (用于DeepCluster)
+
+# 验证和评估
+evaluation:
+  val_every: 1
+  save_best: true
+  metric: "combined_loss"
+  mode: "min"
+
+# 其他配置
+stage1_checkpoint: "${output.model_dir}/stage1_best.pth"  # 阶段1的预训练检查点
+checkpoint_path: null
+log_interval: 5
+progress_bar: true
+freeze_encoder: false   # 是否冻结第一阶段训练的编码器 

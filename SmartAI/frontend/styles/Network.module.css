@@ -1,0 +1,73 @@
+.networkContainer {
+  min-height: 600px;
+  padding: 0;
+  position: relative;
+}
+
+.filterSection {
+  margin-bottom: 1.5rem;
+}
+
+.filterGroup {
+  margin-bottom: 1rem;
+}
+
+.filterTitle {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.checkboxGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.infoValue {
+  font-weight: 500;
+}
+
+.statItem {
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  background-color: #f8f9fa;
+  margin-bottom: 0.5rem;
+}
+
+.statTitle {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.statValue {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.riskHigh {
+  color: #dc3545;
+}
+
+.riskMedium {
+  color: #fd7e14;
+}
+
+.riskLow {
+  color: #28a745;
+}
+
+/* 响应式调整 */
+@media (max-width: 992px) {
+  .networkContainer {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .networkContainer {
+    min-height: 350px;
+  }
+}

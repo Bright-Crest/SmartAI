@@ -1,0 +1,46 @@
+# SmartMoney模型评估配置
+
+# 项目基本配置
+project_name: smartmoney
+seed: null
+device: cuda  # 'cuda' 或 'cpu'
+
+# 评估配置
+evaluation:
+  name: smartmoney_evaluation  # 评估任务名称
+  embeddings_file: results/results/embeddings.npz  # 嵌入向量文件路径
+  labels_file: data/labels.csv  # 标签文件路径
+  n_clusters: null  # 聚类数量，null表示使用标签中唯一类别数
+  
+  # 标签映射（标签ID -> 标签名）
+  label_map:
+    "0": "Normal"
+    "1": "Exchange"
+    "2": "Mining Pool"
+    "3": "Gambling"
+    "4": "Mixer"
+    "5": "Scam"
+    "6": "DeFi"
+    "7": "Dark Market"
+    "8": "Ransomware"
+  
+  # 评估任务
+  tasks:
+    retrieval: true  # 是否进行检索评估
+    clustering: true  # 是否进行聚类评估
+    distances: true  # 是否计算类内/类间距离
+    silhouette: true  # 是否计算轮廓系数
+    classification: true  # 是否进行分类评估
+  
+  # 分类器列表
+  classifiers:
+    - svm
+    - random_forest
+    - neural_network
+
+# 输出配置
+output:
+  base_dir: evaluation_results  # 结果基础目录
+  log_dir: ${output.base_dir}/logs  # 日志目录
+  plots_dir: ${output.base_dir}/plots  # 图表目录
+  results_dir: ${output.base_dir}/results  # 结果目录 

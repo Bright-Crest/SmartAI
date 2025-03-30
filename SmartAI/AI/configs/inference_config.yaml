@@ -1,0 +1,52 @@
+# SmartMoney模型推理配置
+
+# 项目基本配置
+project_name: smartmoney
+seed: null
+device: cuda  # 'cuda' 或 'cpu'
+
+# 模型配置
+model:
+  name: smartmoney
+  path: ${output.model_dir}/best_model.pth  # 模型路径
+  node_dim: 64  # 节点特征维度
+  edge_dim: 32  # 边特征维度
+  hidden_dim: 128  # 隐藏层维度
+  output_dim: 128  # 输出维度
+  num_res_layers: 2  # ResGCN层数
+  num_edge_gnn_layers: 2  # 边GNN层数
+  num_tgn_layers: 2  # 时间GNN层数
+  dropout: 0.0  # 推理时关闭dropout
+  activation: relu  # 激活函数
+  temporal_type: transformer  # 'transformer' 或 'lstm'
+  bidirectional: true  # 是否使用双向LSTM
+  attention_heads: 4  # 注意力头数
+  memory_size: 32  # 记忆大小
+
+# 数据配置
+data:
+  dataset_type: address_graph  # 'address_graph' 或 'time_window'
+  graphs_dir: data/processed/graphs  # 图数据目录
+  batch_size: 32  # 批大小
+  num_workers: 4  # 数据加载器工作线程数
+  time_window: 86400  # 时间窗口大小（秒）
+  max_time_windows: 10  # 最大时间窗口数
+
+# 推理配置
+inference:
+  input_file: data/test/sample.pt  # 输入图文件路径
+  reference_file: ${output.results_dir}/embeddings.npz  # 参考嵌入文件
+  batch_size: 32  # 批大小
+  analyze_embeddings: true  # 是否分析嵌入
+  top_k: 10  # 相似度搜索的top-k结果数量
+
+# 操作模式
+mode: single  # 'single', 'batch', 或 'similarity'
+
+# 输出配置
+output:
+  base_dir: results  # 结果基础目录
+  log_dir: ${output.base_dir}/logs  # 日志目录
+  model_dir: ${output.base_dir}/models  # 模型目录
+  results_dir: ${output.base_dir}/results  # 结果目录
+  output_file: ${output.results_dir}/embedding.npy  # 输出文件 

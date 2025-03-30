@@ -1,0 +1,58 @@
+# 阶段1训练配置 - 图结构和TGN训练
+
+# 训练基本参数
+name: "stage1_gnn_tgn"
+epochs: 10
+batch_size: 16
+checkpoint_interval: 10  # 每多少轮保存一次检查点
+
+early_stopping:
+  patience: 10
+  delta: 0.01
+  mode: "min"
+
+# 优化器
+optimizer:
+  name: "adam"
+  lr: 0.001
+  weight_decay: 1e-5
+  amsgrad: false
+
+# 学习率调度器
+lr_scheduler:
+  name: "cosine"  # 可选: step, cosine, plateau
+  step_size: 10   # 对于 StepLR
+  gamma: 0.5      # 对于 StepLR
+  min_lr: 1e-6    # 对于 CosineAnnealingLR
+
+# 梯度裁剪
+grad_clip:
+  enabled: true
+  max_norm: 1.0
+
+# 损失函数配置
+loss:
+  name: "ntxent"  # 使用NT-Xent损失(SimCLR)
+  temperature: 0.07  # 温度参数
+  use_cosine_similarity: true  # 是否使用余弦相似度
+  contrastive_weight: 1.0
+
+# 对比学习增强
+augmentation:
+  # 图增强策略
+  edge_drop_rate: 0.1
+  feat_mask_rate: 0.1
+  time_mask_prob: 0.05
+
+# 验证和评估
+evaluation:
+  val_every: 1
+  save_best: true
+  metric: "contrastive_loss"  # 用于选择最佳模型的指标
+  mode: "min"                 # "min" 或 "max"
+
+# 其他配置
+checkpoint_path: null  # 如果要从检查点恢复训练，则提供路径
+log_interval: 10       # 每隔多少批次记录一次训练日志
+progress_bar: true     # 是否显示进度条
+amp: false             # 是否使用混合精度训练 

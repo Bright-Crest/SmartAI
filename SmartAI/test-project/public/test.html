@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>静态HTML测试</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      color: red;
+    }
+    .container {
+      margin-top: 20px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>静态HTML测试页面</h1>
+  <p>这是一个纯静态HTML页面，不需要经过React渲染</p>
+  
+  <div class="container">
+    <p>页面加载时间: <span id="time"></span></p>
+  </div>
+
+  <div style="margin-top: 20px;">
+    <a href="/" style="color: blue;">返回首页</a>
+  </div>
+
+  <script>
+    document.getElementById('time').innerText = new Date().toLocaleString();
+  </script>
+</body>
+</html> 

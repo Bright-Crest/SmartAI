@@ -1,0 +1,5002 @@
+{
+  "0x937bba60e8e737021be9a3f5b3f2f7e606eb5152": {
+    "type": "normal_user",
+    "id": 0,
+    "is_smart_money": false
+  },
+  "0x483b2f92fc12ff3e34eb90f1b6f2dfdc45de7065": {
+    "type": "normal_user",
+    "id": 1,
+    "is_smart_money": false
+  },
+  "0xc9825dc776ecc7aed4cd0415c67720ad28d6d3cb": {
+    "type": "normal_user",
+    "id": 2,
+    "is_smart_money": false
+  },
+  "0x5485def79ac9c26e8bf0bdab1e475ae9e6350125": {
+    "type": "normal_user",
+    "id": 3,
+    "is_smart_money": false
+  },
+  "0xd1531feb8b5592e0b011760988fc8041ce531133": {
+    "type": "normal_user",
+    "id": 4,
+    "is_smart_money": false
+  },
+  "0x22957a615b47b11ad836940e97249eaa8099bf7e": {
+    "type": "normal_user",
+    "id": 5,
+    "is_smart_money": false
+  },
+  "0x502896c1a492c4c7f8890009d91278925feedb22": {
+    "type": "normal_user",
+    "id": 6,
+    "is_smart_money": false
+  },
+  "0xca94c65774f042398ad9d7a334e7ab7a01574847": {
+    "type": "normal_user",
+    "id": 7,
+    "is_smart_money": false
+  },
+  "0x6a6f8d77edec53acfbe4df3db1770b5cd4577d98": {
+    "type": "normal_user",
+    "id": 8,
+    "is_smart_money": false
+  },
+  "0x47d8e1564aee66ceafb21cbe3070395248eb64e2": {
+    "type": "normal_user",
+    "id": 9,
+    "is_smart_money": false
+  },
+  "0xd6c393e9e8fe4c93f9fc5ca160a838f5aa3b9c5a": {
+    "type": "normal_user",
+    "id": 10,
+    "is_smart_money": false
+  },
+  "0x4b04504e6797cc4898259e98b3f0bc7fdd57f5aa": {
+    "type": "normal_user",
+    "id": 11,
+    "is_smart_money": false
+  },
+  "0x9eab14153b88ce10207afd48bd9a3c855926729f": {
+    "type": "normal_user",
+    "id": 12,
+    "is_smart_money": false
+  },
+  "0xb51a34ebe0395273e075c5cd35d8c8993fe6b7d8": {
+    "type": "normal_user",
+    "id": 13,
+    "is_smart_money": false
+  },
+  "0x5571e3355f5500eb689875a40bd2a824100b23e9": {
+    "type": "normal_user",
+    "id": 14,
+    "is_smart_money": false
+  },
+  "0x095002646a18a9a222aeee17ea9f1c2922e7e6e2": {
+    "type": "normal_user",
+    "id": 15,
+    "is_smart_money": false
+  },
+  "0x0ffe682122c1c7f40eab0473ae1e9a086c3752d2": {
+    "type": "normal_user",
+    "id": 16,
+    "is_smart_money": false
+  },
+  "0x44ad53be19236fc26432abb54fd051d0098b9120": {
+    "type": "normal_user",
+    "id": 17,
+    "is_smart_money": false
+  },
+  "0xe8284609683fbb2b25f443ca64b2428820e4bd87": {
+    "type": "normal_user",
+    "id": 18,
+    "is_smart_money": false
+  },
+  "0xb55d7a58ee750c1e44fecd9069c6cb784d3f752e": {
+    "type": "normal_user",
+    "id": 19,
+    "is_smart_money": false
+  },
+  "0xaa7bbeb9080d28b2304357271b2add32f9e3543d": {
+    "type": "normal_user",
+    "id": 20,
+    "is_smart_money": false
+  },
+  "0x9bd5be716ba07e15d5fe69c49ed43c3da41daad2": {
+    "type": "normal_user",
+    "id": 21,
+    "is_smart_money": false
+  },
+  "0x645c5659e04bef070c38f5f95cb897d20dafb9ae": {
+    "type": "normal_user",
+    "id": 22,
+    "is_smart_money": false
+  },
+  "0x09c1f6deeddb14994c13b7f103b42aa0fe08b4f8": {
+    "type": "normal_user",
+    "id": 23,
+    "is_smart_money": false
+  },
+  "0xaf6f1965bab3ecb65b4d1f48c4aba84cdd25f326": {
+    "type": "normal_user",
+    "id": 24,
+    "is_smart_money": false
+  },
+  "0xdee883276b979e3dbcc3b30154bf5003082cb0b3": {
+    "type": "normal_user",
+    "id": 25,
+    "is_smart_money": false
+  },
+  "0x11d26e519a50ca8485a09d8593f172ad85717ba9": {
+    "type": "normal_user",
+    "id": 26,
+    "is_smart_money": false
+  },
+  "0xb962531ba97e8791dd16185d816d48ce79e0d20b": {
+    "type": "normal_user",
+    "id": 27,
+    "is_smart_money": false
+  },
+  "0xbde25eafc6c43c8bbdc0b67318ab88e65f2399de": {
+    "type": "normal_user",
+    "id": 28,
+    "is_smart_money": false
+  },
+  "0x51ac0bc57bc090966fe5f01d76f6a467e1da1fc3": {
+    "type": "normal_user",
+    "id": 29,
+    "is_smart_money": false
+  },
+  "0x9fc9c41d1cf8724240074374c45f8864d6cad661": {
+    "type": "normal_user",
+    "id": 30,
+    "is_smart_money": false
+  },
+  "0xee983ebfc40439a34f7271f82012607c5793d82d": {
+    "type": "normal_user",
+    "id": 31,
+    "is_smart_money": false
+  },
+  "0xd77603d96cb73aef995cbfe3176b1c4103c7beb9": {
+    "type": "normal_user",
+    "id": 32,
+    "is_smart_money": false
+  },
+  "0x5e1b2c7b6199a7324bf0d6aad09b1d76407cf91a": {
+    "type": "normal_user",
+    "id": 33,
+    "is_smart_money": false
+  },
+  "0x7c311777e0c8e13f14fbbe3d2b9c018fdc808b37": {
+    "type": "normal_user",
+    "id": 34,
+    "is_smart_money": false
+  },
+  "0x8dc7505e22598b8ae315ffd8c359d90468b48d08": {
+    "type": "normal_user",
+    "id": 35,
+    "is_smart_money": false
+  },
+  "0x60fee033229953b646a9d40cb1fda4591e249d32": {
+    "type": "normal_user",
+    "id": 36,
+    "is_smart_money": false
+  },
+  "0x0d535ac162b48936530275a248c9087fe068fcaf": {
+    "type": "normal_user",
+    "id": 37,
+    "is_smart_money": false
+  },
+  "0xaefb8de9b66b8df00a52d5af63fb13eee6454a55": {
+    "type": "normal_user",
+    "id": 38,
+    "is_smart_money": false
+  },
+  "0x466f9492faeef1f94f4a86e8fcb6b6add6d0eb18": {
+    "type": "normal_user",
+    "id": 39,
+    "is_smart_money": false
+  },
+  "0x18a5cd2f3255af940312c7a0b01fff60c546a105": {
+    "type": "normal_user",
+    "id": 40,
+    "is_smart_money": false
+  },
+  "0x3ae0214ad216ce8f61a2db012a9362225e8377e3": {
+    "type": "normal_user",
+    "id": 41,
+    "is_smart_money": false
+  },
+  "0x3f6cc344c4032c621c8dbe1aa8c2657057b9bc76": {
+    "type": "normal_user",
+    "id": 42,
+    "is_smart_money": false
+  },
+  "0x406a602241ca5f6a98f001f10225ef3a1c66c0ae": {
+    "type": "normal_user",
+    "id": 43,
+    "is_smart_money": false
+  },
+  "0x503d2a1aaad6f8cdce02ad0e57a4f534a09456ca": {
+    "type": "normal_user",
+    "id": 44,
+    "is_smart_money": false
+  },
+  "0x6fc32eef9b58fbf8692e0710b69e323f97f78733": {
+    "type": "normal_user",
+    "id": 45,
+    "is_smart_money": false
+  },
+  "0xf0cc7e5d4318fc5eed4b23f456bfcb3ffc7f0cd4": {
+    "type": "normal_user",
+    "id": 46,
+    "is_smart_money": false
+  },
+  "0x1bb7bb3445b84792c8556c7ad40e1a3b600bf663": {
+    "type": "normal_user",
+    "id": 47,
+    "is_smart_money": false
+  },
+  "0x77ac48a4ecc3971b98c73cf74ea73ab0852b2d07": {
+    "type": "normal_user",
+    "id": 48,
+    "is_smart_money": false
+  },
+  "0xe06197122f3ef864034757bbd680906ec1f2efb3": {
+    "type": "normal_user",
+    "id": 49,
+    "is_smart_money": false
+  },
+  "0x00711cd2aaa33b4d384023f1eee23dc9f6d9f6cf": {
+    "type": "normal_user",
+    "id": 50,
+    "is_smart_money": false
+  },
+  "0x0cafb98d11fe092a99a78580ae8eebae2e2f6cf6": {
+    "type": "normal_user",
+    "id": 51,
+    "is_smart_money": false
+  },
+  "0x496b2bcfef68c432fda5bb7fd3d1ffe5e1a4379d": {
+    "type": "normal_user",
+    "id": 52,
+    "is_smart_money": false
+  },
+  "0xc8d604bb7b4c17e0962f3a3d3771b72df3e1dc2f": {
+    "type": "normal_user",
+    "id": 53,
+    "is_smart_money": false
+  },
+  "0x15260d1da58fddb1a7258a6ca72d5f881c270086": {
+    "type": "normal_user",
+    "id": 54,
+    "is_smart_money": false
+  },
+  "0x88bc2fc8c55f9912ba6f72498cb21b501aba5cd1": {
+    "type": "normal_user",
+    "id": 55,
+    "is_smart_money": false
+  },
+  "0x5ba86526b3028866c99df5fa7db6b66aa167eed2": {
+    "type": "normal_user",
+    "id": 56,
+    "is_smart_money": false
+  },
+  "0xd95ffece28bbd12a22821fb20265584d6746ba81": {
+    "type": "normal_user",
+    "id": 57,
+    "is_smart_money": false
+  },
+  "0xe44d173cdf8193d09efe41f53b345a79dddbc8c3": {
+    "type": "normal_user",
+    "id": 58,
+    "is_smart_money": false
+  },
+  "0x6e7013bb46769e3fdf571ad7444ab0fb8ec752bb": {
+    "type": "normal_user",
+    "id": 59,
+    "is_smart_money": false
+  },
+  "0x9a0be484a8b8847906ba5416573427607108062e": {
+    "type": "normal_user",
+    "id": 60,
+    "is_smart_money": false
+  },
+  "0x719366b2e3316df14b69dcaa55cfb3b58084a38e": {
+    "type": "normal_user",
+    "id": 61,
+    "is_smart_money": false
+  },
+  "0x7347a23cd213f61851e0932ba19d60e8d85807d0": {
+    "type": "normal_user",
+    "id": 62,
+    "is_smart_money": false
+  },
+  "0x535466c6bdce3f078fa74916f53ca8f23e12225d": {
+    "type": "normal_user",
+    "id": 63,
+    "is_smart_money": false
+  },
+  "0xf9835ca69049cdd26ec4b57a707afdc2582c1a36": {
+    "type": "normal_user",
+    "id": 64,
+    "is_smart_money": false
+  },
+  "0x1b618e3abfbb81b3d987a168788a0bbdf875e18e": {
+    "type": "normal_user",
+    "id": 65,
+    "is_smart_money": false
+  },
+  "0xf5d3aba15ae456669c05af61802d444fdbe8b3df": {
+    "type": "normal_user",
+    "id": 66,
+    "is_smart_money": false
+  },
+  "0xa7d72e256d6b684ca076af76d2e47f77bab76797": {
+    "type": "normal_user",
+    "id": 67,
+    "is_smart_money": false
+  },
+  "0x7f3320b4aae99b69d5fe694af02dc28956d9a670": {
+    "type": "normal_user",
+    "id": 68,
+    "is_smart_money": false
+  },
+  "0xba8fad8273c65e69aa93d5e84648eb3b6ae3c440": {
+    "type": "normal_user",
+    "id": 69,
+    "is_smart_money": false
+  },
+  "0x9e84cf1cea944baf13c5637381e686711bb52ce7": {
+    "type": "normal_user",
+    "id": 70,
+    "is_smart_money": false
+  },
+  "0xb7f4687fdc902c1e65e27d03dd9c615c94922b72": {
+    "type": "normal_user",
+    "id": 71,
+    "is_smart_money": false
+  },
+  "0xebc62560961dbc030d502f167a631587a23b4bef": {
+    "type": "normal_user",
+    "id": 72,
+    "is_smart_money": false
+  },
+  "0x4b32e6b987245999da5cb6429afae6eaed4a2c7b": {
+    "type": "normal_user",
+    "id": 73,
+    "is_smart_money": false
+  },
+  "0x24c74507fc9fc87bc995667dff27f0d984ce0d1d": {
+    "type": "normal_user",
+    "id": 74,
+    "is_smart_money": false
+  },
+  "0xdf3d792a613333f686bcb44f60320ca96650f1e1": {
+    "type": "normal_user",
+    "id": 75,
+    "is_smart_money": false
+  },
+  "0x38110bd90c19b3e45d4fc1ca28b4d874f193cdac": {
+    "type": "normal_user",
+    "id": 76,
+    "is_smart_money": false
+  },
+  "0x9dc398a0e5cd381d38b1b48e9c1362721b55391c": {
+    "type": "normal_user",
+    "id": 77,
+    "is_smart_money": false
+  },
+  "0x664142d3ff8f209c21bbea1d0255a0fa2ec7a027": {
+    "type": "normal_user",
+    "id": 78,
+    "is_smart_money": false
+  },
+  "0xfdb914e0e99b1ffa7657d5464cfff8f210be4b83": {
+    "type": "normal_user",
+    "id": 79,
+    "is_smart_money": false
+  },
+  "0xbbd0d2934ceccfefbec05d240926f3c30b0a414c": {
+    "type": "normal_user",
+    "id": 80,
+    "is_smart_money": false
+  },
+  "0xf91e93aa351667e9bbac0396cc46a08e2de945d9": {
+    "type": "normal_user",
+    "id": 81,
+    "is_smart_money": false
+  },
+  "0xa6c67e08c01b86c9dff1c02f7db4350b57cbd6c7": {
+    "type": "normal_user",
+    "id": 82,
+    "is_smart_money": false
+  },
+  "0xa62c44537048b1716c6bb4d3be8d800fe1d1d494": {
+    "type": "normal_user",
+    "id": 83,
+    "is_smart_money": false
+  },
+  "0xc348c725f6f2cdeac11889eb2c2683eeb273b000": {
+    "type": "normal_user",
+    "id": 84,
+    "is_smart_money": false
+  },
+  "0x786b1dcd58c9bac6942bb7f2aeb30b483cc6f8b6": {
+    "type": "normal_user",
+    "id": 85,
+    "is_smart_money": false
+  },
+  "0x8c295a59a6a5d66f4d806893a7d9fa1f3ed04696": {
+    "type": "normal_user",
+    "id": 86,
+    "is_smart_money": false
+  },
+  "0xfb57334d2c896e03ff1719044410095d84bcf116": {
+    "type": "normal_user",
+    "id": 87,
+    "is_smart_money": false
+  },
+  "0xd31ea7d99b0de3744abd01c80a98fa3f400deacf": {
+    "type": "normal_user",
+    "id": 88,
+    "is_smart_money": false
+  },
+  "0x0f685044ecea1bbd756466db75ec29f497adcb0c": {
+    "type": "normal_user",
+    "id": 89,
+    "is_smart_money": false
+  },
+  "0xae73fc4831612db7992777a7e458685e824b2c9d": {
+    "type": "normal_user",
+    "id": 90,
+    "is_smart_money": false
+  },
+  "0xa73fa2bdbcfe0f8678b4b67faa7f1fcbb1fdc788": {
+    "type": "normal_user",
+    "id": 91,
+    "is_smart_money": false
+  },
+  "0xeb7d7b02964cab8eeff3833fe04a94f35708e225": {
+    "type": "normal_user",
+    "id": 92,
+    "is_smart_money": false
+  },
+  "0xc4402eaf5799684104faa5ce8e3fa7664b8b1266": {
+    "type": "normal_user",
+    "id": 93,
+    "is_smart_money": false
+  },
+  "0xc405b3a1f3f244a2525d4d5c16867368e4184b67": {
+    "type": "normal_user",
+    "id": 94,
+    "is_smart_money": false
+  },
+  "0xe1e0a3c25ab9965b871ec559efc1b77b13aa1dd0": {
+    "type": "normal_user",
+    "id": 95,
+    "is_smart_money": false
+  },
+  "0x8074c21e9d2280782809d72b84992e4dc3ae7316": {
+    "type": "normal_user",
+    "id": 96,
+    "is_smart_money": false
+  },
+  "0x458e9d2cb96f24e0576089199f53df96f33ec86c": {
+    "type": "normal_user",
+    "id": 97,
+    "is_smart_money": false
+  },
+  "0x11839c6717880d805b7af3a8cce01557116ba046": {
+    "type": "normal_user",
+    "id": 98,
+    "is_smart_money": false
+  },
+  "0x5122859af048b72955c2ee260a4d9dd014360fa7": {
+    "type": "normal_user",
+    "id": 99,
+    "is_smart_money": false
+  },
+  "0xf842c0b6f36ec2cd05920a9343c74413c79c5c8c": {
+    "type": "normal_user",
+    "id": 100,
+    "is_smart_money": false
+  },
+  "0xeb93a5b499408d0c6ca5ac9d4a42c0810174cbb2": {
+    "type": "normal_user",
+    "id": 101,
+    "is_smart_money": false
+  },
+  "0x1c44009bf7c5d068b14c04455336b1f96fd84d28": {
+    "type": "normal_user",
+    "id": 102,
+    "is_smart_money": false
+  },
+  "0x76222eebfec37ec0c80dcc3fe99d2e7396e9869f": {
+    "type": "normal_user",
+    "id": 103,
+    "is_smart_money": false
+  },
+  "0xbf851102d4306006c2592fd6a2a98820f68333b0": {
+    "type": "normal_user",
+    "id": 104,
+    "is_smart_money": false
+  },
+  "0x4a0dfaa4fb9e936268cb1d8848ec8c91d20afb94": {
+    "type": "normal_user",
+    "id": 105,
+    "is_smart_money": false
+  },
+  "0x9b2ae6fd85970923091ad0230112f02308811967": {
+    "type": "normal_user",
+    "id": 106,
+    "is_smart_money": false
+  },
+  "0xab802e4280f52a4be36034725cae7b41b8413472": {
+    "type": "normal_user",
+    "id": 107,
+    "is_smart_money": false
+  },
+  "0xb76c572a6b1d6628a3df69aca4cd13ab5e9df5b2": {
+    "type": "normal_user",
+    "id": 108,
+    "is_smart_money": false
+  },
+  "0x82c0994f712ff14e66895e904989a26b5f22f3d0": {
+    "type": "normal_user",
+    "id": 109,
+    "is_smart_money": false
+  },
+  "0x7e3f7b55f101ad355cd66c7e5df727d7d158874d": {
+    "type": "normal_user",
+    "id": 110,
+    "is_smart_money": false
+  },
+  "0x0245053535caaf725c770e08238ecc3292045a8c": {
+    "type": "normal_user",
+    "id": 111,
+    "is_smart_money": false
+  },
+  "0xaa6716396b1c8ed74c7c14dab956b33088a42b71": {
+    "type": "normal_user",
+    "id": 112,
+    "is_smart_money": false
+  },
+  "0xb320b87d1ef64f57e7aa1eb559a7eb9e7920ccff": {
+    "type": "normal_user",
+    "id": 113,
+    "is_smart_money": false
+  },
+  "0x70077e69635982c1cb5d5c1ce65a753d27121f74": {
+    "type": "normal_user",
+    "id": 114,
+    "is_smart_money": false
+  },
+  "0x596ee3244b4872346bf15380f9100608932e03f0": {
+    "type": "normal_user",
+    "id": 115,
+    "is_smart_money": false
+  },
+  "0x107bd0ee9917eed9d1b2ab5802a9fe9b2ca75edb": {
+    "type": "normal_user",
+    "id": 116,
+    "is_smart_money": false
+  },
+  "0xac12500564cab20bd5084fb8677fb110d997f190": {
+    "type": "normal_user",
+    "id": 117,
+    "is_smart_money": false
+  },
+  "0x630215436938ba80c198c9845902dc0a716a8a1e": {
+    "type": "normal_user",
+    "id": 118,
+    "is_smart_money": false
+  },
+  "0x922736e450dd215b366d269e2ad8d18564a946dc": {
+    "type": "normal_user",
+    "id": 119,
+    "is_smart_money": false
+  },
+  "0x4ced1ccb4a157a153c567fc2a81fd1e04b0a7fd0": {
+    "type": "normal_user",
+    "id": 120,
+    "is_smart_money": false
+  },
+  "0xbe6ae7ae553648cbdb6964475afb55f81e96a624": {
+    "type": "normal_user",
+    "id": 121,
+    "is_smart_money": false
+  },
+  "0x811d20383af7595049b4b741274dc8c61bd254b0": {
+    "type": "normal_user",
+    "id": 122,
+    "is_smart_money": false
+  },
+  "0xcf01c4b43358c6efb87fd47084a695b6b765c239": {
+    "type": "normal_user",
+    "id": 123,
+    "is_smart_money": false
+  },
+  "0x4f58f20854226eb16cfb9f4a6c28f277bea6d1e6": {
+    "type": "normal_user",
+    "id": 124,
+    "is_smart_money": false
+  },
+  "0x5b9ed00a7c824feafcff4b27028b14381b1e901c": {
+    "type": "normal_user",
+    "id": 125,
+    "is_smart_money": false
+  },
+  "0x158c39cf5d7540f4f74388bd102d94f17a535c65": {
+    "type": "normal_user",
+    "id": 126,
+    "is_smart_money": false
+  },
+  "0x3f440abed79cabd5266e61f47ad02e5a5eae795d": {
+    "type": "normal_user",
+    "id": 127,
+    "is_smart_money": false
+  },
+  "0x40ef2604e9dad80061d464fe7ea78f7e8203796d": {
+    "type": "normal_user",
+    "id": 128,
+    "is_smart_money": false
+  },
+  "0x2ef097603cd3c936f635790efcbba7acfe4b1eb7": {
+    "type": "normal_user",
+    "id": 129,
+    "is_smart_money": false
+  },
+  "0x374d8dc05cda45fe943a8fa2b4bc8cb4ed866fbf": {
+    "type": "normal_user",
+    "id": 130,
+    "is_smart_money": false
+  },
+  "0x460b899025a47a09098c1ae4f767c576ead72194": {
+    "type": "normal_user",
+    "id": 131,
+    "is_smart_money": false
+  },
+  "0x9a3cf38e7b80a3bf5c2554802fcde92b09e46275": {
+    "type": "normal_user",
+    "id": 132,
+    "is_smart_money": false
+  },
+  "0xdf5bbadf794969a75fa35fd21dde2b4460727cdf": {
+    "type": "normal_user",
+    "id": 133,
+    "is_smart_money": false
+  },
+  "0x945d5b3a8cfb2c922e41b527f3e4a89d6810909a": {
+    "type": "normal_user",
+    "id": 134,
+    "is_smart_money": false
+  },
+  "0xfc08f32468b162927a96f5c6a5be68a704712574": {
+    "type": "normal_user",
+    "id": 135,
+    "is_smart_money": false
+  },
+  "0x9c91de47bb96c9139006ef71f9294a089bea0a54": {
+    "type": "normal_user",
+    "id": 136,
+    "is_smart_money": false
+  },
+  "0x36d95b0b599c1b9fe5b01a94ce20314af0a9e6f1": {
+    "type": "normal_user",
+    "id": 137,
+    "is_smart_money": false
+  },
+  "0xbc1a3fd7f7da722a9932b6170d6ecaf8a8effb87": {
+    "type": "normal_user",
+    "id": 138,
+    "is_smart_money": false
+  },
+  "0x837c1e9a7a8c7ece0f80b2f5a730252588bf08c9": {
+    "type": "normal_user",
+    "id": 139,
+    "is_smart_money": false
+  },
+  "0x68d8e7af0cbaabc3f999fe0d9b28b4f852bfe7e6": {
+    "type": "normal_user",
+    "id": 140,
+    "is_smart_money": false
+  },
+  "0xf36f1ca968bc8c65cf21e51359b33b74e4486e4b": {
+    "type": "normal_user",
+    "id": 141,
+    "is_smart_money": false
+  },
+  "0x009ad835e17cf742505d44be60072e4774bfef03": {
+    "type": "normal_user",
+    "id": 142,
+    "is_smart_money": false
+  },
+  "0xcd39defc0568790cfc3585d05c3802d37fe23dd8": {
+    "type": "normal_user",
+    "id": 143,
+    "is_smart_money": false
+  },
+  "0x70d9f69ccda8fd022ed9cb5bb74ebb9ca224477c": {
+    "type": "normal_user",
+    "id": 144,
+    "is_smart_money": false
+  },
+  "0x575da6ada8ccea7b8450afacf59de0e435319365": {
+    "type": "normal_user",
+    "id": 145,
+    "is_smart_money": false
+  },
+  "0x637b075de681f2dab01adfe20ca7d2b1c86fee90": {
+    "type": "normal_user",
+    "id": 146,
+    "is_smart_money": false
+  },
+  "0xb58521113cc3667032ad2c523d1b1edcdf09fa25": {
+    "type": "normal_user",
+    "id": 147,
+    "is_smart_money": false
+  },
+  "0x7b2ca08d23f11256cb4842208a4aeb2f454133f3": {
+    "type": "normal_user",
+    "id": 148,
+    "is_smart_money": false
+  },
+  "0x5c97e3f3403c10902dc9b1bd388fd8cd32038dfd": {
+    "type": "normal_user",
+    "id": 149,
+    "is_smart_money": false
+  },
+  "0x6d3f839d916b0acaccec766aee4d265523706ac7": {
+    "type": "normal_user",
+    "id": 150,
+    "is_smart_money": false
+  },
+  "0x959b46094a1b6d51b57cff030c1b992917da3a0c": {
+    "type": "normal_user",
+    "id": 151,
+    "is_smart_money": false
+  },
+  "0x71aee6a78e4f583b7da59e23d2d906af7e05b102": {
+    "type": "normal_user",
+    "id": 152,
+    "is_smart_money": false
+  },
+  "0x07edbd84c012814fca0e68f4b9ac60d453f0e782": {
+    "type": "normal_user",
+    "id": 153,
+    "is_smart_money": false
+  },
+  "0x0ecf31b1eca77b400087826e11e7203b907b014a": {
+    "type": "normal_user",
+    "id": 154,
+    "is_smart_money": false
+  },
+  "0x66d69f8b203b5b491572cb39533e1fc79436c9bb": {
+    "type": "normal_user",
+    "id": 155,
+    "is_smart_money": false
+  },
+  "0x312cdd53b5cf26863acbc33a4e475b9ae2be4481": {
+    "type": "normal_user",
+    "id": 156,
+    "is_smart_money": false
+  },
+  "0x3b281cee8dd47e9b4209d6917f792f5223e45e6a": {
+    "type": "normal_user",
+    "id": 157,
+    "is_smart_money": false
+  },
+  "0xa1f187de7e98999a5c15d045071362877e0e2971": {
+    "type": "normal_user",
+    "id": 158,
+    "is_smart_money": false
+  },
+  "0xe12003a34daea85b5154ba1899f86a4417ee2519": {
+    "type": "normal_user",
+    "id": 159,
+    "is_smart_money": false
+  },
+  "0xe364bc369bdb8a6ebd0cd82fae9918091e61ce08": {
+    "type": "normal_user",
+    "id": 160,
+    "is_smart_money": false
+  },
+  "0xd75ac3cdda1f72e515632dac45a3d8d672ca224e": {
+    "type": "normal_user",
+    "id": 161,
+    "is_smart_money": false
+  },
+  "0x95739e2e277469f0ae8905dd9165fca4c246903c": {
+    "type": "normal_user",
+    "id": 162,
+    "is_smart_money": false
+  },
+  "0x0b59dff458fe4f6a76ea6d15185060e9c6079de5": {
+    "type": "normal_user",
+    "id": 163,
+    "is_smart_money": false
+  },
+  "0xab1c44f8ef496882f126c17bf08f068105ee72e1": {
+    "type": "normal_user",
+    "id": 164,
+    "is_smart_money": false
+  },
+  "0xe4fcdc2b6d09b50d4db40f357235bf202bed0525": {
+    "type": "normal_user",
+    "id": 165,
+    "is_smart_money": false
+  },
+  "0xe2921d99cd31c0c6980f39b2c08b971e7bf3bad1": {
+    "type": "normal_user",
+    "id": 166,
+    "is_smart_money": false
+  },
+  "0x9e67ece5663423cad13b05854f3ed883764ef0c9": {
+    "type": "normal_user",
+    "id": 167,
+    "is_smart_money": false
+  },
+  "0xd5b8aa2f2f004ca1a45b27a3c16e53a8ed39fb4c": {
+    "type": "normal_user",
+    "id": 168,
+    "is_smart_money": false
+  },
+  "0xc00adfbae302315a9ca7632c2e415c91068aa55c": {
+    "type": "normal_user",
+    "id": 169,
+    "is_smart_money": false
+  },
+  "0x112ebb1b22cb0044112a6ddee08ffeea0f6b020e": {
+    "type": "normal_user",
+    "id": 170,
+    "is_smart_money": false
+  },
+  "0x4c5d28af358252ea70f3b333321c9826b3430c80": {
+    "type": "normal_user",
+    "id": 171,
+    "is_smart_money": false
+  },
+  "0x2eab9309f2d6bb3d1c6c3608c0eacfa18e8337b7": {
+    "type": "normal_user",
+    "id": 172,
+    "is_smart_money": false
+  },
+  "0x41529af1e08596d1bb0bf901e94814a16b93ed7c": {
+    "type": "normal_user",
+    "id": 173,
+    "is_smart_money": false
+  },
+  "0x1dd07c8f9766f1ee7611aba47da01842fa3efa85": {
+    "type": "normal_user",
+    "id": 174,
+    "is_smart_money": false
+  },
+  "0xeb4304732bb1b0c0595a2826c7007caec3d1b846": {
+    "type": "normal_user",
+    "id": 175,
+    "is_smart_money": false
+  },
+  "0x3dd54373fb82bcb5f653d26639b228dce681e2dc": {
+    "type": "normal_user",
+    "id": 176,
+    "is_smart_money": false
+  },
+  "0x849ba397baf7fc8702f6b93bbd2a65e55813a2ef": {
+    "type": "normal_user",
+    "id": 177,
+    "is_smart_money": false
+  },
+  "0xe3ea2e68e32cd6ff8ae87cbeaf5b43c744604e1c": {
+    "type": "normal_user",
+    "id": 178,
+    "is_smart_money": false
+  },
+  "0x90004ec0227e8c04929b6a5b34cf9b9a11daeb11": {
+    "type": "normal_user",
+    "id": 179,
+    "is_smart_money": false
+  },
+  "0x2cb6d50d1f4270d486d38fa65ade58b1f5bd7d63": {
+    "type": "normal_user",
+    "id": 180,
+    "is_smart_money": false
+  },
+  "0x738c9bb047b1b54f6d88aa6341cf72cf6c6ac52a": {
+    "type": "normal_user",
+    "id": 181,
+    "is_smart_money": false
+  },
+  "0x8198d18d1d52b70c0d9039b307e881520a13aa7b": {
+    "type": "normal_user",
+    "id": 182,
+    "is_smart_money": false
+  },
+  "0xa00865a49a4ac27d7d0da56115358de82ea4f0bd": {
+    "type": "normal_user",
+    "id": 183,
+    "is_smart_money": false
+  },
+  "0x7833bf0faf20e65e524bc6eec764db1064b380f1": {
+    "type": "normal_user",
+    "id": 184,
+    "is_smart_money": false
+  },
+  "0x50a736a16d2b816fcd4b2098d65f693962e2eb40": {
+    "type": "normal_user",
+    "id": 185,
+    "is_smart_money": false
+  },
+  "0xe20b9e9791ee60009966f9eb14daea3826385a5b": {
+    "type": "normal_user",
+    "id": 186,
+    "is_smart_money": false
+  },
+  "0x1ec650867337bd6e4897263fe37c09aafa389fad": {
+    "type": "normal_user",
+    "id": 187,
+    "is_smart_money": false
+  },
+  "0xb18d93507331224fdf040828fd6f273b99cf9498": {
+    "type": "normal_user",
+    "id": 188,
+    "is_smart_money": false
+  },
+  "0xe571b6be7f2a228c209b32790c88bf3937483221": {
+    "type": "normal_user",
+    "id": 189,
+    "is_smart_money": false
+  },
+  "0x975f084d6850ec450944b5c06bb312287944aeb4": {
+    "type": "normal_user",
+    "id": 190,
+    "is_smart_money": false
+  },
+  "0x1e9c756d9eb5cb61809cf7cf9ac5752d5273ddad": {
+    "type": "normal_user",
+    "id": 191,
+    "is_smart_money": false
+  },
+  "0x82f1df84362eb472675623da818416a0884ad21d": {
+    "type": "normal_user",
+    "id": 192,
+    "is_smart_money": false
+  },
+  "0x3676087b9b22e94062c12ce6bc2a7a1a2824b55a": {
+    "type": "normal_user",
+    "id": 193,
+    "is_smart_money": false
+  },
+  "0x8f0d1f4106809782f06bc1fe106bbf10fa945fe0": {
+    "type": "normal_user",
+    "id": 194,
+    "is_smart_money": false
+  },
+  "0x8cf9b4fb9154fe719bb2e8a09385a83234bedef1": {
+    "type": "normal_user",
+    "id": 195,
+    "is_smart_money": false
+  },
+  "0x840dc6599719a3503d4072eb9ba62a6fe25e18fa": {
+    "type": "normal_user",
+    "id": 196,
+    "is_smart_money": false
+  },
+  "0x02f22195d3ec6536af48ced9ae86e50cd9f14f0a": {
+    "type": "normal_user",
+    "id": 197,
+    "is_smart_money": false
+  },
+  "0xb9bc02d9660048a89a5b47db1cb5008010fbfff5": {
+    "type": "normal_user",
+    "id": 198,
+    "is_smart_money": false
+  },
+  "0xe037b95099779e2c06cf8f7c8b1f301674cc0274": {
+    "type": "normal_user",
+    "id": 199,
+    "is_smart_money": false
+  },
+  "0xe3937ea432e05a1d8d04a48c86a0eaf72a76ad4d": {
+    "type": "normal_user",
+    "id": 200,
+    "is_smart_money": false
+  },
+  "0x8c1f11b424cf8e9cc19b9be6cc1d8081e69750a7": {
+    "type": "normal_user",
+    "id": 201,
+    "is_smart_money": false
+  },
+  "0x155a2ab2385a5b98b60405b3011cdd21f4cdc317": {
+    "type": "normal_user",
+    "id": 202,
+    "is_smart_money": false
+  },
+  "0x4df97098aee7062c58fb28e46938fa15b5726802": {
+    "type": "normal_user",
+    "id": 203,
+    "is_smart_money": false
+  },
+  "0x019863278503f8749349f077961ea8a21f65714c": {
+    "type": "normal_user",
+    "id": 204,
+    "is_smart_money": false
+  },
+  "0x01752e772d1f97793875553763c6ad394eebb4c0": {
+    "type": "normal_user",
+    "id": 205,
+    "is_smart_money": false
+  },
+  "0x1365f5d78ceb665e0559e555b24cb42a251ace20": {
+    "type": "normal_user",
+    "id": 206,
+    "is_smart_money": false
+  },
+  "0x08dc929ec810f1c0d9062439229634193f2431cb": {
+    "type": "normal_user",
+    "id": 207,
+    "is_smart_money": false
+  },
+  "0x80add87efb616622f037d285a2b268e677c3fa79": {
+    "type": "normal_user",
+    "id": 208,
+    "is_smart_money": false
+  },
+  "0x8a59a39fafaafe022a888a4a0e4a66523ce696b3": {
+    "type": "normal_user",
+    "id": 209,
+    "is_smart_money": false
+  },
+  "0x5fdf6f52ca0ffd3f81aa2ed63ef05fb0c65f42f2": {
+    "type": "normal_user",
+    "id": 210,
+    "is_smart_money": false
+  },
+  "0xf6191a5b2c6e3d320ea96fee15e56e0e92203eb7": {
+    "type": "normal_user",
+    "id": 211,
+    "is_smart_money": false
+  },
+  "0xe4f6a5b3aa3b2da412ccde6cb6490736271a796c": {
+    "type": "normal_user",
+    "id": 212,
+    "is_smart_money": false
+  },
+  "0x2c5bcb6db0747414625bd49b30bc6848d6a42ad4": {
+    "type": "normal_user",
+    "id": 213,
+    "is_smart_money": false
+  },
+  "0x7d04f6a9c7281445725bf42713bb5f65d14ffb3a": {
+    "type": "normal_user",
+    "id": 214,
+    "is_smart_money": false
+  },
+  "0xcd0740364e2e7d7920d7970b8144d3973de702dd": {
+    "type": "normal_user",
+    "id": 215,
+    "is_smart_money": false
+  },
+  "0x0154e16affc1896234a561097f6a69dfe268a58c": {
+    "type": "normal_user",
+    "id": 216,
+    "is_smart_money": false
+  },
+  "0xc3fbdbd9c909b9d279972a952cd3878b41b18347": {
+    "type": "normal_user",
+    "id": 217,
+    "is_smart_money": false
+  },
+  "0x32f0f05b77d3e73e2fd4be72548bafdbb637c47d": {
+    "type": "normal_user",
+    "id": 218,
+    "is_smart_money": false
+  },
+  "0x05bb71cbea2ca8f575b3e57fbc7c8c1534d15fe1": {
+    "type": "normal_user",
+    "id": 219,
+    "is_smart_money": false
+  },
+  "0xf744fcd4086233c82fe8775c6e89bd6326bb5f1f": {
+    "type": "normal_user",
+    "id": 220,
+    "is_smart_money": false
+  },
+  "0xfe083cd18bfd76deefd3b1498d76026689971e9d": {
+    "type": "normal_user",
+    "id": 221,
+    "is_smart_money": false
+  },
+  "0x37d79e84d6ad7d43b127ef45a684ec3adf38ebbb": {
+    "type": "normal_user",
+    "id": 222,
+    "is_smart_money": false
+  },
+  "0x092b366632b249684b5aa011bc8a646b0f202b80": {
+    "type": "normal_user",
+    "id": 223,
+    "is_smart_money": false
+  },
+  "0x6a90c6a8224bd04e7f081985132fee4de832fc13": {
+    "type": "normal_user",
+    "id": 224,
+    "is_smart_money": false
+  },
+  "0xe75eda8de13f4a7eeec8f824a740399ba7cf201a": {
+    "type": "normal_user",
+    "id": 225,
+    "is_smart_money": false
+  },
+  "0x29bea4f4ad4657024a9a8277d631eb02ac923fb3": {
+    "type": "normal_user",
+    "id": 226,
+    "is_smart_money": false
+  },
+  "0x7a5bab4b34ad3551e441f2aa73702903875894fe": {
+    "type": "normal_user",
+    "id": 227,
+    "is_smart_money": false
+  },
+  "0x49968dcb1365da3d8bf26dd028f2d2269afcb1b0": {
+    "type": "normal_user",
+    "id": 228,
+    "is_smart_money": false
+  },
+  "0x0bf0621c210115cb9584ee44794039f3c66c0ad4": {
+    "type": "normal_user",
+    "id": 229,
+    "is_smart_money": false
+  },
+  "0x67bc9e9f3d44af9c1b8f28c8c5e852b2bcb10de7": {
+    "type": "normal_user",
+    "id": 230,
+    "is_smart_money": false
+  },
+  "0x1c7c235151b06ed307d7cab2e838486ccd982c78": {
+    "type": "normal_user",
+    "id": 231,
+    "is_smart_money": false
+  },
+  "0xaf5873c96f802b96071f5f7c3e3631231cb3b8cb": {
+    "type": "normal_user",
+    "id": 232,
+    "is_smart_money": false
+  },
+  "0x4c6f01ff0d4a6d3e5647864216ac20624e14664b": {
+    "type": "normal_user",
+    "id": 233,
+    "is_smart_money": false
+  },
+  "0x8298aa2c1b50878210673ad573b1341d3621dc12": {
+    "type": "normal_user",
+    "id": 234,
+    "is_smart_money": false
+  },
+  "0xd51ff4fefdb229ee7820fd49cd53dc054814b76f": {
+    "type": "normal_user",
+    "id": 235,
+    "is_smart_money": false
+  },
+  "0x9a1b13d54f0ec5baf0681ef9a98583b2cc63f9ca": {
+    "type": "normal_user",
+    "id": 236,
+    "is_smart_money": false
+  },
+  "0x17c5498c7b414c8aef54a8c32c3e37cd6d3d7068": {
+    "type": "normal_user",
+    "id": 237,
+    "is_smart_money": false
+  },
+  "0x81163a86878086e1e7b1c1a52cff3dbbdeb93d71": {
+    "type": "normal_user",
+    "id": 238,
+    "is_smart_money": false
+  },
+  "0xb47708960dbf12711007cc70aa3a12eaedf65350": {
+    "type": "normal_user",
+    "id": 239,
+    "is_smart_money": false
+  },
+  "0xc7c82ce650ad9bc8b8ecfa9afac80bc31f6f6847": {
+    "type": "normal_user",
+    "id": 240,
+    "is_smart_money": false
+  },
+  "0xcd348b515af8a482f2efcaae83f57676e4b534da": {
+    "type": "normal_user",
+    "id": 241,
+    "is_smart_money": false
+  },
+  "0xe1a47d8eb40d6cc5707a38a8b249275dbdfba815": {
+    "type": "normal_user",
+    "id": 242,
+    "is_smart_money": false
+  },
+  "0x94c6906c478ec4356e0f73005ba0836f906271a4": {
+    "type": "normal_user",
+    "id": 243,
+    "is_smart_money": false
+  },
+  "0x8e84dc14addb9ee74bd1688c5d442d18b9ba5ecd": {
+    "type": "normal_user",
+    "id": 244,
+    "is_smart_money": false
+  },
+  "0xf0379eaab46bf6c558a99f4b0b1b13d32c3e4b9c": {
+    "type": "normal_user",
+    "id": 245,
+    "is_smart_money": false
+  },
+  "0xb710038ef1fa62933e150f9d2beb03f9b6fe025d": {
+    "type": "normal_user",
+    "id": 246,
+    "is_smart_money": false
+  },
+  "0x28927d999233a353c481a7b21342119c6a3486b4": {
+    "type": "normal_user",
+    "id": 247,
+    "is_smart_money": false
+  },
+  "0xdcc800162188a6de60c7fbd5304fbfe2dd197376": {
+    "type": "normal_user",
+    "id": 248,
+    "is_smart_money": false
+  },
+  "0xfb6791f8055dd3df0984719b73c9dbc1f8a819cc": {
+    "type": "normal_user",
+    "id": 249,
+    "is_smart_money": false
+  },
+  "0xd2a04e36f8c4e3882bbdd7a30aaeac460b7fb0ae": {
+    "type": "normal_user",
+    "id": 250,
+    "is_smart_money": false
+  },
+  "0x7d48daa69ffcb5bd74efed0b656801ad23073709": {
+    "type": "normal_user",
+    "id": 251,
+    "is_smart_money": false
+  },
+  "0x3b98c13531b3102fdadf73c2c652564aa088b5f8": {
+    "type": "normal_user",
+    "id": 252,
+    "is_smart_money": false
+  },
+  "0x1bb004a5610ea1dbcf61628e845b084d2380f5a1": {
+    "type": "normal_user",
+    "id": 253,
+    "is_smart_money": false
+  },
+  "0x0c9297c10af3adda1d1e30ea24abc7b7c503cb3b": {
+    "type": "normal_user",
+    "id": 254,
+    "is_smart_money": false
+  },
+  "0x63cae3d9819e40f20c8d948f3d949708fd2496f7": {
+    "type": "normal_user",
+    "id": 255,
+    "is_smart_money": false
+  },
+  "0xcd4b9a7a679996de0c5404ea78150710e4352e7b": {
+    "type": "normal_user",
+    "id": 256,
+    "is_smart_money": false
+  },
+  "0xb8621b57281fd74be1bb974d6ba6165b2644de3c": {
+    "type": "normal_user",
+    "id": 257,
+    "is_smart_money": false
+  },
+  "0x3c17457396e32110f52c51bb16f0aac12ba37016": {
+    "type": "normal_user",
+    "id": 258,
+    "is_smart_money": false
+  },
+  "0x74b370303c140bf32ef587cb7002e7e4281b8094": {
+    "type": "normal_user",
+    "id": 259,
+    "is_smart_money": false
+  },
+  "0xc813079b7edd06efe8078d7f873359fb88810ade": {
+    "type": "normal_user",
+    "id": 260,
+    "is_smart_money": false
+  },
+  "0x315a84def7f7671cdd422e374b96baa0440c9300": {
+    "type": "normal_user",
+    "id": 261,
+    "is_smart_money": false
+  },
+  "0xcbf22a1d08290b6b317fec23d2acaf6802ba0e89": {
+    "type": "normal_user",
+    "id": 262,
+    "is_smart_money": false
+  },
+  "0x98f158c6002716037696e87d7e267309b6fb0f8a": {
+    "type": "normal_user",
+    "id": 263,
+    "is_smart_money": false
+  },
+  "0xbc43929a1f14f8621febae04e1201890a6b93be7": {
+    "type": "normal_user",
+    "id": 264,
+    "is_smart_money": false
+  },
+  "0x93205fabf7a9c4c7a8c9460fadf2c3a635179287": {
+    "type": "normal_user",
+    "id": 265,
+    "is_smart_money": false
+  },
+  "0x1c190718e990eb495d7372544f72897c22aec6d6": {
+    "type": "normal_user",
+    "id": 266,
+    "is_smart_money": false
+  },
+  "0xe41ea5a5396a0798489b869a550ec1970f7c22a3": {
+    "type": "normal_user",
+    "id": 267,
+    "is_smart_money": false
+  },
+  "0x080cca23b730d976c2fa82afb63c975583277546": {
+    "type": "normal_user",
+    "id": 268,
+    "is_smart_money": false
+  },
+  "0x1b037bcfc98d3fb1368bc32149528c05c250592f": {
+    "type": "normal_user",
+    "id": 269,
+    "is_smart_money": false
+  },
+  "0xb280b6b392a5da67c69a683b8e595af71eea6173": {
+    "type": "normal_user",
+    "id": 270,
+    "is_smart_money": false
+  },
+  "0x5d7cbe8aea718e6838c5d5a7d2f7bb93212cafc1": {
+    "type": "normal_user",
+    "id": 271,
+    "is_smart_money": false
+  },
+  "0x17f3e7d8a12f514cab03d099924d6ea8223cf8e0": {
+    "type": "normal_user",
+    "id": 272,
+    "is_smart_money": false
+  },
+  "0xe3eb706862d1a81999962a80554ed012c16d0cd8": {
+    "type": "normal_user",
+    "id": 273,
+    "is_smart_money": false
+  },
+  "0xb04ecd1ca7bc1b81977d0432fde5a558c5ca2331": {
+    "type": "normal_user",
+    "id": 274,
+    "is_smart_money": false
+  },
+  "0x1f79cd22d46ce0e710f8de1cf46c3bfaee7370ff": {
+    "type": "normal_user",
+    "id": 275,
+    "is_smart_money": false
+  },
+  "0xf1af4a6071e76cd34c0b1122dfd98fe453581d7c": {
+    "type": "normal_user",
+    "id": 276,
+    "is_smart_money": false
+  },
+  "0xa62188e5ca2cfd5325effafa9a66024a430afa58": {
+    "type": "normal_user",
+    "id": 277,
+    "is_smart_money": false
+  },
+  "0xf5e3f9435483220a62025bf8d23e91bcd640151d": {
+    "type": "normal_user",
+    "id": 278,
+    "is_smart_money": false
+  },
+  "0xa4ed873ab5655e73d619a8d45e234851ff67741b": {
+    "type": "normal_user",
+    "id": 279,
+    "is_smart_money": false
+  },
+  "0xa45e9bda5d401adf95051bfd14d3829424d50358": {
+    "type": "normal_user",
+    "id": 280,
+    "is_smart_money": false
+  },
+  "0x82e5bb1c139c57f4e2c9deeca15f3154ecc27e3f": {
+    "type": "normal_user",
+    "id": 281,
+    "is_smart_money": false
+  },
+  "0x62829f9e3c5ac16436a8669f5b0da1ae84f1e5c5": {
+    "type": "normal_user",
+    "id": 282,
+    "is_smart_money": false
+  },
+  "0x6d1bc99222f016c9df8c5724afac2988ac7bcae4": {
+    "type": "normal_user",
+    "id": 283,
+    "is_smart_money": false
+  },
+  "0x3c2a176ce89b57c3579bedb7b5f8f36c448e050d": {
+    "type": "normal_user",
+    "id": 284,
+    "is_smart_money": false
+  },
+  "0xbaf273427985dc275a03f7e28f93216a25003ae8": {
+    "type": "normal_user",
+    "id": 285,
+    "is_smart_money": false
+  },
+  "0x61421f7bd6c0ef6400fc5205331fab62e134cb9d": {
+    "type": "normal_user",
+    "id": 286,
+    "is_smart_money": false
+  },
+  "0x97f8fa3f6d7e0aeb44a4177bd087956b8be33a3b": {
+    "type": "normal_user",
+    "id": 287,
+    "is_smart_money": false
+  },
+  "0xccbaee7ce7b3f126f2bccf0219cbcf36ee169e9d": {
+    "type": "normal_user",
+    "id": 288,
+    "is_smart_money": false
+  },
+  "0x08cae0dc5f520abb337b66a2f3e9a146bb7c1c59": {
+    "type": "normal_user",
+    "id": 289,
+    "is_smart_money": false
+  },
+  "0x9349332d695bf015c9ea902abe7336cebc9055d0": {
+    "type": "normal_user",
+    "id": 290,
+    "is_smart_money": false
+  },
+  "0x18a6e7def132176250b591584370fe777655d09b": {
+    "type": "normal_user",
+    "id": 291,
+    "is_smart_money": false
+  },
+  "0xe95514b737aef8268cb807a98651233d288f9ceb": {
+    "type": "normal_user",
+    "id": 292,
+    "is_smart_money": false
+  },
+  "0x15e72d5d9e482ed55aff6d6fbb8dd7e743b11d29": {
+    "type": "normal_user",
+    "id": 293,
+    "is_smart_money": false
+  },
+  "0x73539c0ad8c104e9b62311b2dbb7618400cdf884": {
+    "type": "normal_user",
+    "id": 294,
+    "is_smart_money": false
+  },
+  "0x25b39630fb1cc14b9fd14b649b62e54b206f8b59": {
+    "type": "normal_user",
+    "id": 295,
+    "is_smart_money": false
+  },
+  "0x6a4cd1aedc6b556fd2882fffee8b0e79c6d18f03": {
+    "type": "normal_user",
+    "id": 296,
+    "is_smart_money": false
+  },
+  "0x6d1d558be480147b5a809aa2e0bbde1eee9ed5ac": {
+    "type": "normal_user",
+    "id": 297,
+    "is_smart_money": false
+  },
+  "0x56f10fff2bb4413340a2a17b9fc4035a84e6865b": {
+    "type": "normal_user",
+    "id": 298,
+    "is_smart_money": false
+  },
+  "0x3e5a92453a8afdaffd95a42317e6406b162e6f03": {
+    "type": "normal_user",
+    "id": 299,
+    "is_smart_money": false
+  },
+  "0xf6774020ca7ccf0501673e76effeae4573d0b0aa": {
+    "type": "normal_user",
+    "id": 300,
+    "is_smart_money": false
+  },
+  "0xecadc50a45dccad7fa8c8e562e215180f5e603dc": {
+    "type": "normal_user",
+    "id": 301,
+    "is_smart_money": false
+  },
+  "0x410ffa616a857891f28d2616685383e876a67a9b": {
+    "type": "normal_user",
+    "id": 302,
+    "is_smart_money": false
+  },
+  "0x53546e784561651f98a2731fad54b149a870d952": {
+    "type": "normal_user",
+    "id": 303,
+    "is_smart_money": false
+  },
+  "0x0541aba598cd7cd1653996bc137bdd6c6f8e703c": {
+    "type": "normal_user",
+    "id": 304,
+    "is_smart_money": false
+  },
+  "0x92450fb1b4b0360374ff8798af1ce910a09bff59": {
+    "type": "normal_user",
+    "id": 305,
+    "is_smart_money": false
+  },
+  "0x1ba677da60cfac80aa294aa9f18bd36cdeb6c37c": {
+    "type": "normal_user",
+    "id": 306,
+    "is_smart_money": false
+  },
+  "0x1779fdf9035676d5252e275914c014dddec7b0b2": {
+    "type": "normal_user",
+    "id": 307,
+    "is_smart_money": false
+  },
+  "0x843eb1f3ce6713fec7945c826d99bd79c652382d": {
+    "type": "normal_user",
+    "id": 308,
+    "is_smart_money": false
+  },
+  "0x9db0dc0ce7dd1cd3c8c74570282e77ba5e2820f7": {
+    "type": "normal_user",
+    "id": 309,
+    "is_smart_money": false
+  },
+  "0x0c57592fd0d3a0447b6be5158d657a81d44933d0": {
+    "type": "normal_user",
+    "id": 310,
+    "is_smart_money": false
+  },
+  "0x19d0068660816f98e581d41e911b41d8774332ed": {
+    "type": "normal_user",
+    "id": 311,
+    "is_smart_money": false
+  },
+  "0xeca63ba521b6c84567da7ed15e428f9fc11f7fe7": {
+    "type": "normal_user",
+    "id": 312,
+    "is_smart_money": false
+  },
+  "0x4ec0db6c88f6dbde3397ea33387bd874d95dad68": {
+    "type": "normal_user",
+    "id": 313,
+    "is_smart_money": false
+  },
+  "0xdae14d590e6e09b1a5252acaeccd6979e5a2653d": {
+    "type": "normal_user",
+    "id": 314,
+    "is_smart_money": false
+  },
+  "0xbbddbba43c512be446245044ab0f18a49ab4e1be": {
+    "type": "normal_user",
+    "id": 315,
+    "is_smart_money": false
+  },
+  "0xeb2fea7d9f3bf127109d7f0178d94343c27c08ec": {
+    "type": "normal_user",
+    "id": 316,
+    "is_smart_money": false
+  },
+  "0xc38aa433662178da0d7a40ad897a5e7ef89e635d": {
+    "type": "normal_user",
+    "id": 317,
+    "is_smart_money": false
+  },
+  "0x6d418ab0a79a780cf5a77a99bae0cb58be950c40": {
+    "type": "normal_user",
+    "id": 318,
+    "is_smart_money": false
+  },
+  "0x7a6e389673e84ffdda369a0fe0c3333317f0e7ea": {
+    "type": "normal_user",
+    "id": 319,
+    "is_smart_money": false
+  },
+  "0x49d0ef9555d23ae37e991b2e78df9b2a0c419211": {
+    "type": "normal_user",
+    "id": 320,
+    "is_smart_money": false
+  },
+  "0xa24c91ec50764d34e12296cf7a37e7f370babbcf": {
+    "type": "normal_user",
+    "id": 321,
+    "is_smart_money": false
+  },
+  "0x1d943e7222c181463deb9d341af7dc594d2b71a5": {
+    "type": "normal_user",
+    "id": 322,
+    "is_smart_money": false
+  },
+  "0x3821d0586a9414bcd0e92f6c2031c9f56080161e": {
+    "type": "normal_user",
+    "id": 323,
+    "is_smart_money": false
+  },
+  "0xeb26b7f4e88442105b5e3db2d171c556582ff786": {
+    "type": "normal_user",
+    "id": 324,
+    "is_smart_money": false
+  },
+  "0xf0cd6f85e1d59e9dc9848b2cd73b6c94cfee5277": {
+    "type": "normal_user",
+    "id": 325,
+    "is_smart_money": false
+  },
+  "0x22a30c8cd502da513721dd5ee867d78a821f98c8": {
+    "type": "normal_user",
+    "id": 326,
+    "is_smart_money": false
+  },
+  "0xe9c7c0e014f61036d5704a1e6b21ca2a7e4f8150": {
+    "type": "normal_user",
+    "id": 327,
+    "is_smart_money": false
+  },
+  "0xf438721b87b448cd7eee36325b564261ec4e8bc5": {
+    "type": "normal_user",
+    "id": 328,
+    "is_smart_money": false
+  },
+  "0x80e8f28f9ffea399ccd5b3b2e2b29eab47da39d8": {
+    "type": "normal_user",
+    "id": 329,
+    "is_smart_money": false
+  },
+  "0xc22b91f465e721c4fef8938311d50ac591f3ac8c": {
+    "type": "normal_user",
+    "id": 330,
+    "is_smart_money": false
+  },
+  "0x0e0862e69c584a7b78608186ae8158a5f5492dd5": {
+    "type": "normal_user",
+    "id": 331,
+    "is_smart_money": false
+  },
+  "0x4c2d25fcec69fc9d3312815a17d4c77574c7d2d9": {
+    "type": "normal_user",
+    "id": 332,
+    "is_smart_money": false
+  },
+  "0x0731b0811afd36f77c6f73698eb1b9d91cefc1cb": {
+    "type": "normal_user",
+    "id": 333,
+    "is_smart_money": false
+  },
+  "0x9185b2523347519f096890188e703973d57850a9": {
+    "type": "normal_user",
+    "id": 334,
+    "is_smart_money": false
+  },
+  "0x9dc89810b53c14c209cccd950a4a6aa28930157d": {
+    "type": "normal_user",
+    "id": 335,
+    "is_smart_money": false
+  },
+  "0xf83dd261a1820357bc7424bd9be60252438388c8": {
+    "type": "normal_user",
+    "id": 336,
+    "is_smart_money": false
+  },
+  "0x3f38f5f3421460d263b834a8e87b10fce3036b41": {
+    "type": "normal_user",
+    "id": 337,
+    "is_smart_money": false
+  },
+  "0x894f61cf0417b2bcde70e6a44cfae4d1fab7d96f": {
+    "type": "normal_user",
+    "id": 338,
+    "is_smart_money": false
+  },
+  "0x05c8352b99684ba85945e21289125967f8fbcf61": {
+    "type": "normal_user",
+    "id": 339,
+    "is_smart_money": false
+  },
+  "0xa8ed5ce91931ced48fb6b19dd2aabf8d3f4dbf15": {
+    "type": "normal_user",
+    "id": 340,
+    "is_smart_money": false
+  },
+  "0x4026c0cb51bc55a86a16b96d16076514c5cba5a7": {
+    "type": "normal_user",
+    "id": 341,
+    "is_smart_money": false
+  },
+  "0x1adc9ec09b264801dc1f90167bd67400098b1326": {
+    "type": "normal_user",
+    "id": 342,
+    "is_smart_money": false
+  },
+  "0xde6b4285e30e750b0ccdc3e2faa968cae2bcdbbe": {
+    "type": "normal_user",
+    "id": 343,
+    "is_smart_money": false
+  },
+  "0xdcd16f52c407d38b1e42dc0a2f82451ccc8ba035": {
+    "type": "normal_user",
+    "id": 344,
+    "is_smart_money": false
+  },
+  "0xbf086db0f88309e62953a7c89edfd68c4c8222b7": {
+    "type": "normal_user",
+    "id": 345,
+    "is_smart_money": false
+  },
+  "0x8b9ab41e98922f56d829a88fb081d3cd7d1a2ac2": {
+    "type": "normal_user",
+    "id": 346,
+    "is_smart_money": false
+  },
+  "0x164a4ac315564dc412f9d6740ad960e369f6615b": {
+    "type": "normal_user",
+    "id": 347,
+    "is_smart_money": false
+  },
+  "0x5ff69609f43f3495636c78838e604f11757ee285": {
+    "type": "normal_user",
+    "id": 348,
+    "is_smart_money": false
+  },
+  "0xedc98c6529360f4b7662cc0826617f124e238065": {
+    "type": "normal_user",
+    "id": 349,
+    "is_smart_money": false
+  },
+  "0xd9ac620b2db8c6320957254e56c5ff559be47850": {
+    "type": "normal_user",
+    "id": 350,
+    "is_smart_money": false
+  },
+  "0xcc6bc95f779035376d3069593abffa2f8f7164db": {
+    "type": "normal_user",
+    "id": 351,
+    "is_smart_money": false
+  },
+  "0xf1a17af7e9cf01d93ef0d258fa291a4ddc36dfaa": {
+    "type": "normal_user",
+    "id": 352,
+    "is_smart_money": false
+  },
+  "0xefc3d8cf856b3e6b574a3a3c7857e509603c0099": {
+    "type": "normal_user",
+    "id": 353,
+    "is_smart_money": false
+  },
+  "0x991b10e3271ef5d3c9f00d71984bada272863014": {
+    "type": "normal_user",
+    "id": 354,
+    "is_smart_money": false
+  },
+  "0x592fcc357779db40c8b32b56fd8c506c63c88203": {
+    "type": "normal_user",
+    "id": 355,
+    "is_smart_money": false
+  },
+  "0xe369e373d01602e1d5a3ccbb1467baf5c144e50b": {
+    "type": "normal_user",
+    "id": 356,
+    "is_smart_money": false
+  },
+  "0x1aac232865b61f4c2e6b98bc285d0f5e1c670675": {
+    "type": "normal_user",
+    "id": 357,
+    "is_smart_money": false
+  },
+  "0x65fea2d838b08142b0db077b2a90241e99ceae3b": {
+    "type": "normal_user",
+    "id": 358,
+    "is_smart_money": false
+  },
+  "0x1abd538d6eaf43d476bc243f879a2958bde9adb6": {
+    "type": "normal_user",
+    "id": 359,
+    "is_smart_money": false
+  },
+  "0xda372220a86f1cdc56af7e244c57967cbcc1f1b3": {
+    "type": "normal_user",
+    "id": 360,
+    "is_smart_money": false
+  },
+  "0x1270515bf604bca7933a279dfa6129feba92d6ac": {
+    "type": "normal_user",
+    "id": 361,
+    "is_smart_money": false
+  },
+  "0xd2bccd1e44de28f180ec3376e5448103236b0771": {
+    "type": "normal_user",
+    "id": 362,
+    "is_smart_money": false
+  },
+  "0x9daeb0e07d0732be9e63cc9556e567e183db8dc0": {
+    "type": "normal_user",
+    "id": 363,
+    "is_smart_money": false
+  },
+  "0x934eeea9284c06979fbcc2b5095b5eb93737845f": {
+    "type": "normal_user",
+    "id": 364,
+    "is_smart_money": false
+  },
+  "0x978c5fa78875a97298aafca114e5694c4619f5d8": {
+    "type": "normal_user",
+    "id": 365,
+    "is_smart_money": false
+  },
+  "0xd66d4f3b593a5445259022c2c31e4c712300f91d": {
+    "type": "normal_user",
+    "id": 366,
+    "is_smart_money": false
+  },
+  "0xe672a0d1e563a46212881d7ea9b49738e6b65f5f": {
+    "type": "normal_user",
+    "id": 367,
+    "is_smart_money": false
+  },
+  "0x57cef688f214cded9a5e0747ef09c8f7a1abc054": {
+    "type": "normal_user",
+    "id": 368,
+    "is_smart_money": false
+  },
+  "0x06d91250069ad4250bed04a5fedfaa268d6a8c7f": {
+    "type": "normal_user",
+    "id": 369,
+    "is_smart_money": false
+  },
+  "0x11348c08d629d6e8e83c8310cbc407e3adeaefbb": {
+    "type": "normal_user",
+    "id": 370,
+    "is_smart_money": false
+  },
+  "0xff9e619e9e43a85f274a6371168360207cdb3dd2": {
+    "type": "normal_user",
+    "id": 371,
+    "is_smart_money": false
+  },
+  "0x964c0a20d3b94a1485bbc933107f96149981f3f1": {
+    "type": "normal_user",
+    "id": 372,
+    "is_smart_money": false
+  },
+  "0x616ebe8bedecd0f542b427a0e314b80a1714983c": {
+    "type": "normal_user",
+    "id": 373,
+    "is_smart_money": false
+  },
+  "0x2696125df6b97ed13a444c26a29eaef61f85fef5": {
+    "type": "normal_user",
+    "id": 374,
+    "is_smart_money": false
+  },
+  "0x412badccb7e4ccadf0ccac0c4b9ce2cecd84dde8": {
+    "type": "normal_user",
+    "id": 375,
+    "is_smart_money": false
+  },
+  "0x2cacd2da009b494eb1e02305ae2a061c6cbb02c2": {
+    "type": "normal_user",
+    "id": 376,
+    "is_smart_money": false
+  },
+  "0x7f76a7673136c02dfac21738590bc9c7deb2853b": {
+    "type": "normal_user",
+    "id": 377,
+    "is_smart_money": false
+  },
+  "0x14325e397ed6443d66b03b71c7343ff61913e9a1": {
+    "type": "normal_user",
+    "id": 378,
+    "is_smart_money": false
+  },
+  "0xde99d09209b521dd4fb0252975a32216aadb4868": {
+    "type": "normal_user",
+    "id": 379,
+    "is_smart_money": false
+  },
+  "0xd5d11358131dbacc6ca0ec05dcff9406b98f04b2": {
+    "type": "normal_user",
+    "id": 380,
+    "is_smart_money": false
+  },
+  "0x1d51262dc242e3e4dd8433dd32bded1861e4aa82": {
+    "type": "normal_user",
+    "id": 381,
+    "is_smart_money": false
+  },
+  "0x6660ca697b45b4cc0ceb3bdcab16ac44f8adaa4d": {
+    "type": "normal_user",
+    "id": 382,
+    "is_smart_money": false
+  },
+  "0x83faf5348d29356c02f48a8df7f16d95feac4584": {
+    "type": "normal_user",
+    "id": 383,
+    "is_smart_money": false
+  },
+  "0xc51354dc192dd49786aaf63270afb5058b024ac2": {
+    "type": "normal_user",
+    "id": 384,
+    "is_smart_money": false
+  },
+  "0x6ac6eda309433dffa6a1466181a0cc9d0b86e92c": {
+    "type": "normal_user",
+    "id": 385,
+    "is_smart_money": false
+  },
+  "0x419d7be716814be6e56b1c82cbacf109b0dc4495": {
+    "type": "normal_user",
+    "id": 386,
+    "is_smart_money": false
+  },
+  "0x2ba6bbb800b1238a61d01d002d282778f12945fa": {
+    "type": "normal_user",
+    "id": 387,
+    "is_smart_money": false
+  },
+  "0x95fe148b9e721dd1863d942a180f15f1be769af0": {
+    "type": "normal_user",
+    "id": 388,
+    "is_smart_money": false
+  },
+  "0x60ea56040bd3f36906e7f9a28725b78cf4b30cd2": {
+    "type": "normal_user",
+    "id": 389,
+    "is_smart_money": false
+  },
+  "0xb5ef30fed02f9f4ef45049f2dd26faf920fba4a3": {
+    "type": "normal_user",
+    "id": 390,
+    "is_smart_money": false
+  },
+  "0x83b4344b7fa578f3f65b8d9d8076b6f001351046": {
+    "type": "normal_user",
+    "id": 391,
+    "is_smart_money": false
+  },
+  "0xdeb18c8b6db3923e4d2b0ebd86421640d7dd0e92": {
+    "type": "normal_user",
+    "id": 392,
+    "is_smart_money": false
+  },
+  "0xe0e4f640173e115b9bdd6074b801e2c52a9f3f7e": {
+    "type": "normal_user",
+    "id": 393,
+    "is_smart_money": false
+  },
+  "0x68d3da1d443b91e97d6153f2c346434c923f1fdd": {
+    "type": "normal_user",
+    "id": 394,
+    "is_smart_money": false
+  },
+  "0x53c7bdfd029c0c4f03d2379463d861065253ad55": {
+    "type": "normal_user",
+    "id": 395,
+    "is_smart_money": false
+  },
+  "0x1dc729f0c75751eb45c857df6a89a9b87f0a8f9c": {
+    "type": "normal_user",
+    "id": 396,
+    "is_smart_money": false
+  },
+  "0x7bffd1fb52f5aefba7e1ec04e4371e0b72bffd10": {
+    "type": "normal_user",
+    "id": 397,
+    "is_smart_money": false
+  },
+  "0xc31d2f30c262f265feb872b873575e158530d09d": {
+    "type": "normal_user",
+    "id": 398,
+    "is_smart_money": false
+  },
+  "0x8071d1687a2f9d0344402ce2fa54dd1d146b06d4": {
+    "type": "normal_user",
+    "id": 399,
+    "is_smart_money": false
+  },
+  "0x7c31deff8acdf4a0cce4a4ffcb2013932c189283": {
+    "type": "normal_user",
+    "id": 400,
+    "is_smart_money": false
+  },
+  "0xe1e3124b7d2cf16a1fcc9c25fd3475e6d5fc7af1": {
+    "type": "normal_user",
+    "id": 401,
+    "is_smart_money": false
+  },
+  "0x561f6db1b0cbed3492d15967ef79f39bc5ee6b56": {
+    "type": "normal_user",
+    "id": 402,
+    "is_smart_money": false
+  },
+  "0xc9eb37d2975e0b45a2d36e21592de0dd692361d5": {
+    "type": "normal_user",
+    "id": 403,
+    "is_smart_money": false
+  },
+  "0x5a4584d1f4745c9c8f3a830bed83a49bc245f09f": {
+    "type": "normal_user",
+    "id": 404,
+    "is_smart_money": false
+  },
+  "0x0c4d5194dffff1d150f057d0507606387b12f4e5": {
+    "type": "normal_user",
+    "id": 405,
+    "is_smart_money": false
+  },
+  "0xa6125d68db9a0af5dfe34b629e2aab27a6e12c99": {
+    "type": "normal_user",
+    "id": 406,
+    "is_smart_money": false
+  },
+  "0xa4fdd6ca44b5250233c70d4503ab2e94d25fed6b": {
+    "type": "normal_user",
+    "id": 407,
+    "is_smart_money": false
+  },
+  "0x03e1807cb66b5c55054ca546e64c27112861127d": {
+    "type": "normal_user",
+    "id": 408,
+    "is_smart_money": false
+  },
+  "0xb713bd10d874ce6fd8767f75f6c790c14564f4ce": {
+    "type": "normal_user",
+    "id": 409,
+    "is_smart_money": false
+  },
+  "0xbcac6f32bbe49a2d9f1845ae76fd276673b5b858": {
+    "type": "normal_user",
+    "id": 410,
+    "is_smart_money": false
+  },
+  "0xe93391cfc905d256647183941b7cf1b832c87709": {
+    "type": "normal_user",
+    "id": 411,
+    "is_smart_money": false
+  },
+  "0x75deb109701bb7df94587c4485673e23b02c79a9": {
+    "type": "normal_user",
+    "id": 412,
+    "is_smart_money": false
+  },
+  "0xb92a790dfbcef505429717fbd9617bf0f62c9027": {
+    "type": "normal_user",
+    "id": 413,
+    "is_smart_money": false
+  },
+  "0x2d12d53327b89c05dcc6d0e3fa237fcd293e5319": {
+    "type": "normal_user",
+    "id": 414,
+    "is_smart_money": false
+  },
+  "0xd7def37d55958770b3b4eb5a0f09008c085c47f5": {
+    "type": "normal_user",
+    "id": 415,
+    "is_smart_money": false
+  },
+  "0x5dd5218ba0cb639f115d0b88fdf93e656dd192a5": {
+    "type": "normal_user",
+    "id": 416,
+    "is_smart_money": false
+  },
+  "0x5ad99620321b9c66d1ce9b5ac0d845e9c67eadd3": {
+    "type": "normal_user",
+    "id": 417,
+    "is_smart_money": false
+  },
+  "0x69702bec3f2d7e9f436c103018a489b076f77fe6": {
+    "type": "normal_user",
+    "id": 418,
+    "is_smart_money": false
+  },
+  "0xbfbe9d18b3d6eecca9f12687b2b5d21886a48df3": {
+    "type": "normal_user",
+    "id": 419,
+    "is_smart_money": false
+  },
+  "0x306d5209e3b31a5ecd659237f61b38b858e01246": {
+    "type": "normal_user",
+    "id": 420,
+    "is_smart_money": false
+  },
+  "0x9b09d6a706877bf2c425f57269932b98f4b7a497": {
+    "type": "normal_user",
+    "id": 421,
+    "is_smart_money": false
+  },
+  "0x41d7f621960f247ee7171d34b8ba95b2d22eee2b": {
+    "type": "normal_user",
+    "id": 422,
+    "is_smart_money": false
+  },
+  "0xdea7533dc7892a9d53a693a401cbe8a74b042781": {
+    "type": "normal_user",
+    "id": 423,
+    "is_smart_money": false
+  },
+  "0xd89326bc9a2c5a5a5e306f7b0e49952850e006da": {
+    "type": "normal_user",
+    "id": 424,
+    "is_smart_money": false
+  },
+  "0x133d8baf6eafae80b903f70f7e7e37af6a4a5abc": {
+    "type": "normal_user",
+    "id": 425,
+    "is_smart_money": false
+  },
+  "0x7da57f62f03aa2a08d9046cf3faaf95f3b56f5e4": {
+    "type": "normal_user",
+    "id": 426,
+    "is_smart_money": false
+  },
+  "0xcf6e4333e6c8425dfa47822ff50fa12215bc8348": {
+    "type": "normal_user",
+    "id": 427,
+    "is_smart_money": false
+  },
+  "0x8410fe24db56d3da8a3d6cb6469949b43b4e36dc": {
+    "type": "normal_user",
+    "id": 428,
+    "is_smart_money": false
+  },
+  "0xdc79942d6798f3fe08a5a2116f698ea800e3ad67": {
+    "type": "normal_user",
+    "id": 429,
+    "is_smart_money": false
+  },
+  "0x9a082a056b6f9806bcae19767f101e0b65910f2b": {
+    "type": "normal_user",
+    "id": 430,
+    "is_smart_money": false
+  },
+  "0xb8b58f0a153f65ec7c54f6a7e9facebc3e887d95": {
+    "type": "normal_user",
+    "id": 431,
+    "is_smart_money": false
+  },
+  "0xe0f61ecf6eaf7f050b697bf075399887b24fa415": {
+    "type": "normal_user",
+    "id": 432,
+    "is_smart_money": false
+  },
+  "0x440b03762899aa635a6303c29f443f739138489b": {
+    "type": "normal_user",
+    "id": 433,
+    "is_smart_money": false
+  },
+  "0xc7e4c44727712c7835cecc74a58e164c9d91d6c9": {
+    "type": "normal_user",
+    "id": 434,
+    "is_smart_money": false
+  },
+  "0xaba75c09248feb04a1062541a8b0676386bd7c15": {
+    "type": "normal_user",
+    "id": 435,
+    "is_smart_money": false
+  },
+  "0xf11634c0845b782b05a12d9a94143a152c0fde30": {
+    "type": "normal_user",
+    "id": 436,
+    "is_smart_money": false
+  },
+  "0xa0711317e10c7a850ba0cd8205df7dc560812569": {
+    "type": "normal_user",
+    "id": 437,
+    "is_smart_money": false
+  },
+  "0x1f742db2575fc278ed678aa72a1895908922b8b8": {
+    "type": "normal_user",
+    "id": 438,
+    "is_smart_money": false
+  },
+  "0x51a82d7a47e7b0644e7dcd7df211ff6830c4d9a4": {
+    "type": "normal_user",
+    "id": 439,
+    "is_smart_money": false
+  },
+  "0xe8260bda682f964b74c91a9af2c752e04b10e385": {
+    "type": "normal_user",
+    "id": 440,
+    "is_smart_money": false
+  },
+  "0x4ae76204d18f200d31cf8cbfd3ca6eca0e162e37": {
+    "type": "normal_user",
+    "id": 441,
+    "is_smart_money": false
+  },
+  "0x8891ed28c85cdda389fe9de89c8bed8ac189f82c": {
+    "type": "normal_user",
+    "id": 442,
+    "is_smart_money": false
+  },
+  "0x85945c7b884dc1119b8867c3f9457469bb159e32": {
+    "type": "normal_user",
+    "id": 443,
+    "is_smart_money": false
+  },
+  "0xc89aa81ace4478d973c52d79dea0601c77a3a9d4": {
+    "type": "normal_user",
+    "id": 444,
+    "is_smart_money": false
+  },
+  "0xfc9fdc9783fd0a14b9e2914d457fb220a8c4deb4": {
+    "type": "normal_user",
+    "id": 445,
+    "is_smart_money": false
+  },
+  "0x74ab87c79a50c4884b3aa9764f1f43a99d007299": {
+    "type": "normal_user",
+    "id": 446,
+    "is_smart_money": false
+  },
+  "0xebd5fb9a25e91ee9637b3bb8274b4fd3c0a7d3e6": {
+    "type": "normal_user",
+    "id": 447,
+    "is_smart_money": false
+  },
+  "0x5f843c381bab41fa169a505a644b426827f010d1": {
+    "type": "normal_user",
+    "id": 448,
+    "is_smart_money": false
+  },
+  "0x20e6859870ddd20a9669ce4ae7af2c1bb4f5ba14": {
+    "type": "normal_user",
+    "id": 449,
+    "is_smart_money": false
+  },
+  "0x1a15f7609082dbe2b61103fee8bf431b77855186": {
+    "type": "normal_user",
+    "id": 450,
+    "is_smart_money": false
+  },
+  "0x9cac5e0929cf597ff539b37d596a57153abdd003": {
+    "type": "normal_user",
+    "id": 451,
+    "is_smart_money": false
+  },
+  "0x49c9149c76515e017e223f7cdeb92907567046ae": {
+    "type": "normal_user",
+    "id": 452,
+    "is_smart_money": false
+  },
+  "0x86732203196a054f27725373a3a27ec4106864b1": {
+    "type": "normal_user",
+    "id": 453,
+    "is_smart_money": false
+  },
+  "0xee350cf48937a20c2b9a5e22ab6024a6abdf4ff2": {
+    "type": "normal_user",
+    "id": 454,
+    "is_smart_money": false
+  },
+  "0x0cc66cd272af7ab8b54d04d9ca4f3359c3a8668f": {
+    "type": "normal_user",
+    "id": 455,
+    "is_smart_money": false
+  },
+  "0xba93f56ce00a85d805dd137e681cc0a159145d97": {
+    "type": "normal_user",
+    "id": 456,
+    "is_smart_money": false
+  },
+  "0x983f8f279494e527c75fe2ce17c9d93be653facc": {
+    "type": "normal_user",
+    "id": 457,
+    "is_smart_money": false
+  },
+  "0x09cc119a7b37e917281adb055237e59e08f2035c": {
+    "type": "normal_user",
+    "id": 458,
+    "is_smart_money": false
+  },
+  "0x967dfa55aa38c95a181f6dc1cb5a9ab65d85507f": {
+    "type": "normal_user",
+    "id": 459,
+    "is_smart_money": false
+  },
+  "0x8e382be5d4fd272cf1d27ea730305ab4a18a76b3": {
+    "type": "normal_user",
+    "id": 460,
+    "is_smart_money": false
+  },
+  "0x5a0561e6eec8d329ba239da7eec88563d7021f4c": {
+    "type": "normal_user",
+    "id": 461,
+    "is_smart_money": false
+  },
+  "0xbaf576eaa6d40a4285cded61970dcb9feccba275": {
+    "type": "normal_user",
+    "id": 462,
+    "is_smart_money": false
+  },
+  "0xfa2f6b314734133b46fdb72ae65e2c9d04806015": {
+    "type": "normal_user",
+    "id": 463,
+    "is_smart_money": false
+  },
+  "0x615f38ffac4a3c44135486e32c3da58fd0e78f8c": {
+    "type": "normal_user",
+    "id": 464,
+    "is_smart_money": false
+  },
+  "0x4ddb0712a0ec27669bf2ad6bf1204ef3bba9b9eb": {
+    "type": "normal_user",
+    "id": 465,
+    "is_smart_money": false
+  },
+  "0x6d71f71d41dff829a5fb3d6cb3c203c15abfc8a0": {
+    "type": "normal_user",
+    "id": 466,
+    "is_smart_money": false
+  },
+  "0x805bb7d78a57598839a870781730f2cdbfa3373a": {
+    "type": "normal_user",
+    "id": 467,
+    "is_smart_money": false
+  },
+  "0x0cc89e01bfe4be2e4bf4f8f29bf2964c77ea3d66": {
+    "type": "normal_user",
+    "id": 468,
+    "is_smart_money": false
+  },
+  "0x39bbe2c454edde8ab7d38aa5cafb52a606f9c6c5": {
+    "type": "normal_user",
+    "id": 469,
+    "is_smart_money": false
+  },
+  "0x7fc7b54146dd970cab9a5771ecb4149fde852df7": {
+    "type": "normal_user",
+    "id": 470,
+    "is_smart_money": false
+  },
+  "0xccf9d2ff278a8b445d984e624c251119ed2f952b": {
+    "type": "normal_user",
+    "id": 471,
+    "is_smart_money": false
+  },
+  "0xa54da3e906e143fd498812e4e5b8796d640e5e48": {
+    "type": "normal_user",
+    "id": 472,
+    "is_smart_money": false
+  },
+  "0xc265e565d801fea4f9203bbd44878184e9f5b0f7": {
+    "type": "normal_user",
+    "id": 473,
+    "is_smart_money": false
+  },
+  "0xcb5b8bd537a9bf8c0c7a100a714a8071d4ebdcfd": {
+    "type": "normal_user",
+    "id": 474,
+    "is_smart_money": false
+  },
+  "0xd2e60ded9ce1e4b4d65711ea0c0546d55de70a2c": {
+    "type": "normal_user",
+    "id": 475,
+    "is_smart_money": false
+  },
+  "0xd3295edb77ad41f3e78152fc8c39fa693f654407": {
+    "type": "normal_user",
+    "id": 476,
+    "is_smart_money": false
+  },
+  "0x1af5c719975089d689ea0c73dd3fb67409d3a06c": {
+    "type": "normal_user",
+    "id": 477,
+    "is_smart_money": false
+  },
+  "0x4f477a1a443fc7fe0f3cf3456d4a0b319f66f849": {
+    "type": "normal_user",
+    "id": 478,
+    "is_smart_money": false
+  },
+  "0x30439b50196c684c0bbd6150b7a491dec8ed39f1": {
+    "type": "normal_user",
+    "id": 479,
+    "is_smart_money": false
+  },
+  "0xb03952b19af980950d427b1c691529341771250c": {
+    "type": "normal_user",
+    "id": 480,
+    "is_smart_money": false
+  },
+  "0xab9ff4f11e391461eba94a4de882bbfb11179b02": {
+    "type": "normal_user",
+    "id": 481,
+    "is_smart_money": false
+  },
+  "0x4296e41296920d3212b76be53ec2f92cdf103ba3": {
+    "type": "normal_user",
+    "id": 482,
+    "is_smart_money": false
+  },
+  "0x3c559734fbf5518d9516aba628d5fa40356d7e32": {
+    "type": "normal_user",
+    "id": 483,
+    "is_smart_money": false
+  },
+  "0x52ee70ad7f2333a50aca3536f1ec87ebd63f9ae8": {
+    "type": "normal_user",
+    "id": 484,
+    "is_smart_money": false
+  },
+  "0x4b2f12190ba3c5f476a26fff7ee9794079dc9ea4": {
+    "type": "normal_user",
+    "id": 485,
+    "is_smart_money": false
+  },
+  "0x1303cca562958d8847c09228f44505d1b7f1019c": {
+    "type": "normal_user",
+    "id": 486,
+    "is_smart_money": false
+  },
+  "0xd80ff1f1a2897911be56020af2ecf42c6de077f0": {
+    "type": "normal_user",
+    "id": 487,
+    "is_smart_money": false
+  },
+  "0x05def7e19400cf7185029ab2f962ef22d5599b6d": {
+    "type": "normal_user",
+    "id": 488,
+    "is_smart_money": false
+  },
+  "0xc32f5f702cd1bb2f35fac0ff691e9552b7efe8d4": {
+    "type": "normal_user",
+    "id": 489,
+    "is_smart_money": false
+  },
+  "0x948289ce75e293a94d8e1e8d894cd151b85cdd93": {
+    "type": "normal_user",
+    "id": 490,
+    "is_smart_money": false
+  },
+  "0x3fdf9fa5473f9b11d68b2062fd5508692a465c29": {
+    "type": "normal_user",
+    "id": 491,
+    "is_smart_money": false
+  },
+  "0x96454764d7f65f2ab3b2278c74f405cde923a1ba": {
+    "type": "normal_user",
+    "id": 492,
+    "is_smart_money": false
+  },
+  "0x74e6130461d2a8956afb0eee62eff9604d726027": {
+    "type": "normal_user",
+    "id": 493,
+    "is_smart_money": false
+  },
+  "0x30586c86555da7ce99e84120f8113fdc7c871bd7": {
+    "type": "normal_user",
+    "id": 494,
+    "is_smart_money": false
+  },
+  "0xab6f0328926bf5dcb32415ccfb821a70efbccc9d": {
+    "type": "normal_user",
+    "id": 495,
+    "is_smart_money": false
+  },
+  "0x6df67c8bb1b6c3aadcfcfaef3df768bf9ad5e4e6": {
+    "type": "normal_user",
+    "id": 496,
+    "is_smart_money": false
+  },
+  "0x17e974a910aadd76733814e5b516d79a3bbd9c8d": {
+    "type": "normal_user",
+    "id": 497,
+    "is_smart_money": false
+  },
+  "0x011ef8c96ac8205d254b0e913ae3c958478dfdf9": {
+    "type": "normal_user",
+    "id": 498,
+    "is_smart_money": false
+  },
+  "0x2eebda63fe2793ba872235313cfd0596aba2d02f": {
+    "type": "normal_user",
+    "id": 499,
+    "is_smart_money": false
+  },
+  "0xdba76c2886a9d5965eeefe9d2c65cc83612cfdd5": {
+    "type": "normal_user",
+    "id": 500,
+    "is_smart_money": false
+  },
+  "0x32546557df88b1cf9dc389530e8e45bdecd7f291": {
+    "type": "normal_user",
+    "id": 501,
+    "is_smart_money": false
+  },
+  "0xa193d0a00644a6a328a16ce4422d603a4f4e0f84": {
+    "type": "normal_user",
+    "id": 502,
+    "is_smart_money": false
+  },
+  "0x4a93d4d1d6b7405131644de36a612b3df0e9f816": {
+    "type": "normal_user",
+    "id": 503,
+    "is_smart_money": false
+  },
+  "0x8cd4f52ffdacc36ac8fccbbbcebd08d78ec6de49": {
+    "type": "normal_user",
+    "id": 504,
+    "is_smart_money": false
+  },
+  "0x87d1de3cbc11e9486afc0b31d28114af5fd633be": {
+    "type": "normal_user",
+    "id": 505,
+    "is_smart_money": false
+  },
+  "0x7a20eea799f74b1facb6ed5dbb33c7541495ed21": {
+    "type": "normal_user",
+    "id": 506,
+    "is_smart_money": false
+  },
+  "0x333550abf710c74f9b705f6a860773e155d98d57": {
+    "type": "normal_user",
+    "id": 507,
+    "is_smart_money": false
+  },
+  "0xadd6c5be4492e5e6fcbd447fba20f44c7388760d": {
+    "type": "normal_user",
+    "id": 508,
+    "is_smart_money": false
+  },
+  "0xec04074476f242d36755a1e586237d155972ce2f": {
+    "type": "normal_user",
+    "id": 509,
+    "is_smart_money": false
+  },
+  "0xadf36cd30fbbb8cd9da95a2bc915c4fa61b73dd6": {
+    "type": "normal_user",
+    "id": 510,
+    "is_smart_money": false
+  },
+  "0x82b6fb6fa678d677505b1fd965576edbb7edc44a": {
+    "type": "normal_user",
+    "id": 511,
+    "is_smart_money": false
+  },
+  "0x76cc439138badad93153ed2769cfdb28f7ad5f46": {
+    "type": "normal_user",
+    "id": 512,
+    "is_smart_money": false
+  },
+  "0x79c8db5628c18ab658a8534ca76647373640e51f": {
+    "type": "normal_user",
+    "id": 513,
+    "is_smart_money": false
+  },
+  "0xfdc692f85209a794b453c0f00e2bf67e4fe68faa": {
+    "type": "normal_user",
+    "id": 514,
+    "is_smart_money": false
+  },
+  "0xd9b7cc8514e1570664d1cce0771f558f3ea4c7eb": {
+    "type": "normal_user",
+    "id": 515,
+    "is_smart_money": false
+  },
+  "0xbe05196daf47187ac713693e7a49432f2000767e": {
+    "type": "normal_user",
+    "id": 516,
+    "is_smart_money": false
+  },
+  "0xe6041b6c025b8e396225eb91eb599e774667954d": {
+    "type": "normal_user",
+    "id": 517,
+    "is_smart_money": false
+  },
+  "0x9aa18a9ad1c1b8b5ee3e3f3047f86147e2e00c35": {
+    "type": "normal_user",
+    "id": 518,
+    "is_smart_money": false
+  },
+  "0x72279a2c3be91e79632a3959b8b122638a4cb1ab": {
+    "type": "normal_user",
+    "id": 519,
+    "is_smart_money": false
+  },
+  "0x4c77aa6fbc6d37608dafabb8932fa3bc3c5f2b88": {
+    "type": "normal_user",
+    "id": 520,
+    "is_smart_money": false
+  },
+  "0x7c53a60b5fb373943d24d3978307714351ab28b9": {
+    "type": "normal_user",
+    "id": 521,
+    "is_smart_money": false
+  },
+  "0xe9e18511bbb3837f169f013dac308dbedd50f4b2": {
+    "type": "normal_user",
+    "id": 522,
+    "is_smart_money": false
+  },
+  "0x8a1ec3c94886f225b810f6e658c67ee2e7cc23b3": {
+    "type": "normal_user",
+    "id": 523,
+    "is_smart_money": false
+  },
+  "0x37eedf60ae3c4f73907f5f26fa5f23d13ff66e3c": {
+    "type": "normal_user",
+    "id": 524,
+    "is_smart_money": false
+  },
+  "0xce35b31dca1792fa053d9da63641551910475065": {
+    "type": "normal_user",
+    "id": 525,
+    "is_smart_money": false
+  },
+  "0x2da97be673614c1c06a7f27e568d344c01df4b7e": {
+    "type": "normal_user",
+    "id": 526,
+    "is_smart_money": false
+  },
+  "0xcff35736dc7bec45d25f5c222f9ca1bb662fe04d": {
+    "type": "normal_user",
+    "id": 527,
+    "is_smart_money": false
+  },
+  "0x6386d076b319e87d742884b77b580ce12fd15021": {
+    "type": "normal_user",
+    "id": 528,
+    "is_smart_money": false
+  },
+  "0x77600a0ed7c7d3319aa285a6c5c80c9a2ae924e8": {
+    "type": "normal_user",
+    "id": 529,
+    "is_smart_money": false
+  },
+  "0x97abcde25f819bca5414e81cc7776a15ac725f87": {
+    "type": "normal_user",
+    "id": 530,
+    "is_smart_money": false
+  },
+  "0xfa45e2bf9a725aeb1fc6fdaee934005646239910": {
+    "type": "normal_user",
+    "id": 531,
+    "is_smart_money": false
+  },
+  "0x7395cbf2c55899fa0b81ccd283978e1edacb4e45": {
+    "type": "normal_user",
+    "id": 532,
+    "is_smart_money": false
+  },
+  "0x4ec722fb5a1225bc90b06b55cc54c889b91208bd": {
+    "type": "normal_user",
+    "id": 533,
+    "is_smart_money": false
+  },
+  "0x89a266c5cdc9637dca64df952b929ccb53a1822d": {
+    "type": "normal_user",
+    "id": 534,
+    "is_smart_money": false
+  },
+  "0xa759264b6c56990a089920a71fc00721b24db5bc": {
+    "type": "normal_user",
+    "id": 535,
+    "is_smart_money": false
+  },
+  "0xebfefc02fcb49f091d8a119295fa8912bf579909": {
+    "type": "normal_user",
+    "id": 536,
+    "is_smart_money": false
+  },
+  "0x93bf3412b6f10a9a0423d14549cbd6c52645fb66": {
+    "type": "normal_user",
+    "id": 537,
+    "is_smart_money": false
+  },
+  "0x15f41586f230713557b1e9bdeffa9439d8708ae4": {
+    "type": "normal_user",
+    "id": 538,
+    "is_smart_money": false
+  },
+  "0xf52d8a36415f4bfeb1e17a75187a1a167875a995": {
+    "type": "normal_user",
+    "id": 539,
+    "is_smart_money": false
+  },
+  "0xf884e369a66c9da35693a113253050dfe9d2a6f6": {
+    "type": "normal_user",
+    "id": 540,
+    "is_smart_money": false
+  },
+  "0x75726aea0363383cb64a493ecbb1f789b7aa2e83": {
+    "type": "normal_user",
+    "id": 541,
+    "is_smart_money": false
+  },
+  "0x72fbc250c8a94d1856846208d4fc77f05a7c13c5": {
+    "type": "normal_user",
+    "id": 542,
+    "is_smart_money": false
+  },
+  "0x489132b4844871161d099f803b62922103eb145a": {
+    "type": "normal_user",
+    "id": 543,
+    "is_smart_money": false
+  },
+  "0x9fe2fc1eb35fec8825b8b7125859a3c4b65e8dc5": {
+    "type": "normal_user",
+    "id": 544,
+    "is_smart_money": false
+  },
+  "0xa705f050e5e05ebfff4471c6b951971dd06bc457": {
+    "type": "normal_user",
+    "id": 545,
+    "is_smart_money": false
+  },
+  "0xff09a92f25130a0a0de5dee68c22f0208648de1a": {
+    "type": "normal_user",
+    "id": 546,
+    "is_smart_money": false
+  },
+  "0x3dd3889204a73b3856873a95c7f6858139af067e": {
+    "type": "normal_user",
+    "id": 547,
+    "is_smart_money": false
+  },
+  "0x371caba04a6912ce2e888d8dea083239f9b17ef1": {
+    "type": "normal_user",
+    "id": 548,
+    "is_smart_money": false
+  },
+  "0xed45dacdc4d6f693cdacb796fb2c07df044f801d": {
+    "type": "normal_user",
+    "id": 549,
+    "is_smart_money": false
+  },
+  "0x3dbc68fb5f13f35ac0f55e8fefe48affdbce5795": {
+    "type": "normal_user",
+    "id": 550,
+    "is_smart_money": false
+  },
+  "0x9c8b17224e0345828c988eae291f935815a1b931": {
+    "type": "normal_user",
+    "id": 551,
+    "is_smart_money": false
+  },
+  "0xd5fd3109bcec95d524c691647b378ad5159c4e93": {
+    "type": "normal_user",
+    "id": 552,
+    "is_smart_money": false
+  },
+  "0x0df23b5cb231806e3a2596bf727f53bee5084895": {
+    "type": "normal_user",
+    "id": 553,
+    "is_smart_money": false
+  },
+  "0x61bcf1784525227a0d3a6664bcbb65a008e42ae7": {
+    "type": "normal_user",
+    "id": 554,
+    "is_smart_money": false
+  },
+  "0xbd9418c5348b3a0f454fe622eba907c814afa163": {
+    "type": "normal_user",
+    "id": 555,
+    "is_smart_money": false
+  },
+  "0x91c7bd1a043c460bfa59bb3d6e9ce499b7405be3": {
+    "type": "normal_user",
+    "id": 556,
+    "is_smart_money": false
+  },
+  "0x001c10ecdefb0086822a6dde039795b94d961899": {
+    "type": "normal_user",
+    "id": 557,
+    "is_smart_money": false
+  },
+  "0xe1bc0b5e44b7ce5558c06a855e2e7d8212d8db25": {
+    "type": "normal_user",
+    "id": 558,
+    "is_smart_money": false
+  },
+  "0x98489c912c1b3caf9259af9ac4490fe451c795b4": {
+    "type": "normal_user",
+    "id": 559,
+    "is_smart_money": false
+  },
+  "0x304a4707ae6330c014409b6b08f7a22e989706fa": {
+    "type": "normal_user",
+    "id": 560,
+    "is_smart_money": false
+  },
+  "0x2785168bac1b985ff6bf939a418afe1dc34fc814": {
+    "type": "normal_user",
+    "id": 561,
+    "is_smart_money": false
+  },
+  "0x2ad926ec3456d8ccd69a997efb75cd9b2e7ad249": {
+    "type": "normal_user",
+    "id": 562,
+    "is_smart_money": false
+  },
+  "0x02a849aad018be7c4496dc1605ed54c8563d3e5f": {
+    "type": "normal_user",
+    "id": 563,
+    "is_smart_money": false
+  },
+  "0x22587f249186f5877309023bad48c7a7562a9bf7": {
+    "type": "normal_user",
+    "id": 564,
+    "is_smart_money": false
+  },
+  "0xe4d490fa2cd2f61ab9a046def205b94de4bdc278": {
+    "type": "normal_user",
+    "id": 565,
+    "is_smart_money": false
+  },
+  "0xf7e32c72c32f41a714f259b8ae79015bee1bd29b": {
+    "type": "normal_user",
+    "id": 566,
+    "is_smart_money": false
+  },
+  "0x6f2bb64ce6f75ab413b4b4c4d8e540b5f58b4311": {
+    "type": "normal_user",
+    "id": 567,
+    "is_smart_money": false
+  },
+  "0xcbfa798f68b2a5e162ceacb57c20c429fce00f32": {
+    "type": "normal_user",
+    "id": 568,
+    "is_smart_money": false
+  },
+  "0xc035e74b0bb3b1e1e18bccf4042e95e1df542f15": {
+    "type": "normal_user",
+    "id": 569,
+    "is_smart_money": false
+  },
+  "0xfc63124691f502583f131321b77272f2b3e5af96": {
+    "type": "normal_user",
+    "id": 570,
+    "is_smart_money": false
+  },
+  "0x938a5475120f854bdf967d9376b73c7ad71ca464": {
+    "type": "normal_user",
+    "id": 571,
+    "is_smart_money": false
+  },
+  "0x08a49ba1f6e0277b79ac7eda63ae72274c8a5e9c": {
+    "type": "normal_user",
+    "id": 572,
+    "is_smart_money": false
+  },
+  "0x00d4ba39911a95a54daadc5a32b28fee400c49ef": {
+    "type": "normal_user",
+    "id": 573,
+    "is_smart_money": false
+  },
+  "0x68fd9de26049ba095c1837c4a258ff16b3bcbcf5": {
+    "type": "normal_user",
+    "id": 574,
+    "is_smart_money": false
+  },
+  "0x1360a8a619229bd68069f5331ceb1f8d721ea4b3": {
+    "type": "normal_user",
+    "id": 575,
+    "is_smart_money": false
+  },
+  "0xd82f9e09dacfbcf8c8b81bee1942d397e6635e6b": {
+    "type": "normal_user",
+    "id": 576,
+    "is_smart_money": false
+  },
+  "0x0bc9eed6684c5934f756ffd549c7ff9c8b41a694": {
+    "type": "normal_user",
+    "id": 577,
+    "is_smart_money": false
+  },
+  "0x5d4f4295f23214d2a3511f6b4fb5a030061a8dbd": {
+    "type": "normal_user",
+    "id": 578,
+    "is_smart_money": false
+  },
+  "0x81bb3d072ed85aa2f8389a7e39731a3fbde1d26b": {
+    "type": "normal_user",
+    "id": 579,
+    "is_smart_money": false
+  },
+  "0xbad448e7192c57f3c6dcc7a9d7ae33c6028271a3": {
+    "type": "normal_user",
+    "id": 580,
+    "is_smart_money": false
+  },
+  "0x4e7cfb4b33f0c075c89c191fe18a1d923aa025f3": {
+    "type": "normal_user",
+    "id": 581,
+    "is_smart_money": false
+  },
+  "0xee4ba2df4da55a277967a573b0c48a4db9b70385": {
+    "type": "normal_user",
+    "id": 582,
+    "is_smart_money": false
+  },
+  "0x63bea88eb36d65130c213b0df47777c4e883c00e": {
+    "type": "normal_user",
+    "id": 583,
+    "is_smart_money": false
+  },
+  "0xd442b108b996dc0cb49ed083da7af7c6d8dcbfed": {
+    "type": "normal_user",
+    "id": 584,
+    "is_smart_money": false
+  },
+  "0x26f1f623d60a5857229ca8d0880f38b759ddad3e": {
+    "type": "normal_user",
+    "id": 585,
+    "is_smart_money": false
+  },
+  "0x966c76503eb8a2e1d176200e17bea82aac1bfa20": {
+    "type": "normal_user",
+    "id": 586,
+    "is_smart_money": false
+  },
+  "0x6ff4f318d426ff55b1d6658dfde2d1bc81f3fa11": {
+    "type": "normal_user",
+    "id": 587,
+    "is_smart_money": false
+  },
+  "0x95054ac33d9e0304648f1e97f2830bfcd8454a60": {
+    "type": "normal_user",
+    "id": 588,
+    "is_smart_money": false
+  },
+  "0x165c8e769f22ec934e410b965eeebc496218d150": {
+    "type": "normal_user",
+    "id": 589,
+    "is_smart_money": false
+  },
+  "0xa5acc9edc5ed46f59298929008147e445d61d70c": {
+    "type": "normal_user",
+    "id": 590,
+    "is_smart_money": false
+  },
+  "0xc2c223a6ca0559408f4dcf72c61509bb5b4e2ad4": {
+    "type": "normal_user",
+    "id": 591,
+    "is_smart_money": false
+  },
+  "0x15e25e1471b69d5feb9d7c1be932a1265c0efa8d": {
+    "type": "normal_user",
+    "id": 592,
+    "is_smart_money": false
+  },
+  "0xb8f6c9578610b642f03c8b82b5f362f896a19e37": {
+    "type": "normal_user",
+    "id": 593,
+    "is_smart_money": false
+  },
+  "0x4788ee4626b67d5b50504bcf2f740422e33c9f73": {
+    "type": "normal_user",
+    "id": 594,
+    "is_smart_money": false
+  },
+  "0xe1ebd3c06746b2ae562458fe76f8e6f6047368f8": {
+    "type": "normal_user",
+    "id": 595,
+    "is_smart_money": false
+  },
+  "0x52936ca4df4f28e0bf52e664443fcb013e5b53c3": {
+    "type": "normal_user",
+    "id": 596,
+    "is_smart_money": false
+  },
+  "0x570c4c84f0089896faf349dcd3f2949e0621a300": {
+    "type": "normal_user",
+    "id": 597,
+    "is_smart_money": false
+  },
+  "0xebe511576fd9f1f47a3ff8a67efed69bfc59da42": {
+    "type": "normal_user",
+    "id": 598,
+    "is_smart_money": false
+  },
+  "0x9e8a402b9448413faa246b5f1447fd827c162a24": {
+    "type": "normal_user",
+    "id": 599,
+    "is_smart_money": false
+  },
+  "0xb8384c0c35e3357c895bcfb49ecd4e623ad39278": {
+    "type": "normal_user",
+    "id": 600,
+    "is_smart_money": false
+  },
+  "0xcca5cf964f4eeca847daf68d6fcb5317c3c3221a": {
+    "type": "normal_user",
+    "id": 601,
+    "is_smart_money": false
+  },
+  "0x2a5f773242355b5037ed8fd58305ef2be4c49c38": {
+    "type": "normal_user",
+    "id": 602,
+    "is_smart_money": false
+  },
+  "0x8d6d2c35afbd61ca04813a962f97ec36abb29058": {
+    "type": "normal_user",
+    "id": 603,
+    "is_smart_money": false
+  },
+  "0x3b50b56949c588ef8dd1ec581fdaf3456b1c39a0": {
+    "type": "normal_user",
+    "id": 604,
+    "is_smart_money": false
+  },
+  "0xdfcdbda5ee8725d1766b5a93884c634568210087": {
+    "type": "normal_user",
+    "id": 605,
+    "is_smart_money": false
+  },
+  "0xb053dc6fe559e8da3ee8c8bf443f8a2dd5ce9fb8": {
+    "type": "normal_user",
+    "id": 606,
+    "is_smart_money": false
+  },
+  "0x41d579d783c3124244e4bf75f733136dea4dbb27": {
+    "type": "normal_user",
+    "id": 607,
+    "is_smart_money": false
+  },
+  "0xe8e91b880a09f942e6ba2367733ddb2dde886883": {
+    "type": "normal_user",
+    "id": 608,
+    "is_smart_money": false
+  },
+  "0x5f1986c2627d758a88174eba3faae99cbdc4dfc9": {
+    "type": "normal_user",
+    "id": 609,
+    "is_smart_money": false
+  },
+  "0x7b270f56fef7344126499365143cd433c0853865": {
+    "type": "normal_user",
+    "id": 610,
+    "is_smart_money": false
+  },
+  "0x79db2379fa3cd74738393a61cf38ec9ea426e1cb": {
+    "type": "normal_user",
+    "id": 611,
+    "is_smart_money": false
+  },
+  "0x7a6e4fc6d2a06cb048df267446dbe425f3e31e9b": {
+    "type": "normal_user",
+    "id": 612,
+    "is_smart_money": false
+  },
+  "0xb2feba73073e51b965c277b17005f8ff17a04798": {
+    "type": "normal_user",
+    "id": 613,
+    "is_smart_money": false
+  },
+  "0x72c2046ee109b46aafaa1d7e80e6978541dd893a": {
+    "type": "normal_user",
+    "id": 614,
+    "is_smart_money": false
+  },
+  "0x852b3e7870fd444d6f7ff747b142a83ed087f85b": {
+    "type": "normal_user",
+    "id": 615,
+    "is_smart_money": false
+  },
+  "0x5145bb16fdf0afd22d809323462bcc3bfc9736a9": {
+    "type": "normal_user",
+    "id": 616,
+    "is_smart_money": false
+  },
+  "0x82983173e6d31605a80a1ecf2e865b9ddac33f81": {
+    "type": "normal_user",
+    "id": 617,
+    "is_smart_money": false
+  },
+  "0xb009c2976f93f2141577a3a642521c65e78e6841": {
+    "type": "normal_user",
+    "id": 618,
+    "is_smart_money": false
+  },
+  "0x45f2d2bfa4f2d985f7b4b9bfdee185f1c62d320c": {
+    "type": "normal_user",
+    "id": 619,
+    "is_smart_money": false
+  },
+  "0xab723c94deedfae50147705c33a6e75e13c0db29": {
+    "type": "normal_user",
+    "id": 620,
+    "is_smart_money": false
+  },
+  "0x6d7b8f78cff4378b217d21d715f75a6975c5474e": {
+    "type": "normal_user",
+    "id": 621,
+    "is_smart_money": false
+  },
+  "0x10af5ddbcde8f95362f95093505250f12701af5e": {
+    "type": "normal_user",
+    "id": 622,
+    "is_smart_money": false
+  },
+  "0xbc0595aa672813fd0b56d32938c6e6a2aa966fea": {
+    "type": "normal_user",
+    "id": 623,
+    "is_smart_money": false
+  },
+  "0x1c4e242edf3fe1aa6b9f8e11eea294b76a0f24e1": {
+    "type": "normal_user",
+    "id": 624,
+    "is_smart_money": false
+  },
+  "0xd546e5c02dd955c0db742fb75bdafc81ad544752": {
+    "type": "normal_user",
+    "id": 625,
+    "is_smart_money": false
+  },
+  "0x64b6860d2665c2cb6d77a12eaabef3e2f6a04688": {
+    "type": "normal_user",
+    "id": 626,
+    "is_smart_money": false
+  },
+  "0x9ae19949731684e6aaf5ca37cea5112dd81eada1": {
+    "type": "normal_user",
+    "id": 627,
+    "is_smart_money": false
+  },
+  "0x34ee21cbba0db3ef6ff8eae319228db2657b1c4d": {
+    "type": "normal_user",
+    "id": 628,
+    "is_smart_money": false
+  },
+  "0x2e1892ac6549faefa0551b0bc542df719587a422": {
+    "type": "normal_user",
+    "id": 629,
+    "is_smart_money": false
+  },
+  "0x558b25d9a4e913c5d6a8d44ed77343e2ec99a008": {
+    "type": "normal_user",
+    "id": 630,
+    "is_smart_money": false
+  },
+  "0x8fe5869ad0ffa8e376fd480708d81398d9ed2496": {
+    "type": "normal_user",
+    "id": 631,
+    "is_smart_money": false
+  },
+  "0xe7c52c6b7eca0888faad863c9929dd4df6f014e1": {
+    "type": "normal_user",
+    "id": 632,
+    "is_smart_money": false
+  },
+  "0xd9be4f9caf4b993e9b7c3d0bf1e24b3526f1ff01": {
+    "type": "normal_user",
+    "id": 633,
+    "is_smart_money": false
+  },
+  "0x6496f7bc16d1705b1209e2367820f2b4d01ae87d": {
+    "type": "normal_user",
+    "id": 634,
+    "is_smart_money": false
+  },
+  "0x1ada6ac7e9f4fea442feefb53a73302c20fc0d84": {
+    "type": "normal_user",
+    "id": 635,
+    "is_smart_money": false
+  },
+  "0x134e7c1ff1fabc5674df3c51808ae710c32b9363": {
+    "type": "normal_user",
+    "id": 636,
+    "is_smart_money": false
+  },
+  "0x51528916aa49c47f6532d3531642613d7640fa28": {
+    "type": "normal_user",
+    "id": 637,
+    "is_smart_money": false
+  },
+  "0x693bff70f461dd3c70e3597c85db9bd921b3f26d": {
+    "type": "normal_user",
+    "id": 638,
+    "is_smart_money": false
+  },
+  "0xcad20c0212cbaaa5b4559c2dff974484d12df936": {
+    "type": "normal_user",
+    "id": 639,
+    "is_smart_money": false
+  },
+  "0x9f378924ca383e30ad2287d87032927e28d3e128": {
+    "type": "normal_user",
+    "id": 640,
+    "is_smart_money": false
+  },
+  "0x7861d8f1289127404fff3895603ff7e90a293908": {
+    "type": "normal_user",
+    "id": 641,
+    "is_smart_money": false
+  },
+  "0xbeacb99ed3345ae02702a37e177db3485269b625": {
+    "type": "normal_user",
+    "id": 642,
+    "is_smart_money": false
+  },
+  "0x2a3c5b41316b15ab42f0fa3872e792dc91f28f77": {
+    "type": "normal_user",
+    "id": 643,
+    "is_smart_money": false
+  },
+  "0x76d93752381ab4531284fb92c8e6445f22a8b6a1": {
+    "type": "normal_user",
+    "id": 644,
+    "is_smart_money": false
+  },
+  "0x51a7e4831f6931ebea062674237d0ae2b4ce4cfe": {
+    "type": "normal_user",
+    "id": 645,
+    "is_smart_money": false
+  },
+  "0x33094129bb2a7e5c3b82700c4675dda322366b66": {
+    "type": "normal_user",
+    "id": 646,
+    "is_smart_money": false
+  },
+  "0xc97090db2ce9d9f0da99e112d4258ef66a629667": {
+    "type": "normal_user",
+    "id": 647,
+    "is_smart_money": false
+  },
+  "0x416df4cebb4b7ce8184c9d8053ad184c137f1bf3": {
+    "type": "normal_user",
+    "id": 648,
+    "is_smart_money": false
+  },
+  "0x04c3621866fb8f7e98a0bd8be2c9edebb49b6396": {
+    "type": "normal_user",
+    "id": 649,
+    "is_smart_money": false
+  },
+  "0x2944846f95b674b662b8332024318a072ec69252": {
+    "type": "normal_user",
+    "id": 650,
+    "is_smart_money": false
+  },
+  "0x969e77c5d7e323b9b4a4cbedb8543d210c09b159": {
+    "type": "normal_user",
+    "id": 651,
+    "is_smart_money": false
+  },
+  "0x691590d299ecf0701c5c04468a1f9ed856c17d26": {
+    "type": "normal_user",
+    "id": 652,
+    "is_smart_money": false
+  },
+  "0x9cf38e48730f5888d30bdf215f0d90fcb347cab4": {
+    "type": "normal_user",
+    "id": 653,
+    "is_smart_money": false
+  },
+  "0x2a916eb68af02f0e6e019553168ae770aeb1c06b": {
+    "type": "normal_user",
+    "id": 654,
+    "is_smart_money": false
+  },
+  "0x1f85a4db65bb281e6f7d32d6c82cb8d3b5515a8d": {
+    "type": "normal_user",
+    "id": 655,
+    "is_smart_money": false
+  },
+  "0x16a32f3373aa62011c7728488b4ee5feca64a4c3": {
+    "type": "normal_user",
+    "id": 656,
+    "is_smart_money": false
+  },
+  "0x2d65f29d4ffee95081d3591569fb8f6e141dd21f": {
+    "type": "normal_user",
+    "id": 657,
+    "is_smart_money": false
+  },
+  "0x8b6dfb8483d41e29bc9c703b78eb1afb22f60b59": {
+    "type": "normal_user",
+    "id": 658,
+    "is_smart_money": false
+  },
+  "0x94f9d2cb142cc2a9c2bd82f4555b0a5d8b37453d": {
+    "type": "normal_user",
+    "id": 659,
+    "is_smart_money": false
+  },
+  "0xf1299fe4aa7c409f630c163752146894fb6523f1": {
+    "type": "normal_user",
+    "id": 660,
+    "is_smart_money": false
+  },
+  "0x652fbbdabcc3c3732d62a9a370505a3498139c47": {
+    "type": "normal_user",
+    "id": 661,
+    "is_smart_money": false
+  },
+  "0xfc3c0de13a37e9840bb19ee30eeba3a75edf8b36": {
+    "type": "normal_user",
+    "id": 662,
+    "is_smart_money": false
+  },
+  "0x0dc0ab8fd078832b5d8787376529b74ad82dd3d2": {
+    "type": "normal_user",
+    "id": 663,
+    "is_smart_money": false
+  },
+  "0x7acd27a1574d1c12621968b6231c03c674627eae": {
+    "type": "normal_user",
+    "id": 664,
+    "is_smart_money": false
+  },
+  "0x242937bcbf7c68d52a273ebdf47f7d899176037f": {
+    "type": "normal_user",
+    "id": 665,
+    "is_smart_money": false
+  },
+  "0x6bedd69dfe1ae3f6f1913000d5e7530adc69e112": {
+    "type": "normal_user",
+    "id": 666,
+    "is_smart_money": false
+  },
+  "0xb5c63760931fc272fa209ba80ae6b0cf888e55c1": {
+    "type": "normal_user",
+    "id": 667,
+    "is_smart_money": false
+  },
+  "0xc12e4fde889a5b552e7d2fd16c0dbeb89a3e1047": {
+    "type": "normal_user",
+    "id": 668,
+    "is_smart_money": false
+  },
+  "0xff92d2bfc33656b466aae6f22d4f6417cf4cae93": {
+    "type": "normal_user",
+    "id": 669,
+    "is_smart_money": false
+  },
+  "0x6cdd23c9da6b1660a45f38d1e050ac43d84537f6": {
+    "type": "normal_user",
+    "id": 670,
+    "is_smart_money": false
+  },
+  "0xa6b601a9b2f654ba5625bc9fee0e3b351a7cf326": {
+    "type": "normal_user",
+    "id": 671,
+    "is_smart_money": false
+  },
+  "0xf308019c75409ada68263bdcaa730cf49f3ee34e": {
+    "type": "normal_user",
+    "id": 672,
+    "is_smart_money": false
+  },
+  "0xc6f64c63d773ea680113baed1947f9c35bbc3152": {
+    "type": "normal_user",
+    "id": 673,
+    "is_smart_money": false
+  },
+  "0x5651eac0b3eb7ea1592802c7e54c1ff0c2def2e5": {
+    "type": "normal_user",
+    "id": 674,
+    "is_smart_money": false
+  },
+  "0xa1d060df59958a3721f510d0f0c3a79c27caa4df": {
+    "type": "normal_user",
+    "id": 675,
+    "is_smart_money": false
+  },
+  "0xcbc2a944ec3172585f209d25e05aa32c1cb70b16": {
+    "type": "normal_user",
+    "id": 676,
+    "is_smart_money": false
+  },
+  "0x9987846f0dd8955a39d46ddaec572fc860b428d2": {
+    "type": "normal_user",
+    "id": 677,
+    "is_smart_money": false
+  },
+  "0x87c2bee38c70a0f7bd82cdcda987d10a9f202420": {
+    "type": "normal_user",
+    "id": 678,
+    "is_smart_money": false
+  },
+  "0xb208c96e30df22af1ca3ca186eef4258d006fcf8": {
+    "type": "normal_user",
+    "id": 679,
+    "is_smart_money": false
+  },
+  "0x725004c86f9f328e7991bd466fddd2f115d2f763": {
+    "type": "normal_user",
+    "id": 680,
+    "is_smart_money": false
+  },
+  "0x1db1b9a49bf69931c8adf0be2bd504064f0f8846": {
+    "type": "normal_user",
+    "id": 681,
+    "is_smart_money": false
+  },
+  "0x15a7da32287045b8682eed067b2064d133e72a32": {
+    "type": "normal_user",
+    "id": 682,
+    "is_smart_money": false
+  },
+  "0xe92f08bd7e26e1cd82e67a29b228d73d9d1efab0": {
+    "type": "normal_user",
+    "id": 683,
+    "is_smart_money": false
+  },
+  "0x6bd25f05a131d682904bb4ee0496378f8f6e4779": {
+    "type": "normal_user",
+    "id": 684,
+    "is_smart_money": false
+  },
+  "0x5f00f1afc14e5382ebee4464e16ddf417c0217a3": {
+    "type": "normal_user",
+    "id": 685,
+    "is_smart_money": false
+  },
+  "0xeba36ce888ddf4fa8e361a73d019e24abbd0d810": {
+    "type": "normal_user",
+    "id": 686,
+    "is_smart_money": false
+  },
+  "0x2e17926b8855756a574b35c0a041051cd74a7ada": {
+    "type": "normal_user",
+    "id": 687,
+    "is_smart_money": false
+  },
+  "0x034b816c534de0c8dd232d8a22591257c1915410": {
+    "type": "normal_user",
+    "id": 688,
+    "is_smart_money": false
+  },
+  "0x290893de4cdfed3a0be0ebaab5a1b89cea5e6513": {
+    "type": "normal_user",
+    "id": 689,
+    "is_smart_money": false
+  },
+  "0xbe11b753ecdfa8c427ef6d1188433fe3e9a599e7": {
+    "type": "normal_user",
+    "id": 690,
+    "is_smart_money": false
+  },
+  "0x09d1e6de2d76449a3e3f842182a131f47824f233": {
+    "type": "normal_user",
+    "id": 691,
+    "is_smart_money": false
+  },
+  "0x91abf60e0b8274d3262c32372cf29713c457c49e": {
+    "type": "normal_user",
+    "id": 692,
+    "is_smart_money": false
+  },
+  "0xfe1403aa08a2e7a6a39bbb7bb53d5427bef873be": {
+    "type": "normal_user",
+    "id": 693,
+    "is_smart_money": false
+  },
+  "0xe7cac44681424d7eabf8de6d119a8d7cffd4674d": {
+    "type": "normal_user",
+    "id": 694,
+    "is_smart_money": false
+  },
+  "0xae06c524b8ffad25a63073405728ccb09e4ef328": {
+    "type": "normal_user",
+    "id": 695,
+    "is_smart_money": false
+  },
+  "0x06d8e31438f656568f31ac1ce04cd380983d9a26": {
+    "type": "normal_user",
+    "id": 696,
+    "is_smart_money": false
+  },
+  "0x69ed080b0132e9e561815c3262845762e0011259": {
+    "type": "normal_user",
+    "id": 697,
+    "is_smart_money": false
+  },
+  "0xf227dcaac4b7fa9f6c0ea1609750af727210345e": {
+    "type": "normal_user",
+    "id": 698,
+    "is_smart_money": false
+  },
+  "0x219b072e19b560ec0855aa35f5ab61d3b1ec9d98": {
+    "type": "normal_user",
+    "id": 699,
+    "is_smart_money": false
+  },
+  "0x2392cf87f1768cf56c86274792df6bea29ec851d": {
+    "type": "normal_user",
+    "id": 700,
+    "is_smart_money": false
+  },
+  "0xcf0fb320ec50fa52d606a213d38fb77532dd5927": {
+    "type": "normal_user",
+    "id": 701,
+    "is_smart_money": false
+  },
+  "0x920cd14cac00d4cdd8ca1e3887c44339b726e76b": {
+    "type": "normal_user",
+    "id": 702,
+    "is_smart_money": false
+  },
+  "0xbcf5c2d075ea56bbb1b8f4e92824272b4ba4eb10": {
+    "type": "normal_user",
+    "id": 703,
+    "is_smart_money": false
+  },
+  "0x536c599f944db710a170b958008361bc79e46e9d": {
+    "type": "normal_user",
+    "id": 704,
+    "is_smart_money": false
+  },
+  "0xdbe283bde91227385fccf83b02dc66d703a86c8e": {
+    "type": "normal_user",
+    "id": 705,
+    "is_smart_money": false
+  },
+  "0xdbb20f605f39bf1a11b52a0dfccbfa981ba3e03d": {
+    "type": "normal_user",
+    "id": 706,
+    "is_smart_money": false
+  },
+  "0xae3406ae9ccea6f02bd6fedb403192f339927732": {
+    "type": "normal_user",
+    "id": 707,
+    "is_smart_money": false
+  },
+  "0xe39149579a8e6d8754d545d5e4370a4ef73c6784": {
+    "type": "normal_user",
+    "id": 708,
+    "is_smart_money": false
+  },
+  "0x72a9ccc0845752b9b370dc2f3f3c330d60b4b8ca": {
+    "type": "normal_user",
+    "id": 709,
+    "is_smart_money": false
+  },
+  "0xe9ecdca4d08bd5a73a5193b9cee0bc49ffe98e89": {
+    "type": "normal_user",
+    "id": 710,
+    "is_smart_money": false
+  },
+  "0xa474b652672a7e86d5b04f08d90e2f92ce134a67": {
+    "type": "normal_user",
+    "id": 711,
+    "is_smart_money": false
+  },
+  "0xa6e442371e5de2d0a96f308be0d65134e5c068b5": {
+    "type": "normal_user",
+    "id": 712,
+    "is_smart_money": false
+  },
+  "0x9d4bff2c704ea8c378d6ffbca7db0d16ec72e63a": {
+    "type": "normal_user",
+    "id": 713,
+    "is_smart_money": false
+  },
+  "0xb4a2dc10775d52f06c689beaf45953eefcf9cbce": {
+    "type": "normal_user",
+    "id": 714,
+    "is_smart_money": false
+  },
+  "0x768d48b36bbb6433ff4dbabee50d0e5f421f2065": {
+    "type": "normal_user",
+    "id": 715,
+    "is_smart_money": false
+  },
+  "0x30c965586bc20d01314760aa17720dcbc1d7ee9f": {
+    "type": "normal_user",
+    "id": 716,
+    "is_smart_money": false
+  },
+  "0x7deb2d2427fb62d0b95c9e607f813bfdb3821fd0": {
+    "type": "normal_user",
+    "id": 717,
+    "is_smart_money": false
+  },
+  "0xbfc6cf672c5b1f13dfa8ee2bf4c6ef45715f815b": {
+    "type": "normal_user",
+    "id": 718,
+    "is_smart_money": false
+  },
+  "0x826e19b22e49358a4a19c60668dfb55b072da552": {
+    "type": "normal_user",
+    "id": 719,
+    "is_smart_money": false
+  },
+  "0xe8861b421afed330136ee5e26a9218c664be100f": {
+    "type": "normal_user",
+    "id": 720,
+    "is_smart_money": false
+  },
+  "0x9aae31bec4c58e06d4fb504cc4364fb68925638a": {
+    "type": "normal_user",
+    "id": 721,
+    "is_smart_money": false
+  },
+  "0xe61077b948d9740873717140154c3ce48f4f5c7e": {
+    "type": "normal_user",
+    "id": 722,
+    "is_smart_money": false
+  },
+  "0x2b7710f904835dd27b3e343925115ecb16f09d8d": {
+    "type": "normal_user",
+    "id": 723,
+    "is_smart_money": false
+  },
+  "0xa7f304648782522c70f3a74180efa47e4c9010ed": {
+    "type": "normal_user",
+    "id": 724,
+    "is_smart_money": false
+  },
+  "0xd7cf2be307c479021396c773f3724432bf2f5a6b": {
+    "type": "normal_user",
+    "id": 725,
+    "is_smart_money": false
+  },
+  "0xe2656579e18f045498959b764e8eddcbef961df1": {
+    "type": "normal_user",
+    "id": 726,
+    "is_smart_money": false
+  },
+  "0xd8316628b166261a1873d745ad03b06f2af6a8af": {
+    "type": "normal_user",
+    "id": 727,
+    "is_smart_money": false
+  },
+  "0xab48d3921c684197a6eb2a7a167a5697d1478bae": {
+    "type": "normal_user",
+    "id": 728,
+    "is_smart_money": false
+  },
+  "0x87a711775c727878b8c15a0cb60522f11af5566f": {
+    "type": "normal_user",
+    "id": 729,
+    "is_smart_money": false
+  },
+  "0xd58c1ba40c48a1ad0f8bdbea288809a27d8c2269": {
+    "type": "normal_user",
+    "id": 730,
+    "is_smart_money": false
+  },
+  "0xd4924683c22a4b1c601d2a1e9cad488238136f17": {
+    "type": "normal_user",
+    "id": 731,
+    "is_smart_money": false
+  },
+  "0xf90a5068b80744dd33554ac5a0b6cbf4ff8caf08": {
+    "type": "normal_user",
+    "id": 732,
+    "is_smart_money": false
+  },
+  "0xd40b417b22b746309b99becb8e11378a1d3d985d": {
+    "type": "normal_user",
+    "id": 733,
+    "is_smart_money": false
+  },
+  "0xf5cbf1bee377ed42a1fbfe7824ed8e06642e83c6": {
+    "type": "normal_user",
+    "id": 734,
+    "is_smart_money": false
+  },
+  "0xc1daba7d12924db660db76b74553a57f52bc3a19": {
+    "type": "normal_user",
+    "id": 735,
+    "is_smart_money": false
+  },
+  "0x5d11f7aae98082cd068dc797240d95300d05e60c": {
+    "type": "normal_user",
+    "id": 736,
+    "is_smart_money": false
+  },
+  "0xa4f40837bb368fda17edad9e4a080b6d58c1f316": {
+    "type": "normal_user",
+    "id": 737,
+    "is_smart_money": false
+  },
+  "0x497db71c967f3458eb1e1ca14fe1f4272cd15a27": {
+    "type": "normal_user",
+    "id": 738,
+    "is_smart_money": false
+  },
+  "0x96275fe49eb08142f4dd8929b4250a7bff553158": {
+    "type": "normal_user",
+    "id": 739,
+    "is_smart_money": false
+  },
+  "0x9e240a945cd82b8a478ad309d3e279f595ec4f50": {
+    "type": "normal_user",
+    "id": 740,
+    "is_smart_money": false
+  },
+  "0x4aefb8754224c68b7a7bd19d55af9a19a145d7aa": {
+    "type": "normal_user",
+    "id": 741,
+    "is_smart_money": false
+  },
+  "0x8d0e7d298c3cf9d4db6841299c171e3fb9527d19": {
+    "type": "normal_user",
+    "id": 742,
+    "is_smart_money": false
+  },
+  "0x944e7614c7277b6c999429fc3fa29560f5dace2b": {
+    "type": "normal_user",
+    "id": 743,
+    "is_smart_money": false
+  },
+  "0x43ce558180554700d15a61dd81556123b001b11b": {
+    "type": "normal_user",
+    "id": 744,
+    "is_smart_money": false
+  },
+  "0x82e2f65491ed3eb01d4a4659e3928483539feb20": {
+    "type": "normal_user",
+    "id": 745,
+    "is_smart_money": false
+  },
+  "0x9e095e6be5c59961681e594d63b2157d306d9d3e": {
+    "type": "normal_user",
+    "id": 746,
+    "is_smart_money": false
+  },
+  "0x1e775f1e50d1f0d217df1fad17461d2f67b880b7": {
+    "type": "normal_user",
+    "id": 747,
+    "is_smart_money": false
+  },
+  "0xe81ed0cf657e6685b67bd4bbe6cfe4a7572efff8": {
+    "type": "normal_user",
+    "id": 748,
+    "is_smart_money": false
+  },
+  "0xb1ed20cda0f58b2b4d561f6f325ce641e36751aa": {
+    "type": "normal_user",
+    "id": 749,
+    "is_smart_money": false
+  },
+  "0xf738cfe03e09c93b4200c5a5ee70214a04b5c71b": {
+    "type": "normal_user",
+    "id": 750,
+    "is_smart_money": false
+  },
+  "0x91496f39e617d87cf3cd08ff22a60cc5b3c8053e": {
+    "type": "normal_user",
+    "id": 751,
+    "is_smart_money": false
+  },
+  "0xdb91fbb74258742057e4ef17e6cb64ef920b5c93": {
+    "type": "normal_user",
+    "id": 752,
+    "is_smart_money": false
+  },
+  "0x8749fb2bbd9b790d5562b022a68e467fc417ad08": {
+    "type": "normal_user",
+    "id": 753,
+    "is_smart_money": false
+  },
+  "0x29839945118469fd2f4d7a68d0bf2c4b8c7e617d": {
+    "type": "normal_user",
+    "id": 754,
+    "is_smart_money": false
+  },
+  "0xd94cca2992a0ee260cc826dca4b279f9759db270": {
+    "type": "normal_user",
+    "id": 755,
+    "is_smart_money": false
+  },
+  "0x2447ef366af6b7cbba91fd36b09be4dedfd110ad": {
+    "type": "normal_user",
+    "id": 756,
+    "is_smart_money": false
+  },
+  "0x72174cb392246edfb25e931f944a2809bea44427": {
+    "type": "normal_user",
+    "id": 757,
+    "is_smart_money": false
+  },
+  "0x4cc1a9e7d73843d39ecc4fe576d8964e834b6836": {
+    "type": "normal_user",
+    "id": 758,
+    "is_smart_money": false
+  },
+  "0x4470f7fdbcd4da993bbb5c5bd9c5d87109d0bdb7": {
+    "type": "normal_user",
+    "id": 759,
+    "is_smart_money": false
+  },
+  "0x89fc880bf91090cc3263e34be4db6b6bbbd05ed6": {
+    "type": "normal_user",
+    "id": 760,
+    "is_smart_money": false
+  },
+  "0x9f40a574515e039ce74c3f166547d11c9a8a4405": {
+    "type": "normal_user",
+    "id": 761,
+    "is_smart_money": false
+  },
+  "0xf57a59feb4f2d461a0c90523f1f6bb214bbc45d1": {
+    "type": "normal_user",
+    "id": 762,
+    "is_smart_money": false
+  },
+  "0x90e13809a3776157fe371d9e377513d80d844ea4": {
+    "type": "normal_user",
+    "id": 763,
+    "is_smart_money": false
+  },
+  "0x81717a2c16091a60d32c77c011cbc366f2c26960": {
+    "type": "normal_user",
+    "id": 764,
+    "is_smart_money": false
+  },
+  "0xc7ba5ea4d2f4cb9e463002d1750d0fb5274e4583": {
+    "type": "normal_user",
+    "id": 765,
+    "is_smart_money": false
+  },
+  "0xae97451558d0615994924a9a655222cc48cb0a88": {
+    "type": "normal_user",
+    "id": 766,
+    "is_smart_money": false
+  },
+  "0xea267c2e1fd0de4fefb3f7522c3f024c4b9bd50e": {
+    "type": "normal_user",
+    "id": 767,
+    "is_smart_money": false
+  },
+  "0x600bc50e7c3f374595183159170b9b478e3dc4ba": {
+    "type": "normal_user",
+    "id": 768,
+    "is_smart_money": false
+  },
+  "0x73500bf716a635038c5059e674c56f7f37a74242": {
+    "type": "normal_user",
+    "id": 769,
+    "is_smart_money": false
+  },
+  "0xf5db157f809931fdeda35b74b45bb7d656b9a011": {
+    "type": "smart_money",
+    "id": 770,
+    "is_smart_money": true
+  },
+  "0xbb5fc6f27778880964f71455b628eb181eae792e": {
+    "type": "smart_money",
+    "id": 771,
+    "is_smart_money": true
+  },
+  "0x5b519d57d7376874789039fcad51af51d6515a30": {
+    "type": "smart_money",
+    "id": 772,
+    "is_smart_money": true
+  },
+  "0xfcaba2060f99dbb7167b98223ed72f45df06348b": {
+    "type": "smart_money",
+    "id": 773,
+    "is_smart_money": true
+  },
+  "0x71361c7dcda42828499b6e6954ad170bdbeda02e": {
+    "type": "smart_money",
+    "id": 774,
+    "is_smart_money": true
+  },
+  "0x5e3b5e55d76f0eff3c497887218044d357550ef6": {
+    "type": "smart_money",
+    "id": 775,
+    "is_smart_money": true
+  },
+  "0x26edd04d563d3ea46c8c4b8164ed8c9ca9841ff5": {
+    "type": "smart_money",
+    "id": 776,
+    "is_smart_money": true
+  },
+  "0x04313c0afebc1604a3deadde18043e63f1183238": {
+    "type": "smart_money",
+    "id": 777,
+    "is_smart_money": true
+  },
+  "0x6e87132c068564c522e31e10a4da00b00ec71115": {
+    "type": "smart_money",
+    "id": 778,
+    "is_smart_money": true
+  },
+  "0x9cfb805475e6a0a16b3a368a0e9ac8cfb0666464": {
+    "type": "smart_money",
+    "id": 779,
+    "is_smart_money": true
+  },
+  "0x45d57522c29a0e69f1128fef27920190d144c043": {
+    "type": "smart_money",
+    "id": 780,
+    "is_smart_money": true
+  },
+  "0xba4bb367983f15b0e22d9902846a59ed54a96b9b": {
+    "type": "smart_money",
+    "id": 781,
+    "is_smart_money": true
+  },
+  "0xdba7d9e5b4c24c2d46e7ac34e535ad34b67c848b": {
+    "type": "smart_money",
+    "id": 782,
+    "is_smart_money": true
+  },
+  "0x0bfe1e955549e83cbc9732109ebef9826cf005ec": {
+    "type": "smart_money",
+    "id": 783,
+    "is_smart_money": true
+  },
+  "0x81d18e22f89ddfc13bab739458bc6d748fc20a93": {
+    "type": "smart_money",
+    "id": 784,
+    "is_smart_money": true
+  },
+  "0x032d3c795819b6eaaabe2d9a4d0b5c2f350991d6": {
+    "type": "smart_money",
+    "id": 785,
+    "is_smart_money": true
+  },
+  "0xa0bb1263ba426fe20e5629667f38217b7132b804": {
+    "type": "smart_money",
+    "id": 786,
+    "is_smart_money": true
+  },
+  "0xd84943a814159a93afa28d1b11cbe831c58f08a6": {
+    "type": "smart_money",
+    "id": 787,
+    "is_smart_money": true
+  },
+  "0x6e0071d93d76c98e337db63d9d074ff1af122cb4": {
+    "type": "smart_money",
+    "id": 788,
+    "is_smart_money": true
+  },
+  "0xba80fee00cb9cc00732159da11c283d72e3ff532": {
+    "type": "smart_money",
+    "id": 789,
+    "is_smart_money": true
+  },
+  "0x3275c26fb201aeaa5cf45a21c0b7c313dec3c7bf": {
+    "type": "smart_money",
+    "id": 790,
+    "is_smart_money": true
+  },
+  "0x4417c3bdfe8aa40bcde05deedece462e5cb9479e": {
+    "type": "smart_money",
+    "id": 791,
+    "is_smart_money": true
+  },
+  "0x9f95a3a2707efacc135a618e9c13a0f7b6fd973f": {
+    "type": "smart_money",
+    "id": 792,
+    "is_smart_money": true
+  },
+  "0x464f0e14bd43ece427994c16aff433072f39b9c6": {
+    "type": "smart_money",
+    "id": 793,
+    "is_smart_money": true
+  },
+  "0x21037b914f88f54e6a48718ca39e181a5e0a96bd": {
+    "type": "smart_money",
+    "id": 794,
+    "is_smart_money": true
+  },
+  "0x186d2bac21c5f1724d3ba1cedf2c9780db2b6cbf": {
+    "type": "smart_money",
+    "id": 795,
+    "is_smart_money": true
+  },
+  "0x8be34889eea95dc6968fcc249e171d21c5ebb381": {
+    "type": "smart_money",
+    "id": 796,
+    "is_smart_money": true
+  },
+  "0x991692ab35380e8df35fdaa00ab96a80e1a99c39": {
+    "type": "smart_money",
+    "id": 797,
+    "is_smart_money": true
+  },
+  "0x543b7eac3082c31c2c1c092c7938848e60cc7cd8": {
+    "type": "smart_money",
+    "id": 798,
+    "is_smart_money": true
+  },
+  "0xcd28336e4176e2a60669e952d1707348c4266c64": {
+    "type": "smart_money",
+    "id": 799,
+    "is_smart_money": true
+  },
+  "0x8c0b07f1ef3fc1c773079f4377b08129845dc99d": {
+    "type": "smart_money",
+    "id": 800,
+    "is_smart_money": true
+  },
+  "0xfe80a65556acd8ece330ea06aad4f22c1da44498": {
+    "type": "smart_money",
+    "id": 801,
+    "is_smart_money": true
+  },
+  "0x13773e20de75963bbe8694a88b1d53bf32fa0c96": {
+    "type": "smart_money",
+    "id": 802,
+    "is_smart_money": true
+  },
+  "0xd749a9b52dda2dfbcfcb8516e1f0a436c37c029f": {
+    "type": "smart_money",
+    "id": 803,
+    "is_smart_money": true
+  },
+  "0x6a2eed3ddbc1843b0f4262ace78fe53152481d5e": {
+    "type": "smart_money",
+    "id": 804,
+    "is_smart_money": true
+  },
+  "0x2bef7e918d4828c4daff5fb356251f9cae744720": {
+    "type": "smart_money",
+    "id": 805,
+    "is_smart_money": true
+  },
+  "0x42d20f3d06c39f1106488c515d03469b585b5c94": {
+    "type": "smart_money",
+    "id": 806,
+    "is_smart_money": true
+  },
+  "0x6e1dd3c4ad394a603889c27106c4188e277fd19b": {
+    "type": "smart_money",
+    "id": 807,
+    "is_smart_money": true
+  },
+  "0x5a1bd209a9222e9cd67109eb6645c65a1bb023b0": {
+    "type": "smart_money",
+    "id": 808,
+    "is_smart_money": true
+  },
+  "0xb1790d1142b70e61c100ce61c63ae358e6c78545": {
+    "type": "smart_money",
+    "id": 809,
+    "is_smart_money": true
+  },
+  "0x370de4b8b8e47ebd6538caa0aaf5c02c3c092a6f": {
+    "type": "smart_money",
+    "id": 810,
+    "is_smart_money": true
+  },
+  "0xf8b18614a86d7607ab82995a215a4873661887da": {
+    "type": "smart_money",
+    "id": 811,
+    "is_smart_money": true
+  },
+  "0x37bd5c711ce2a141a54b5bcd80f098f3952e13e6": {
+    "type": "smart_money",
+    "id": 812,
+    "is_smart_money": true
+  },
+  "0x0f4a757eec103e0a684d5079cde4ab13eebb5ff4": {
+    "type": "smart_money",
+    "id": 813,
+    "is_smart_money": true
+  },
+  "0xa797812e42d107f4913442283550db57deb93fcd": {
+    "type": "smart_money",
+    "id": 814,
+    "is_smart_money": true
+  },
+  "0x81fe9dcdafa81efeea6983c7126453ca91b99e31": {
+    "type": "smart_money",
+    "id": 815,
+    "is_smart_money": true
+  },
+  "0x5ce2a8ce1444accfc50e95135b9348ce2e5db61b": {
+    "type": "smart_money",
+    "id": 816,
+    "is_smart_money": true
+  },
+  "0xab833cc5b73787c8c43dae99dacd1c065951f35d": {
+    "type": "smart_money",
+    "id": 817,
+    "is_smart_money": true
+  },
+  "0x40c758c9688cefc66d572fc8085e4f9a7177cd6a": {
+    "type": "smart_money",
+    "id": 818,
+    "is_smart_money": true
+  },
+  "0x24e6904231c9bd862b105a8252d1f68ffeae4c3a": {
+    "type": "smart_money",
+    "id": 819,
+    "is_smart_money": true
+  },
+  "0x34314b90e2a4824eb05a9c6e273259b8949f2200": {
+    "type": "smart_money",
+    "id": 820,
+    "is_smart_money": true
+  },
+  "0xcb2bc00056f3217776a071ed351d8520abe1a234": {
+    "type": "smart_money",
+    "id": 821,
+    "is_smart_money": true
+  },
+  "0x51b228dff77a25516275569276792db5f8a1a3aa": {
+    "type": "smart_money",
+    "id": 822,
+    "is_smart_money": true
+  },
+  "0xa217497821fbf48092a33b94c2ac84f44e415fca": {
+    "type": "smart_money",
+    "id": 823,
+    "is_smart_money": true
+  },
+  "0xb54506b22207dddb70b656bdeb658154588daf57": {
+    "type": "smart_money",
+    "id": 824,
+    "is_smart_money": true
+  },
+  "0x939fe64e0dd8c5cac0fa0a142cd0dc0a7df1705e": {
+    "type": "smart_money",
+    "id": 825,
+    "is_smart_money": true
+  },
+  "0x75efbd96993b13682eeeadbb61139879a2d2ec7b": {
+    "type": "smart_money",
+    "id": 826,
+    "is_smart_money": true
+  },
+  "0x4620275d9d6646d55b2b94f974cf7b296a983d9c": {
+    "type": "smart_money",
+    "id": 827,
+    "is_smart_money": true
+  },
+  "0x2de416cb736dc3844591a0021ae09c14d7d2ec23": {
+    "type": "smart_money",
+    "id": 828,
+    "is_smart_money": true
+  },
+  "0xc542b25732e48d99486f4cda10a8f181494733f4": {
+    "type": "smart_money",
+    "id": 829,
+    "is_smart_money": true
+  },
+  "0xa11ba526064fa8d42a41bde6e54811f35eee24f0": {
+    "type": "smart_money",
+    "id": 830,
+    "is_smart_money": true
+  },
+  "0xb30bda8ea8b1a8fba258f1183daed2b3285ef082": {
+    "type": "smart_money",
+    "id": 831,
+    "is_smart_money": true
+  },
+  "0xc4feabe4f317cd63f8c779a5bf83d0c51dc7e0dd": {
+    "type": "smart_money",
+    "id": 832,
+    "is_smart_money": true
+  },
+  "0x7c998b257a143f8674aeee42db02faa167571633": {
+    "type": "smart_money",
+    "id": 833,
+    "is_smart_money": true
+  },
+  "0x3d5f51fd9a4a054c881b2c0e148abfad080d7520": {
+    "type": "smart_money",
+    "id": 834,
+    "is_smart_money": true
+  },
+  "0x7442dded78dbdc7004ff42d6f85c5fd51b35bb7c": {
+    "type": "smart_money",
+    "id": 835,
+    "is_smart_money": true
+  },
+  "0xef9ed4f8e888e7548f6f98453279a0cab75d5e86": {
+    "type": "smart_money",
+    "id": 836,
+    "is_smart_money": true
+  },
+  "0x8007ef294fd9b316667b2210ec586acdda14c10d": {
+    "type": "smart_money",
+    "id": 837,
+    "is_smart_money": true
+  },
+  "0x31041784018cdee12d6b48ede42ed3240e12009a": {
+    "type": "smart_money",
+    "id": 838,
+    "is_smart_money": true
+  },
+  "0x36cbb8222bfe4fbafbe78b5a67351d50c16b8f96": {
+    "type": "smart_money",
+    "id": 839,
+    "is_smart_money": true
+  },
+  "0x6bc25cf21c92a5d3d3798023acfe2789c8176f5f": {
+    "type": "smart_money",
+    "id": 840,
+    "is_smart_money": true
+  },
+  "0x98cdadb3ed525468f9d550bb3dbfa0292c985898": {
+    "type": "smart_money",
+    "id": 841,
+    "is_smart_money": true
+  },
+  "0x381e490387bdc6473206f13434c59b572f7a1869": {
+    "type": "smart_money",
+    "id": 842,
+    "is_smart_money": true
+  },
+  "0xedd8b7eb22a24464a0ea191a5ba209444d69f970": {
+    "type": "smart_money",
+    "id": 843,
+    "is_smart_money": true
+  },
+  "0x79e8ef03bd32f181041cfdf75d19e7e8af11fbf1": {
+    "type": "smart_money",
+    "id": 844,
+    "is_smart_money": true
+  },
+  "0xe0755d4b1e5a6b72e9516fe60e11fdee666df7bc": {
+    "type": "smart_money",
+    "id": 845,
+    "is_smart_money": true
+  },
+  "0x45f992afd2c81abdcdf1cb0e6a8959431d09c63a": {
+    "type": "smart_money",
+    "id": 846,
+    "is_smart_money": true
+  },
+  "0xcf7f62d1adccef1ad5f53f0b2b26f8ea6fa4d029": {
+    "type": "smart_money",
+    "id": 847,
+    "is_smart_money": true
+  },
+  "0x50055187be98e248064cb7c15ed0bfb075159418": {
+    "type": "smart_money",
+    "id": 848,
+    "is_smart_money": true
+  },
+  "0x5c87a6e3e927e10211902a2d8dbe22a79d8b7458": {
+    "type": "smart_money",
+    "id": 849,
+    "is_smart_money": true
+  },
+  "0xda95f5d42a6316871715e270fbbae9e18f58401f": {
+    "type": "exchange",
+    "id": 850,
+    "is_smart_money": false
+  },
+  "0x743a349aad03fa5bafd462ced3fff34e617cb9a0": {
+    "type": "exchange",
+    "id": 851,
+    "is_smart_money": false
+  },
+  "0x1234811a8da0b868db7e4f893c24f028e35e3a9a": {
+    "type": "exchange",
+    "id": 852,
+    "is_smart_money": false
+  },
+  "0x1fe2357eb6536eb6af2e22378d8f1c6fd4fca5f1": {
+    "type": "exchange",
+    "id": 853,
+    "is_smart_money": false
+  },
+  "0x59e35cd0ef216252837ef4ad93b98ed344c877b1": {
+    "type": "exchange",
+    "id": 854,
+    "is_smart_money": false
+  },
+  "0x7ccbe601b2a7c738fa33c80b828f883aab570d54": {
+    "type": "exchange",
+    "id": 855,
+    "is_smart_money": false
+  },
+  "0x1d4d914580dc30a760a8f665bdf79e4d7869269b": {
+    "type": "exchange",
+    "id": 856,
+    "is_smart_money": false
+  },
+  "0x2102f1589697c32a0feedf8ae71d01914c443d4c": {
+    "type": "exchange",
+    "id": 857,
+    "is_smart_money": false
+  },
+  "0x4c0ef7b758e7073c6bad2d849bc60028131547ea": {
+    "type": "exchange",
+    "id": 858,
+    "is_smart_money": false
+  },
+  "0xea6dae2bc679dd4680482a5eb4bb21c486831b64": {
+    "type": "exchange",
+    "id": 859,
+    "is_smart_money": false
+  },
+  "0x7c1944829e50266899392c9d239f156c6906ba01": {
+    "type": "exchange",
+    "id": 860,
+    "is_smart_money": false
+  },
+  "0x24f62d13a31518b5790bbf7097a218053bdbd5f8": {
+    "type": "exchange",
+    "id": 861,
+    "is_smart_money": false
+  },
+  "0xaa0fc673ece1ddc489fc423a501b4bf2f51eaca2": {
+    "type": "exchange",
+    "id": 862,
+    "is_smart_money": false
+  },
+  "0xd209cf26f2dff73ca6b15afaf3c226bf83798068": {
+    "type": "exchange",
+    "id": 863,
+    "is_smart_money": false
+  },
+  "0x98fde4f6ebfa10596036efea6651eed2b618d2a5": {
+    "type": "exchange",
+    "id": 864,
+    "is_smart_money": false
+  },
+  "0x0afcfcb7c0cec37a749a69cfb82251641bd4ceb4": {
+    "type": "exchange",
+    "id": 865,
+    "is_smart_money": false
+  },
+  "0x29f2636d063dd10ef7d2849646533c89c6e4d956": {
+    "type": "exchange",
+    "id": 866,
+    "is_smart_money": false
+  },
+  "0x2f3628866b3126091f6378a67cfc4111f1acbad0": {
+    "type": "exchange",
+    "id": 867,
+    "is_smart_money": false
+  },
+  "0x81cb173c3ada10a465a71d700e0d466bf601b3ca": {
+    "type": "exchange",
+    "id": 868,
+    "is_smart_money": false
+  },
+  "0x008c2d4058eed6dc2829180e8d389479c239733c": {
+    "type": "exchange",
+    "id": 869,
+    "is_smart_money": false
+  },
+  "0xbc1282efc3d7461961012514f4d18b728f62b6c7": {
+    "type": "exchange",
+    "id": 870,
+    "is_smart_money": false
+  },
+  "0x142d47bdfcf187edf173c96e00cec3db83079758": {
+    "type": "exchange",
+    "id": 871,
+    "is_smart_money": false
+  },
+  "0x4ef33a0545be2eac3751866f0bce69ed8d1a8fcd": {
+    "type": "exchange",
+    "id": 872,
+    "is_smart_money": false
+  },
+  "0xb267085df502badc205794a6bdee878a976704ce": {
+    "type": "exchange",
+    "id": 873,
+    "is_smart_money": false
+  },
+  "0xc8b7814e438f0bd3e9516563386452e94000c5c2": {
+    "type": "exchange",
+    "id": 874,
+    "is_smart_money": false
+  },
+  "0x719bb0262408910c7a0b5d5ed95a5a4d195251ef": {
+    "type": "exchange",
+    "id": 875,
+    "is_smart_money": false
+  },
+  "0x4125c7606b2d5f5bf627cf20f2841d7d1937e145": {
+    "type": "exchange",
+    "id": 876,
+    "is_smart_money": false
+  },
+  "0xca2f37f11a3316ef0b69771f4c4afa856c97084c": {
+    "type": "exchange",
+    "id": 877,
+    "is_smart_money": false
+  },
+  "0xa8ed9929aa720a05fcedc1e17f6cc3bc12dd2e65": {
+    "type": "exchange",
+    "id": 878,
+    "is_smart_money": false
+  },
+  "0x96ff169d0233084882e222005f74d0106f591b81": {
+    "type": "exchange",
+    "id": 879,
+    "is_smart_money": false
+  },
+  "0xd63cae1aa4a8af04f6e5e2b5744c077ef95776fc": {
+    "type": "bot",
+    "id": 880,
+    "is_smart_money": false
+  },
+  "0x0f030f5a0048f8016a97b32731dec7b13b409496": {
+    "type": "bot",
+    "id": 881,
+    "is_smart_money": false
+  },
+  "0x4d96c45e8ec93a5274ca4f21424c1a6ea2a21f53": {
+    "type": "bot",
+    "id": 882,
+    "is_smart_money": false
+  },
+  "0xc9b386db0784e4efed35f0f8ce0137af04e88071": {
+    "type": "bot",
+    "id": 883,
+    "is_smart_money": false
+  },
+  "0x8607084c4c1af2438fd42240576f1dc8dcec4da3": {
+    "type": "bot",
+    "id": 884,
+    "is_smart_money": false
+  },
+  "0x56eea1692d423f751ece12d3d259f6428111c628": {
+    "type": "bot",
+    "id": 885,
+    "is_smart_money": false
+  },
+  "0xc51c9c6ea83ce356612123a49112ec2a5a82733c": {
+    "type": "bot",
+    "id": 886,
+    "is_smart_money": false
+  },
+  "0x053887f0a0ab1ca7496f1bbc58844106beb76710": {
+    "type": "bot",
+    "id": 887,
+    "is_smart_money": false
+  },
+  "0xb2256e6ada6777dd6c98861da6d07fbc0ded8453": {
+    "type": "bot",
+    "id": 888,
+    "is_smart_money": false
+  },
+  "0x1d789a1cc628f30ce0bf5922dda64c8507e3d938": {
+    "type": "bot",
+    "id": 889,
+    "is_smart_money": false
+  },
+  "0x89d9db4110158ffb09fd5e34826f13fa49a86500": {
+    "type": "bot",
+    "id": 890,
+    "is_smart_money": false
+  },
+  "0x313c005c5c531a48c6ec6b9be9141de5fcf40986": {
+    "type": "bot",
+    "id": 891,
+    "is_smart_money": false
+  },
+  "0x756c0c662d82b2d0194ee700bc478cdda5decca7": {
+    "type": "bot",
+    "id": 892,
+    "is_smart_money": false
+  },
+  "0x04e8ca86186e94434f3ce05d883522ef1a82384f": {
+    "type": "bot",
+    "id": 893,
+    "is_smart_money": false
+  },
+  "0x3cb8094e5baf803cd47b0575bd318f5615411c0e": {
+    "type": "bot",
+    "id": 894,
+    "is_smart_money": false
+  },
+  "0xb6da588306c93df691b826aa63a7750680634e5d": {
+    "type": "bot",
+    "id": 895,
+    "is_smart_money": false
+  },
+  "0xe94d902abd63e3724ae7bb5db5fb246d679adb4d": {
+    "type": "bot",
+    "id": 896,
+    "is_smart_money": false
+  },
+  "0x81a9f5447f6fb1df2bbc8da302881ee3d8e85584": {
+    "type": "bot",
+    "id": 897,
+    "is_smart_money": false
+  },
+  "0x8470a1f091e31017f29dfeb68ad67f4a1895ebb2": {
+    "type": "bot",
+    "id": 898,
+    "is_smart_money": false
+  },
+  "0xa85f01b5b6deb792bddf45ec172a4aac4a55ce70": {
+    "type": "bot",
+    "id": 899,
+    "is_smart_money": false
+  },
+  "0x159ba5bb55ef1761122b066fc8d7ac0f35af7f32": {
+    "type": "bot",
+    "id": 900,
+    "is_smart_money": false
+  },
+  "0x96771a2a75ab63ace9cf46c0ba8f2ac57d16214c": {
+    "type": "bot",
+    "id": 901,
+    "is_smart_money": false
+  },
+  "0xcce74f4225cf91779f8803f521ee1731218b3226": {
+    "type": "bot",
+    "id": 902,
+    "is_smart_money": false
+  },
+  "0x144a2f8930e5e6d70f6a10ba915136fe0256454e": {
+    "type": "bot",
+    "id": 903,
+    "is_smart_money": false
+  },
+  "0xe499ff19ebf29dd603816458edfc206e946ee675": {
+    "type": "bot",
+    "id": 904,
+    "is_smart_money": false
+  },
+  "0x8afb09d67e6a64400ca92481255c46090730fc01": {
+    "type": "bot",
+    "id": 905,
+    "is_smart_money": false
+  },
+  "0x7f3a9dc9b4b3014b0f714b6808e38da311469529": {
+    "type": "bot",
+    "id": 906,
+    "is_smart_money": false
+  },
+  "0xd508135115cab4a71be9f4d0551a64a6abed850d": {
+    "type": "bot",
+    "id": 907,
+    "is_smart_money": false
+  },
+  "0xf9a104533966ad2e5d4ca150e2d87371143d0029": {
+    "type": "bot",
+    "id": 908,
+    "is_smart_money": false
+  },
+  "0xfa30179d6fc207fca59f14eff1919bfa214af5af": {
+    "type": "bot",
+    "id": 909,
+    "is_smart_money": false
+  },
+  "0x2cb6b89781131d0c463c6b179f7fd92963af89df": {
+    "type": "bot",
+    "id": 910,
+    "is_smart_money": false
+  },
+  "0x024aaa58aaa81f5c922a6003c59e661f8703db30": {
+    "type": "bot",
+    "id": 911,
+    "is_smart_money": false
+  },
+  "0xdd4ed075c7f1306a64ec49dd57a7d6b3c128af72": {
+    "type": "bot",
+    "id": 912,
+    "is_smart_money": false
+  },
+  "0x3510d607ee12593b130f8be594cea4984e4a1fef": {
+    "type": "bot",
+    "id": 913,
+    "is_smart_money": false
+  },
+  "0x7287baba2db8659e05493ac0097b4e4e711ee45c": {
+    "type": "bot",
+    "id": 914,
+    "is_smart_money": false
+  },
+  "0x4a4c87006436fe5a7081878f9eecc34d1583a609": {
+    "type": "bot",
+    "id": 915,
+    "is_smart_money": false
+  },
+  "0xc7b65be66d3df0aed91f91cb4f4a6ee444d7a05b": {
+    "type": "bot",
+    "id": 916,
+    "is_smart_money": false
+  },
+  "0x15426b5fd1728646b536a76cc359c080aa5721a1": {
+    "type": "bot",
+    "id": 917,
+    "is_smart_money": false
+  },
+  "0xa535b0c0cb896205d4a3da3c24d7ac56c6c105c2": {
+    "type": "bot",
+    "id": 918,
+    "is_smart_money": false
+  },
+  "0xba28c411c876fe97f4350567e2359356e879cd8d": {
+    "type": "bot",
+    "id": 919,
+    "is_smart_money": false
+  },
+  "0xe9bbcde0cef457527b0b92624ca8e941431d27fe": {
+    "type": "bot",
+    "id": 920,
+    "is_smart_money": false
+  },
+  "0x15bf9f18bcbb3d52a3d793cc93d622837f0be786": {
+    "type": "bot",
+    "id": 921,
+    "is_smart_money": false
+  },
+  "0x2ee7031c16c313db0a52a74361d99e7e156f8e30": {
+    "type": "bot",
+    "id": 922,
+    "is_smart_money": false
+  },
+  "0x4cdf5e2ea0fca3ae952ad2c9d84eccbef2f2d043": {
+    "type": "bot",
+    "id": 923,
+    "is_smart_money": false
+  },
+  "0xdcaebff8bc8fe9628dcc2a36a01d2be181d311c0": {
+    "type": "bot",
+    "id": 924,
+    "is_smart_money": false
+  },
+  "0x7691aaa413a2633de9befc7f02451bfeb4f751f1": {
+    "type": "bot",
+    "id": 925,
+    "is_smart_money": false
+  },
+  "0xdb057bffc7bc277481987ed307098d34a0e722bb": {
+    "type": "bot",
+    "id": 926,
+    "is_smart_money": false
+  },
+  "0x9a582a204c6dc58f2cb6bce80f60b61174b1d8fb": {
+    "type": "bot",
+    "id": 927,
+    "is_smart_money": false
+  },
+  "0x503c05533789a9620ea8a05b2e451be5efb5c07f": {
+    "type": "bot",
+    "id": 928,
+    "is_smart_money": false
+  },
+  "0xe2d99949996215553ea9b6209d848f3a5f274a30": {
+    "type": "bot",
+    "id": 929,
+    "is_smart_money": false
+  },
+  "0x99bbcf239301b69ca8a1bbb8df43ab1fcef6277e": {
+    "type": "bot",
+    "id": 930,
+    "is_smart_money": false
+  },
+  "0xaf8ba4184a1e27cb9d410d48940556c3412c324f": {
+    "type": "bot",
+    "id": 931,
+    "is_smart_money": false
+  },
+  "0x011fb685b2593c1f57d389a86ad14e8a2d1e10f7": {
+    "type": "bot",
+    "id": 932,
+    "is_smart_money": false
+  },
+  "0x3bd71a6c69b37a5767397d61318368fda6536bab": {
+    "type": "bot",
+    "id": 933,
+    "is_smart_money": false
+  },
+  "0x2bd39af1582c5358ec0602a68cc5dfb463c50ee5": {
+    "type": "bot",
+    "id": 934,
+    "is_smart_money": false
+  },
+  "0x19d9536fc5d38d72a540d647d623a188e5623ee0": {
+    "type": "bot",
+    "id": 935,
+    "is_smart_money": false
+  },
+  "0x00d717b279222bfe341d3ee9daf0648580974bcf": {
+    "type": "bot",
+    "id": 936,
+    "is_smart_money": false
+  },
+  "0x66d6ac531ac603d026faf4682af169d3eb9c5e7d": {
+    "type": "bot",
+    "id": 937,
+    "is_smart_money": false
+  },
+  "0xd7f48dae6a3ba69d028e2c1a62254ab354f61138": {
+    "type": "bot",
+    "id": 938,
+    "is_smart_money": false
+  },
+  "0xb40d4201739a5413a9d722c7a117ed10f96a7339": {
+    "type": "bot",
+    "id": 939,
+    "is_smart_money": false
+  },
+  "0x96345595270d0ea312d58de0c16169b2a233c2fc": {
+    "type": "bot",
+    "id": 940,
+    "is_smart_money": false
+  },
+  "0x29ae3b95347396cb50a321b1a130a95f21ea7216": {
+    "type": "bot",
+    "id": 941,
+    "is_smart_money": false
+  },
+  "0x9c20c7c25dd68c6f772f096e3a6d50a0ed2a5d2b": {
+    "type": "bot",
+    "id": 942,
+    "is_smart_money": false
+  },
+  "0x52910b689a3506fa5fcfb75196fed3237ffefbbc": {
+    "type": "bot",
+    "id": 943,
+    "is_smart_money": false
+  },
+  "0x70d34395462361f459472f807c813a369e3a2a42": {
+    "type": "bot",
+    "id": 944,
+    "is_smart_money": false
+  },
+  "0xc0decf212fabb5ffd20515df77d9a7ae81c02b20": {
+    "type": "bot",
+    "id": 945,
+    "is_smart_money": false
+  },
+  "0x09a3ce0e3185a646e3d41a504795eed4bfb42a95": {
+    "type": "bot",
+    "id": 946,
+    "is_smart_money": false
+  },
+  "0x863cbf3e4890bfc3e82bc79e692128783b452399": {
+    "type": "bot",
+    "id": 947,
+    "is_smart_money": false
+  },
+  "0x55db9a90a7af6fb2f7e0959db24a465fb086a3f2": {
+    "type": "bot",
+    "id": 948,
+    "is_smart_money": false
+  },
+  "0x8803b5ee3856ea15e8a63476fdbdabd9ce10d822": {
+    "type": "bot",
+    "id": 949,
+    "is_smart_money": false
+  },
+  "0xc30a2f7e9373cd6c0a6f1642b570a53d514da6ec": {
+    "type": "bot",
+    "id": 950,
+    "is_smart_money": false
+  },
+  "0xc35d1aa716ebd53cd5a7b86e6ca7e3520c22fe9b": {
+    "type": "bot",
+    "id": 951,
+    "is_smart_money": false
+  },
+  "0xec1d7832c724790218d0a7e84920c189654d0da4": {
+    "type": "bot",
+    "id": 952,
+    "is_smart_money": false
+  },
+  "0xfa40ba86134d43cf5e26a5bfbd464664d763053e": {
+    "type": "bot",
+    "id": 953,
+    "is_smart_money": false
+  },
+  "0x9a11071caa36e4763712d07aed6cdcb941eb0c2d": {
+    "type": "bot",
+    "id": 954,
+    "is_smart_money": false
+  },
+  "0x37656dad95c7a38da41ff3cab57b7465761052fa": {
+    "type": "bot",
+    "id": 955,
+    "is_smart_money": false
+  },
+  "0xb448ff4931fcc1d1cf3f2319e2ab5fbb5eebf2fc": {
+    "type": "bot",
+    "id": 956,
+    "is_smart_money": false
+  },
+  "0x96cf2b25b468c57a2891ccb1689ff4f76166eb65": {
+    "type": "bot",
+    "id": 957,
+    "is_smart_money": false
+  },
+  "0xfb1e382fd51fb2f44ae9214fb78b6fccf191e94f": {
+    "type": "bot",
+    "id": 958,
+    "is_smart_money": false
+  },
+  "0x0e07787284782adfc6c49b3699c8995e12023472": {
+    "type": "bot",
+    "id": 959,
+    "is_smart_money": false
+  },
+  "0xb89276a1664e308dcca03836be84ac506de05975": {
+    "type": "bot",
+    "id": 960,
+    "is_smart_money": false
+  },
+  "0x2ed8055ef2d78f0e4effb09ebde85c9b76c997e3": {
+    "type": "bot",
+    "id": 961,
+    "is_smart_money": false
+  },
+  "0xdec2e146639dacbe2371793524428b6b0c64c1f6": {
+    "type": "bot",
+    "id": 962,
+    "is_smart_money": false
+  },
+  "0x3114645f5e66c9559eff9a26d1ce15bd4bad99a3": {
+    "type": "bot",
+    "id": 963,
+    "is_smart_money": false
+  },
+  "0xda2af072457795e25d885e399f43edbfa12d3ff4": {
+    "type": "bot",
+    "id": 964,
+    "is_smart_money": false
+  },
+  "0x7da0c0a2451e7a3a48bbd3dfa4a48f099e58f96b": {
+    "type": "bot",
+    "id": 965,
+    "is_smart_money": false
+  },
+  "0x1e4bbb519a11b1a0afe8a337338d81f31de23039": {
+    "type": "bot",
+    "id": 966,
+    "is_smart_money": false
+  },
+  "0x5738d6cf4b176958bef9c65784fef5d531b8f8c1": {
+    "type": "bot",
+    "id": 967,
+    "is_smart_money": false
+  },
+  "0x8e70d081237ce261c0119ff53715120646a98218": {
+    "type": "bot",
+    "id": 968,
+    "is_smart_money": false
+  },
+  "0x642122b1e1d73009d80b034a224aeee462f4d154": {
+    "type": "bot",
+    "id": 969,
+    "is_smart_money": false
+  },
+  "0x30ca339237fdaa2c1d0f49ed7cb74dc57a4b1e8a": {
+    "type": "bot",
+    "id": 970,
+    "is_smart_money": false
+  },
+  "0x737cc6f2dcd1ae2254885f417b394a40762c9ae7": {
+    "type": "bot",
+    "id": 971,
+    "is_smart_money": false
+  },
+  "0x5af5f47a9edd23904940ebc905cb163871019260": {
+    "type": "bot",
+    "id": 972,
+    "is_smart_money": false
+  },
+  "0x0c500548d15cc13e5841fb886d5f0896e2b074d8": {
+    "type": "bot",
+    "id": 973,
+    "is_smart_money": false
+  },
+  "0x8c024584d38f285538232ed99b45aae8fb53bd30": {
+    "type": "bot",
+    "id": 974,
+    "is_smart_money": false
+  },
+  "0x8c55c854f32f7872a00f74715da0c8113bfd8368": {
+    "type": "bot",
+    "id": 975,
+    "is_smart_money": false
+  },
+  "0x7f7922163b334d68428e436d8049905b9b322984": {
+    "type": "bot",
+    "id": 976,
+    "is_smart_money": false
+  },
+  "0x460886118cf60ee4d741296b70e64b0a81767c3a": {
+    "type": "bot",
+    "id": 977,
+    "is_smart_money": false
+  },
+  "0x60da84c773009e95235b722a8271aa061a796fe9": {
+    "type": "bot",
+    "id": 978,
+    "is_smart_money": false
+  },
+  "0x0a583e748a59d8da230946cbac21f7dc5b6fd510": {
+    "type": "bot",
+    "id": 979,
+    "is_smart_money": false
+  },
+  "0xfe888164a73521cdc87e70b7e281cc646feca42b": {
+    "type": "bot",
+    "id": 980,
+    "is_smart_money": false
+  },
+  "0xbb4b41de115aa14867cb69da1e8b7ef3e7ecc31a": {
+    "type": "bot",
+    "id": 981,
+    "is_smart_money": false
+  },
+  "0x57223a7babad549af93cb710474df4d30ce4b1be": {
+    "type": "bot",
+    "id": 982,
+    "is_smart_money": false
+  },
+  "0x04219344b6d7d3ed47e39fee3d3c536b37de3fa8": {
+    "type": "bot",
+    "id": 983,
+    "is_smart_money": false
+  },
+  "0xb3653f27143c807a894889691e59a8e0b01c8432": {
+    "type": "bot",
+    "id": 984,
+    "is_smart_money": false
+  },
+  "0x97303e667c7feaf2791438f7961037789cff2b2a": {
+    "type": "bot",
+    "id": 985,
+    "is_smart_money": false
+  },
+  "0x9509c221a43eb9ae17c7b14300b2f40cf16ca722": {
+    "type": "bot",
+    "id": 986,
+    "is_smart_money": false
+  },
+  "0x2e82f6ab3184af813aaba2b30edbfc36b78cb756": {
+    "type": "bot",
+    "id": 987,
+    "is_smart_money": false
+  },
+  "0x7401c2c8b298cd6b39f17eedd69d70687adb6987": {
+    "type": "bot",
+    "id": 988,
+    "is_smart_money": false
+  },
+  "0x4b5298fa47deb5c876c33411aa8729fe4ff711b9": {
+    "type": "bot",
+    "id": 989,
+    "is_smart_money": false
+  },
+  "0x712c1b9207f8d611cd844735b01c7a427fde4dbf": {
+    "type": "bot",
+    "id": 990,
+    "is_smart_money": false
+  },
+  "0x9ef1238eed0f8befba5cae6e42d007a261a8a24e": {
+    "type": "bot",
+    "id": 991,
+    "is_smart_money": false
+  },
+  "0x3d9afd4fa4d419e9b291b5c05187826c5ce35f20": {
+    "type": "bot",
+    "id": 992,
+    "is_smart_money": false
+  },
+  "0x679e52908fad5136bf3dbf724c9f861f8640ff72": {
+    "type": "bot",
+    "id": 993,
+    "is_smart_money": false
+  },
+  "0x7e300e39cbf989076a0c9f54dee214a477b2d3b7": {
+    "type": "bot",
+    "id": 994,
+    "is_smart_money": false
+  },
+  "0xf280318d487705f087194805b9493bca9346de32": {
+    "type": "bot",
+    "id": 995,
+    "is_smart_money": false
+  },
+  "0x3d97f26dce77482a3bceaaf2bc7cf88b3ba18408": {
+    "type": "bot",
+    "id": 996,
+    "is_smart_money": false
+  },
+  "0xc0a9d9cebd4609db6a92d6cf6fffabe7ed0d62d8": {
+    "type": "bot",
+    "id": 997,
+    "is_smart_money": false
+  },
+  "0x22a57daec9919479cbe1a17c9f969757d5c1bf22": {
+    "type": "bot",
+    "id": 998,
+    "is_smart_money": false
+  },
+  "0xade631432cae5e9d7edf77d8059e91a0ba3d7e81": {
+    "type": "bot",
+    "id": 999,
+    "is_smart_money": false
+  }
+}

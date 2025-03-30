@@ -1,0 +1,20 @@
+{
+  "timestamp": "20250330_213520",
+  "teacher": {
+    "model_name": "pytorch_mlp",
+    "model_params": {
+      "n_estimators": 100,
+      "max_depth": 6
+    },
+    "training_time": 5.118638277053833
+  },
+  "student": {
+    "model_name": "pytorch_factorized_mlp",
+    "model_params": {},
+    "training_time": 33.16496443748474
+  },
+  "config": {
+    "alpha": 1.0,
+    "temperature": 2.0
+  }
+}

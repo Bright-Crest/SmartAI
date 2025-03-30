@@ -1,0 +1,56 @@
+# 联合微调配置 - 图结构 + 序列模型联合训练
+
+# 训练基本参数
+name: "joint_finetune"
+epochs: 20
+batch_size: 32
+early_stopping_patience: 5
+
+# 优化器
+optimizer:
+  name: "adam"
+  lr: 0.0001
+  weight_decay: 1e-5
+  amsgrad: false
+
+# 学习率调度器
+lr_scheduler:
+  name: "cosine"
+  min_lr: 1e-7
+
+# 损失函数权重
+loss:
+  contrastive_weight: 0.6
+  cluster_weight: 0.3
+  reconstruction_weight: 0.1  # 可选的重建损失
+
+# 增强策略
+augmentation:
+  edge_drop_rate: 0.05
+  feat_mask_rate: 0.05
+  seq_mask_rate: 0.05
+  mild_augmentation: true  # 使用较轻微的数据增强
+
+# 聚类参数
+clustering:
+  update_every: 2
+  consistency_weight: 0.5  # 聚类一致性约束的权重
+
+# 验证和评估
+evaluation:
+  val_every: 1
+  save_best: true
+  metric: "combined_loss"
+  mode: "min"
+
+# 其他配置
+stage1_checkpoint: "${output.model_dir}/stage1_best.pth"
+stage2_checkpoint: "${output.model_dir}/stage2_best.pth"
+checkpoint_path: null
+log_interval: 1
+progress_bar: true
+
+# 梯度权重
+gradient_weights:
+  encoder: 1.0
+  temporal: 1.0 

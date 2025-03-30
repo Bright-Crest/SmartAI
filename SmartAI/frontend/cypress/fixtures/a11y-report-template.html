@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>无障碍测试报告</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .report-meta {
+            color: #666;
+            font-size: 14px;
+        }
+        .score-card {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .score {
+            font-size: 48px;
+            font-weight: bold;
+            color: #28a745;
+            margin: 10px 0;
+        }
+        .score.warning {
+            color: #ffc107;
+        }
+        .score.danger {
+            color: #dc3545;
+        }
+        .status {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        .summary {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        .summary-item {
+            flex: 1;
+            min-width: 200px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+        }
+        .summary-number {
+            font-size: 32px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .pages {
+            margin-bottom: 30px;
+        }
+        .page-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .page-title {
+            font-size: 18px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .violation-count {
+            background-color: #f8f9fa;
+            border-radius: 20px;
+            padding: 3px 12px;
+            font-size: 14px;
+        }
+        .violation-tag {
+            border-radius: 4px;
+            padding: 3px 8px;
+            margin-right: 5px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .tag-critical {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        .tag-serious {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        .tag-moderate {
+            background-color: #d1ecf1;
+            color: #0c5460;
+        }
+        .tag-minor {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .progress-container {
+            height: 10px;
+            width: 100%;
+            background-color: #e9ecef;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .progress-bar {
+            height: 100%;
+            border-radius: 5px;
+            background-color: #28a745;
+        }
+        .violations {
+            margin-top: 30px;
+        }
+        .violation-details {
+            margin-top: 10px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        .toggle-button {
+            background-color: #4285F4;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 8px 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .toggle-button:hover {
+            background-color: #3367D6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+        }
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+        .component-name {
+            font-weight: 500;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #6c757d;
+            font-size: 14px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            .summary {
+                flex-direction: column;
+            }
+            .summary-item {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>无障碍测试报告</h1>
+            <div class="report-meta">
+                <span id="report-date">生成时间：</span> |
+                <span id="tested-pages">测试页面数：</span>
+            </div>
+        </header>
+
+        <div class="score-card">
+            <h2>合规评分</h2>
+            <div id="compliance-score" class="score">0</div>
+            <div id="compliance-status" class="status">状态</div>
+            <div class="progress-container">
+                <div id="progress-bar" class="progress-bar" style="width: 0%;"></div>
+            </div>
+        </div>
+
+        <div class="summary">
+            <div class="summary-item">
+                <h3>测试页面数</h3>
+                <div id="pages-count" class="summary-number">0</div>
+            </div>
+            <div class="summary-item">
+                <h3>违规总数</h3>
+                <div id="violations-count" class="summary-number">0</div>
+            </div>
+            <div class="summary-item">
+                <h3>严重问题</h3>
+                <div id="critical-count" class="summary-number">0</div>
+            </div>
+            <div class="summary-item">
+                <h3>重要问题</h3>
+                <div id="serious-count" class="summary-number">0</div>
+            </div>
+        </div>
+
+        <h2>页面详情</h2>
+        <div id="pages-container" class="pages">
+            <!-- 页面卡片将通过JS动态添加 -->
+        </div>
+
+        <h2>组件分析</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>组件</th>
+                    <th>违规数</th>
+                    <th>严重</th>
+                    <th>重要</th>
+                    <th>中等</th>
+                    <th>轻微</th>
+                </tr>
+            </thead>
+            <tbody id="components-table">
+                <!-- 组件行将通过JS动态添加 -->
+            </tbody>
+        </table>
+
+        <div class="violations">
+            <h2>常见违规</h2>
+            <div id="common-violations">
+                <!-- 违规详情将通过JS动态添加 -->
+            </div>
+        </div>
+
+        <footer>
+            <p>此报告由自动化无障碍测试生成。符合WCAG 2.1 AA标准。</p>
+            <p>生成时间：<span id="footer-date"></span></p>
+        </footer>
+    </div>
+
+    <script>
+        // 这部分脚本将由Cypress测试中的数据填充
+        function loadReportData(reportData) {
+            // 设置报告元数据
+            document.getElementById('report-date').textContent = `生成时间：${new Date(reportData.timestamp).toLocaleString()}`;
+            document.getElementById('tested-pages').textContent = `测试页面数：${reportData.pagesTestedCount}`;
+            document.getElementById('footer-date').textContent = new Date(reportData.timestamp).toLocaleString();
+            
+            // 设置合规评分
+            const scoreElem = document.getElementById('compliance-score');
+            const score = reportData.complianceScore;
+            scoreElem.textContent = score.toFixed(1);
+            
+            // 根据评分设置颜色
+            if (score >= 90) {
+                scoreElem.className = 'score';  // 默认绿色
+            } else if (score >= 70) {
+                scoreElem.className = 'score warning';
+            } else {
+                scoreElem.className = 'score danger';
+            }
+            
+            // 设置状态
+            document.getElementById('compliance-status').textContent = reportData.status;
+            
+            // 设置进度条
+            document.getElementById('progress-bar').style.width = `${score}%`;
+            
+            // 设置摘要数据
+            document.getElementById('pages-count').textContent = reportData.pagesTestedCount;
+            document.getElementById('violations-count').textContent = reportData.totalViolations;
+            document.getElementById('critical-count').textContent = reportData.criticalViolations;
+            document.getElementById('serious-count').textContent = reportData.seriousViolations;
+            
+            // 添加页面卡片
+            const pagesContainer = document.getElementById('pages-container');
+            Object.entries(reportData.pageSummaries).forEach(([pageName, summary]) => {
+                const pageCard = document.createElement('div');
+                pageCard.className = 'page-card';
+                
+                const pageTitle = document.createElement('div');
+                pageTitle.className = 'page-title';
+                
+                const titleText = document.createElement('span');
+                titleText.textContent = pageName;
+                
+                const violationCount = document.createElement('span');
+                violationCount.className = 'violation-count';
+                violationCount.textContent = `${summary.total} 个问题`;
+                
+                pageTitle.appendChild(titleText);
+                pageTitle.appendChild(violationCount);
+                
+                const tagsContainer = document.createElement('div');
+                if (summary.critical > 0) {
+                    const tag = document.createElement('span');
+                    tag.className = 'violation-tag tag-critical';
+                    tag.textContent = `严重: ${summary.critical}`;
+                    tagsContainer.appendChild(tag);
+                }
+                
+                if (summary.serious > 0) {
+                    const tag = document.createElement('span');
+                    tag.className = 'violation-tag tag-serious';
+                    tag.textContent = `重要: ${summary.serious}`;
+                    tagsContainer.appendChild(tag);
+                }
+                
+                if (summary.moderate > 0) {
+                    const tag = document.createElement('span');
+                    tag.className = 'violation-tag tag-moderate';
+                    tag.textContent = `中等: ${summary.moderate}`;
+                    tagsContainer.appendChild(tag);
+                }
+                
+                if (summary.minor > 0) {
+                    const tag = document.createElement('span');
+                    tag.className = 'violation-tag tag-minor';
+                    tag.textContent = `轻微: ${summary.minor}`;
+                    tagsContainer.appendChild(tag);
+                }
+                
+                pageCard.appendChild(pageTitle);
+                pageCard.appendChild(tagsContainer);
+                
+                pagesContainer.appendChild(pageCard);
+            });
+        }
+        
+        // 示例数据，将由实际测试结果替换
+        const exampleData = {
+            timestamp: "2023-03-18T12:00:00Z",
+            pagesTestedCount: 8,
+            pageSummaries: {
+                "首页": { total: 5, critical: 0, serious: 2, moderate: 2, minor: 1 },
+                "仪表盘": { total: 3, critical: 0, serious: 1, moderate: 1, minor: 1 },
+                "交易列表": { total: 8, critical: 1, serious: 3, moderate: 2, minor: 2 }
+            },
+            totalViolations: 16,
+            criticalViolations: 1,
+            seriousViolations: 6,
+            complianceScore: 82,
+            status: "需要改进"
+        };
+        
+        // 初始化示例数据
+        loadReportData(exampleData);
+    </script>
+</body>
+</html> 

@@ -1,0 +1,102 @@
+{
+  "0x86e7621570c6afea9d4054a5e24c4f7b51f77e17": {
+    "type": "Insurance",
+    "id": 0,
+    "popularity": 0.26372488214385226
+  },
+  "0xa3cfde3767d35ddb1b109cb4aebd06ae4f1ea424": {
+    "type": "Gaming",
+    "id": 1,
+    "popularity": 0.296480991200747
+  },
+  "0x63b4ab6791da8e9963d5ccef9872d1d96414846e": {
+    "type": "Gaming",
+    "id": 2,
+    "popularity": 0.24959375071759451
+  },
+  "0xf847e143ca6ead551d3a362a5c39b2499d666ce1": {
+    "type": "DAO",
+    "id": 3,
+    "popularity": 0.12379416653172097
+  },
+  "0x24f6b2225b552209a7b601714d4fc6562bdf97a8": {
+    "type": "Yield Farming",
+    "id": 4,
+    "popularity": 0.18453790701246656
+  },
+  "0x0f87ca6b39bf0118594ea44de6d4294e38192157": {
+    "type": "Staking",
+    "id": 5,
+    "popularity": 0.018706812015784016
+  },
+  "0x9f2f9b7ac23e76901f01cfd95e09fa49b5b171bf": {
+    "type": "NFT",
+    "id": 6,
+    "popularity": 0.38363233838969596
+  },
+  "0xa056411a18d7229276f3ada81012f1ae0f0f0085": {
+    "type": "Bridge",
+    "id": 7,
+    "popularity": 0.1554913670004246
+  },
+  "0xd2457e86487c0dc817f6f4bad65e3c025490da02": {
+    "type": "Insurance",
+    "id": 8,
+    "popularity": 0.30249375543140977
+  },
+  "0x8b69c9ddd1f1229694c30f336d0dfca9d92d6f8b": {
+    "type": "Lending",
+    "id": 9,
+    "popularity": 0.5397142985223796
+  },
+  "0x9574a69bd2fc776faea4ff11f5ceb830952af282": {
+    "type": "Yield Farming",
+    "id": 10,
+    "popularity": 0.3501258361626437
+  },
+  "0xaee48e1ce06cd415d691b7676c22fb3f32369cb1": {
+    "type": "NFT",
+    "id": 11,
+    "popularity": 0.021771273199446734
+  },
+  "0xe6fefd0bffa2d416da23dc7d3592901b6a32f009": {
+    "type": "Lending",
+    "id": 12,
+    "popularity": 0.4177359087001185
+  },
+  "0x3a42d6676cb94eb24db52a789bb0ec02a854bbf6": {
+    "type": "Gaming",
+    "id": 13,
+    "popularity": 0.04748929924237111
+  },
+  "0x0815d8485e6dfe3dbff5d660d4942f8ae468e608": {
+    "type": "NFT",
+    "id": 14,
+    "popularity": 0.2954128267351441
+  },
+  "0x1758e9c0063d32f2901e21d3ca580e94f1bb551c": {
+    "type": "NFT",
+    "id": 15,
+    "popularity": 0.1854399278998721
+  },
+  "0xe9d555f1e8640b68b2dbd3c65a65fd53c4cc6031": {
+    "type": "DEX",
+    "id": 16,
+    "popularity": 0.5405545334467706
+  },
+  "0x9aeda24a5d2dfc985799380cb0191fdeeb8aeb64": {
+    "type": "DAO",
+    "id": 17,
+    "popularity": 0.14929997958878508
+  },
+  "0xdcf0ee27d398ff6634ac77d50efc6f995fed7585": {
+    "type": "Yield Farming",
+    "id": 18,
+    "popularity": 0.4851153205120332
+  },
+  "0xbd078d4f28544d890efe2cb2f1521c6ec2381874": {
+    "type": "DEX",
+    "id": 19,
+    "popularity": 0.4155623372496441
+  }
+}

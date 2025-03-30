@@ -1,0 +1,38 @@
+# FastAPI区块链情报分析平台依赖 - Python 3.11兼容版本
+# 核心依赖
+fastapi==0.98.0
+uvicorn==0.22.0
+pydantic==1.10.8  # Python 3.11兼容版本
+python-multipart==0.0.20
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+PyJWT==2.10.1
+starlette==0.27.0
+anyio==4.9.0
+sqlalchemy==2.0.16
+email-validator==2.2.0
+
+# 测试依赖
+pytest==7.3.2
+httpx==0.24.1
+pytest-asyncio==0.21.0
+pytest-cov==4.1.0
+
+# 工具依赖
+requests==2.32.3
+aiohttp==3.11.14
+
+# 区块链相关依赖
+web3==6.10.0
+eth-account==0.9.0
+eth-typing==3.4.0
+eth-utils==2.2.2
+hexbytes==0.3.1
+
+# 数据处理依赖
+pandas>=2.0.2
+numpy>=1.24.3
+networkx>=3.1
+
+# 类型提示支持
+typing_extensions==4.5.0  # Python 3.11兼容版本 

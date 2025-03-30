@@ -1,0 +1,248 @@
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.networkSvg {
+  width: 100%;
+  height: 100%;
+  background-color: #f9fafb;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 8px 12px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+  z-index: 1000;
+  max-width: 250px;
+}
+
+.nodes {
+  fill: #4caf50;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.controlPanel {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  z-index: 10;
+}
+
+.zoomControls {
+  display: flex;
+  gap: 5px;
+}
+
+.zoomButton {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #333;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.zoomButton:hover {
+  background-color: #f5f5f5;
+  transform: translateY(-1px);
+}
+
+.loadingOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+}
+
+.errorMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 20px;
+  background-color: rgba(244, 67, 54, 0.1);
+  border: 1px solid #f44336;
+  border-radius: 4px;
+  color: #d32f2f;
+}
+
+.loadingOverlay::after {
+  content: '';
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ddd;
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 10px;
+}
+
+.networkSvg {
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.node:hover {
+  transform: scale(1.1);
+}
+
+.tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 12px;
+  max-width: 200px;
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.nodes {
+  fill-opacity: 1;
+}
+
+.controlPanel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 50;
+}
+
+.zoomControls {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.zoomButton {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.zoomButton:hover {
+  background-color: #f0f0f0;
+  border-color: #bbb;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .controlPanel {
+    top: 5px;
+    right: 5px;
+  }
+
+  .zoomButton {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+  }
+}
+
+/* 测试节点样式 - 更加明显 */
+.test-node {
+  fill: #ff5733 !important;
+  stroke: #000 !important;
+  stroke-width: 3px !important;
+  r: 25px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: pulse 2s infinite;
+}
+
+.manual-node circle {
+  fill-opacity: 1;
+  stroke: #000;
+  stroke-width: 3px;
+  r: 25px !important;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+}
+
+/* 添加脉冲动画以增加注意力 */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* 解决可能的SVG渲染问题的修复 */
+.networkSvg g {
+  transform-origin: center !important;
+  transform-box: fill-box;
+}
+
+/* 添加可见的中心指示器 */
+.centerIndicator {
+  fill: red;
+  r: 10px;
+  stroke: black;
+  stroke-width: 2px;
+  pointer-events: none;
+}
