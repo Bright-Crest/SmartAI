@@ -2,6 +2,11 @@
 
 ![GNN](.assets/GNN.png)
 
+HiFi-GNN: A Multi-dimensional Heterogeneous Graph Neural Network for Smart Money Identification
+
+多维异构聪明钱图神经网络识别系统
+
+
 本项目结合动态图神经网络与行为时间建模，自主识别潜在聪明钱地址。系统通过分析区块链上的交易行为与地址互动模式，无需标签即可发现具有策略性交易能力的"聪明钱"地址群组。支持端到端训练，具备结构建模、风格建模、自监督聚类分析能力。
 
 ## ✅ 特性
